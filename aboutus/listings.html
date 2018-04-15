@@ -1,0 +1,26 @@
+---
+title: Professional Associations & Listings
+description:
+
+layout: aboutus
+permalink: /listings/
+
+redirect_from: /professional-associations-listings.html
+redirect_from: /links.html
+---
+
+<h5 class="h5 g-color-purple g-font-weight-600 mb-3">Carter Perry Bailey and our lawyers hold memberships of and are listed in the following:</h5>
+
+<ul>
+	{% assign associations = site.data.listings %}
+
+	{% for association in associations %}
+		<li>
+			{% if association.link %}
+				<a href="{{ association.link }}" target="_blank">{{ association.association }}</a>
+			{% else %}
+				{{ association.association }}
+			{% endif %}
+		</li>
+	{% endfor %}
+</ul>

@@ -1,0 +1,86 @@
+---
+layout: default
+
+searchExclude: true
+
+redirect_from: /contact-us.html
+---
+
+<section class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll loaded dzsprx-readyall " data-options='{direction: "reverse", settings_mode_oneelement_max_offset: "150"}'>
+	<div class="divimage dzsparallaxer--target w-100 g-bg-pos-bottom-center" style="height: 120%; background-image: url(/assets/images/backgrounds/building.jpg);"></div>
+
+	<div class="container g-py-200" style="margin-top:100px;">
+		<div class="row">
+			<div class="col-md-8" style="background-color:rgba(83, 44, 109, 0.8);">
+				<h3 class="g-color-white g-font-weight-300 g-font-size-40 g-line-height-1_2">Carter Perry Bailey LLP</h3>
+
+				<h5 class="g-color-white mb-5">Solicitors</h5>
+
+				<h4 class="g-color-white mb-5">Specialist Knowledge &bull; Specialist Experience &bull; Specialist Service</h4>
+
+				<p class="g-color-white-opacity-0_8">Insurance | Reinsurance | Professional &amp; Financial Risks | Directors &amp; Officers | Agency |	International | Commercial Dispute Resolution | Trust &amp; Fiduciary Disputes | Litigation | Arbitration | Non-Contentious | Regulatory | Transactional | Employment | Cyber &amp; Data Protection</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="g-bg-secondary">
+	<div class="container">
+		<div class="row align-items-center" style="margin-top:20px;">
+			<div class="col-lg-2 g-color-white g-bg-green g-py-4 g-px-10">
+				<h3 class="h3 g-font-weight-600 g-line-height-1">
+					<a class="g-color-white" href="/publications/">Publications</a>&nbsp;>
+				</h3>
+			</div>
+
+			<div class="col-lg-10">
+<!-- https://maze.digital/webticker/ -->
+				<ul id="webTicker">
+					{% for year in site.data.publications.years limit:2 %}
+						{% for publication in year.publications limit:3 %}
+							<li><h3>| <a href="/publications/{{ publication.file }}" class="tickerAnchorText">{{ publication.title }}</a> |</h3></li>
+						{% endfor %}
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="offers-section" class="g-bg-secondary">
+	<div class="container g-pt-100 g-pb-130">
+		<div class="row no-gutters">
+			<div class="col-sm-6 col-lg-3">
+				<div class="g-pr-40 g-mt-20">
+					<div class="g-mb-30">
+						<h2 class="h2 g-color-purple g-font-weight-600 g-line-height-1_2 mb-4">What do
+							<br> we provide?
+						</h2>
+						<p class="g-font-weight-300 g-font-size-16">Carter Perry Bailey is a modern specialist law firm, delivering high levels of expertise and experience with a quality	personal service rarely found in today’s marketplace.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-9">
+				<div id="we-provide" class="js-carousel" data-infinite="true" data-slides-show="3" data-slides-scroll="3" data-center-mode="true"
+				 data-center-padding="1px" data-pagi-classes="u-carousel-indicators-v1 g-absolute-centered--x g-bottom-minus-30">
+					{% for area in site.data.menus.practiceAreas %}
+						<div class="js-slide">
+							<div class="u-shadow-v21--hover g-brd-gray-light-v3 g-brd-transparent--hover g-bg-white--hover g-transition-0_3 g-cursor-pointer g-px-30 g-pt-30 g-pb-50 g-ml-minus-1">
+								<div class="mb-4">
+									<span class="u-icon-v3 u-shadow-v19 g-bg-white g-color-primary rounded-circle mb-4">
+										<i class="icon-education-087 u-line-icon-pro"></i>
+									</span>
+									<h3 class="h5 g-color-purple mb-3"><a href="{{ area.url }}">{{ area.title}}</a></h3>
+									<p>{{ area.extract }}</p>
+								</div>
+								<a class="g-brd-bottom g-brd-gray-dark-v5 g-brd-primary--hover g-color-gray-dark-v5 g-color-primary--hover g-font-weight-600 g-font-size-12 text-uppercase g-text-underline--none--hover"
+								 href="{{ area.url }}">Read more</a>
+							</div>
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

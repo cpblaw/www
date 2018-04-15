@@ -1,0 +1,77 @@
+---
+title: International Networks
+description:
+
+layout: international
+permalink: /international-networks/
+
+redirect_from: /international-outreach.html
+---
+
+<div>
+	<p>(Re)insurance is one of the most globally inter-connected and interdependent businesses in the world.  It is vital for a law firm specialising in this field to have a supportive international network: one which has specialised expertise, covers the main world-wide (re)insurance centres, and whose members work together harmoniously, based on their knowledge of their countries’ law, (re)insurance systems, and each other.</p>
+
+	<p>Our firm is the UK member of Insuralex - the only Chambers Global-ranked Band 1 global network of specialist insurance and reinsurance law firms.  Its members span five continents offering unrivalled global expertise in this field. In addition, our lawyers are members of world-wide networks of defence, (re)insurance and corporate lawyers, covering over 50 countries – the International Association of Defense Counsel (“IADC”), the Federation of Defense and Corporate Counsel (“FDCC”) and the Association of Defense Trial Attorneys (“ADTA”).</p>
+
+	<p>Through these networks we are able to call upon assistance from leading lawyers in top ranking law firms in the USA and all over the world.</p>
+
+	<div id="accordion-11" class="u-accordion u-accordion-bg-primary u-accordion-color-purple" role="tablist" aria-multiselectable="true">
+		{% capture accordion %}
+			<p>Insuralex currently has 55 member firms from 32 countries all over the globe.</p>
+
+			<p>Insuralex members are independent firms with specialisms in insurance, reinsurance and risk management.  We meet and work together regularly: our people know each other personally and there is trust and confidence between the firms, as well as great experience and expertise in handling cross-border legal work.  Each member is considered to be a leading practice in insurance and re-insurance within its national jurisdiction.  Together we can navigate you through the complexities of differing local laws and procedures, which affect the conduct of insurance business on a cross-border basis.</p>
+
+			<p>Although we have one of the highest rates of referrals among Insuralex members (both outwards and inwards), we have no obligation to refer within Insuralex.  This is important as it leaves us free to work with whomsoever your preferred overseas lawyers may be in any particular matter.</p>
+
+			<p>Insuralex members work for a wide range of clients worldwide,  across the insurance, reinsurance and risk management industries including insurance and reinsurance companies, Lloyd’s syndicates, brokers and agents as well as captives and corporations.</p>
+
+			<p>Each Insuralex member is elected following a detailed selection process to ensure all members are of the high standard required by the network. Insuralex and its members believe in pro-activity, deep and long term relationships with clients, commercial awareness, high quality standards and pragmatism.</p>
+
+			<p>More information can be found at <a href="http://www.insuralex.com/" target="_blank">www.insuralex.com</a>.</p>
+		{% endcapture %}
+
+		{% include templates/accordion.html title="Insuralex" accordion="01" content=accordion %}
+
+		{% capture accordion %}
+			<p>IADC is the world’s oldest global network of lawyers working for insurers, reinsurers and corporations.  Its 2,500 members are all elected by invitation only following a strict vetting process.  Members meet for general and regional meetings to share knowledge and experience, and to foster legal cooperation.</p>
+
+			<p>Bill Perry served on the IADC’s Board from 2007 to 2013, and in 2011 was the first non-American to be elected IADC President.  He continues to play a significant role in the organisation, most recently being appointed as the Director of its 2017 International Corporate Counsel College.</p>
+
+			<p>More information can be found at <a href="https://www.iadclaw.org/" target="_blank">www.iadclaw.org</a>.</p>
+		{% endcapture %}
+
+		{% include templates/accordion.html title="International Association of Defense Counsel (“IADC”)" accordion="02" content=accordion %}
+
+		{% capture accordion %}
+		<p>FDCC is a global network of lawyers and insurance industry professionals, based in the USA.  Its membership is by invitation only following careful investigation to ensure that those selected are of the requisite calibre to enhance the organisation’s aims and objectives.</p>
+
+		<p>Stephen Carter is our FDCC member.  He is Vice Chair – International of its Membership and Development Committee and a past Chair of its Reinsurance, Excess and Surplus Lines Section.</p>
+
+		<p>More information can be found at <a href="http://www.thefederation.org/" target="_blank">www.thefederation.org</a></p>
+		{% endcapture %}
+
+		{% include templates/accordion.html title="Federation of Defense and Corporate Counsel (“FDCC”)" accordion="03" content=accordion %}
+
+		{% capture accordion %}
+		<p>ADTA is an association of defence lawyers in the USA, Canada, UK and Ireland.  It holds a continuing legal educational programme annually.  Its members are by invitation only, limited to one prime member and one supporting member per city (or per million inhabitants if the city is larger).</p>
+
+		<p>Bill Perry is State Membership Chair for the UK and Ireland and will be Convention Chair for the 2019 Annual Meeting.  Stephen Carter is our supporting member.</p>
+
+		<p>More information can be found at <a href="https://adtalaw.com/" target="_blank">www.adtalaw.com</a></p>
+		{% endcapture %}
+
+		{% include templates/accordion.html title="Association of Defense Trial Attorneys (“ADTA”)" accordion="04" content=accordion %}
+	</div>
+</div>
+
+<h5 class="h5 g-color-purple g-font-weight-600 mb-4">Key Contacts</h5>
+
+<div class="row">
+	{% include templates/keyContact.html personID="stephen-carter" %}
+
+	{% include templates/keyContact.html personID="bill-perry" %}
+</div>
+
+{% assign permaLength = page.permalink.size | minus: 1 %}
+<a href="/print{{ page.permalink | slice: 0, permaLength }}.pdf" target="_blank"> Download printable version of this page</a>
+

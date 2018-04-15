@@ -1,0 +1,65 @@
+---
+title: Publications
+description:
+
+layout: aboutus
+pdflink: false
+permalink: /publications/
+
+redirect_from: /articles.html
+---
+
+<div id="accordion-11" class="u-accordion u-accordion-bg-primary u-accordion-color-purple" role="tablist" aria-multiselectable="true">
+	{% assign counter = 0 %}
+
+	{% for year in site.data.publications.years %}
+		{% assign counter = counter | plus: 1 %}
+
+		{% if counter == 1 %}
+			<div class="card g-brd-none rounded-0 g-mb-15">
+				<div id="accordion-11-heading-{{ year.year }}" class="u-accordion__header g-pa-0" role="tab">
+					<h5 class="mb-0">
+						<a class="d-block g-color-white g-text-underline--none--hover g-brd-around g-bg-primary-dark-v4 g-rounded-5 g-pa-10-15" href="#accordion-11-body-{{ year.year }}" data-toggle="collapse" data-parent="#accordion-11" aria-expanded="true" aria-controls="accordion-11-body-{{ year.year }}">
+						<span class="u-accordion__control-icon g-mr-10">
+							<i class="fa fa-angle-down"></i>
+							<i class="fa fa-angle-up"></i>
+						</span>
+						{{ year.year }}
+						</a>
+					</h5>
+				</div>
+
+				<div id="accordion-11-body-{{ year.year }}" class="collapse show" role="tabpanel" aria-labelledby="accordion-11-heading-{{ year.year }}">
+					<div class="u-accordion__body g-color-gray-dark-v5">
+						{% for article in year.publications %}
+							<p><a href="/publications/{{ article.file }}">{{ article.title }}</a></p>
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+		{% else %}
+			<div class="card g-brd-none rounded-0 g-mb-15">
+				<div id="accordion-11-heading-{{ year.year }}" class="u-accordion__header g-pa-0" role="tab">
+					<h5 class="mb-0">
+						<a class="collapsed d-block g-color-white g-text-underline--none--hover g-brd-around g-bg-primary-dark-v4 g-rounded-5 g-pa-10-15"
+							href="#accordion-11-body-{{ year.year }}" data-toggle="collapse" data-parent="#accordion-11" aria-expanded="false" aria-controls="accordion-11-body-{{ year.year }}">
+							<span class="u-accordion__control-icon g-mr-10">
+								<i class="fa fa-angle-down"></i>
+								<i class="fa fa-angle-up"></i>
+							</span>
+							{{ year.year }}
+						</a>
+					</h5>
+				</div>
+
+				<div id="accordion-11-body-{{ year.year }}" class="collapse" role="tabpanel" aria-labelledby="accordion-11-heading-{{ year.year }}">
+					<div class="u-accordion__body g-color-gray-dark-v5">
+						{% for publication in year.publications %}
+							<p><a href="/publications/{{ publication.file }}">{{ publication.title }}</a></p>
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+		{% endif %}
+	{% endfor %}
+</div>

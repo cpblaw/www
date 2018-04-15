@@ -1,0 +1,52 @@
+---
+title: Joseph Sutton
+description:
+
+layout: people
+permalink: /people/joseph-sutton/
+personID: joseph-sutton
+
+redirect_from: /joseph-sutton.html
+---
+
+<p>
+	Joseph advises companies and senior professionals on all aspects of employment law, both in contentious and non-contentious matters. He has a particular expertise in the insurance market, advising clients on team moves and restraint of trade, business re-organisations, senior hires and exits, and boardroom disputes.</p>
+
+<p>He also advises in the banking, financial, shipping and recruitment sectors, for clients based both in the UK and internationally.</p>
+
+{% assign titles = titles | append: "Career Overview" | append: "|" %}
+{% capture accordion %}
+	<p>Joseph was originally called to the Bar in 2000 before being admitted as a Solicitor in 2003. He worked in both private practice, including at Holman Fenwick Willan, and in-house at Dresdner Kleinwort Investment Bank before founding his own employment law practice, Joseph Sutton Solicitors, in 2010. In 2016 he also became a Consultant at Carter Perry Bailey.</p>
+
+	<p>Joseph speaks Portuguese (Brazilian) and Greek.</p>
+
+	<h6 class="h6 g-color-purple g-font-weight-600 g-mb-5">Experience Highlights</h6>
+
+	<ul>
+		<li>Represented a niche shipping agency in High Court proceedings against a former employee.</li>
+		<li>Represented the Global Head of Compliance at a large banking group.</li>
+	</ul>
+{% endcapture %}
+{% assign accordions = accordions | append: accordion | append: "|" %}
+
+{% assign titles = titles | append: "Memberships" | append: "|" %}
+{% capture accordion %}
+	<ul>
+		<li>Employment Lawyers’ Association</li>
+	</ul>
+{% endcapture %}
+{% assign accordions = accordions | append: accordion | append: "|" %}
+
+{% assign titles = titles | append: "Directory recognition" | append: "|" %}
+{% capture accordion %}
+	<h6 class="h6 g-color-purple g-font-weight-600 g-mb-5">Chambers</h6>
+
+	<ul>
+		<li>“Very user-friendly”</li>
+		<li>“Very easy to talk to, with excellent technical knowledge”</li>
+		<li>“A reputation for his “extremely responsive, very thorough and methodical, and very pragmatic approach”</li>
+	</ul>
+{% endcapture %}
+{% assign accordions = accordions | append: accordion | append: "|" %}
+
+{% include templates/accordions.html titles=titles accordions=accordions %}

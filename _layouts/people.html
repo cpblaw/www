@@ -1,0 +1,497 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>{% if page.title %}{{ page.title }} | Carter Perry Bailey LLP{% else %}{{ site.title }}{% endif %}</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+	<link rel="shortcut icon" href="/assets/images/logo/favicon.ico?v=1">
+
+	{% if site.url == 'https://www.cpblaw.com' %}
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-893499-8', 'auto');
+		ga('send', 'pageview');
+	</script>
+	{% endif %}
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C500%2C600%2C700%7CPlayfair+Display%7CRoboto%7CRaleway%7CSpectral%7CRubik">
+
+	<link rel="stylesheet" href="/assets/vendor/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="/assets/vendor/bootstrap/offcanvas.css">
+
+	<link rel="stylesheet" href="/assets/vendor/icon-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/assets/vendor/icon-line/css/simple-line-icons.css">
+	<link rel="stylesheet" href="/assets/vendor/icon-etlinefont/style.css">
+	<link rel="stylesheet" href="/assets/vendor/icon-line-pro/style.css">
+	<link rel="stylesheet" href="/assets/vendor/icon-hs/style.css">
+	<link rel="stylesheet" href="/assets/vendor/dzsparallaxer/dzsparallaxer.css">
+	<link rel="stylesheet" href="/assets/vendor/dzsparallaxer/dzsscroller/scroller.css">
+	<link rel="stylesheet" href="/assets/vendor/dzsparallaxer/advancedscroller/plugin.css">
+	<link rel="stylesheet" href="/assets/vendor/animate.css">
+	<link rel="stylesheet" href="/assets/vendor/hamburgers/hamburgers.min.css">
+	<link rel="stylesheet" href="/assets/vendor/hs-megamenu/src/hs.megamenu.css">
+	<link rel="stylesheet" href="/assets/vendor/slick-carousel/slick/slick.css">
+	<link rel="stylesheet" href="/assets/vendor/fancybox/jquery.fancybox.css">
+
+	<link rel="stylesheet" href="/assets/css/unify-core.css">
+	<link rel="stylesheet" href="/assets/css/unify-components.css">
+	<link rel="stylesheet" href="/assets/css/unify-globals.css">
+
+	<link rel="stylesheet" href="/assets/css/custom.css?v=5">
+</head>
+{% comment %}
+<!--
+	https://htmlstream.com/preview/unify-v2.2/unify-main/shortcodes/headers/classic-header--behavior-top-bar.html
+	https://htmlstream.com/preview/unify-v2.2/unify-main/shortcodes/headers/classic-header--topbar-5.html
+-->
+{% endcomment %}
+<body>
+	<main>
+		<!-- Header -->
+		<header id="js-header" class="u-header u-header--sticky-top u-header--toggle-section u-header--change-appearance" data-header-fix-moment="300">
+			<!-- Top Bar -->
+			<div class="u-header__section g-bg-purple g-py-13">
+				<div class="container">
+					<div class="row flex-column flex-md-row align-items-center justify-content-between g-color-white g-font-size-11 g-mx-minus-15">
+						<!-- Responsive Toggle Button -->
+						<button class="g-hidden-md-up d-block btn btn-xs u-btn-primary g-brd-none g-line-height-1 mx-auto" type="button" aria-controls="dropdown-megamenu"
+						aria-expanded="false" aria-label="Toggle navigation" data-toggle="collapse" data-target="#dropdown-megamenu">
+							<span class="hamburger hamburger--slider">
+								<span class="hamburger-box">
+									<span class="hamburger-inner g-bg-white"></span>
+								</span>
+							</span>
+						</button>
+						<!-- End Responsive Toggle Button -->
+
+						<div class="col-auto g-px-15 w-100 g-width-auto--md g-font-size-14">
+							<ul id="dropdown-megamenu" class="d-md-block collapse list-inline g-line-height-1 g-mx-minus-4 mb-0">
+								<li class="d-block d-md-inline-block g-mx-4">
+									<span class="icon icon-phone g-valign-middle g-font-size-18 g-color-white g-mr-5"></span>
+									<strong>+44 20 3697 1900</strong>
+								</li>
+								<li class="d-block g-hidden-md-down d-md-inline-block g-mx-4">|</li>
+								<li class="d-block d-md-inline-block g-mx-4">
+									<span class="icon icon-envelope g-valign-middle g-font-size-18 g-color-white g-mr-5"></span>
+									<strong>info@cpblaw.com</strong>
+								</li>
+							</ul>
+						</div>
+
+						<div class="col-auto g-px-15">
+							<ul class="list-inline g-line-height-1 g-mt-minus-10 g-mx-minus-4 mb-0">
+								<li class="list-inline-item g-mx-4 g-mt-10">
+									<!-- Search -->
+									<div class="g-pos-rel">
+										<a href="#" class="g-font-size-14 g-color-white g-ml-5" style="text-decoration: none;" aria-haspopup="true" aria-expanded="false"
+										aria-controls="searchform-6" data-dropdown-target="#searchform-6" data-dropdown-type="css-animation" data-dropdown-duration="300"
+										data-dropdown-animation-in="fadeInDown" data-dropdown-animation-out="fadeOutUp">
+											Search
+											<i class="fa fa-search"></i>
+										</a>
+
+										<!-- Search Form -->
+										<form id="searchform-6" class="u-searchform-v1 g-bg-purple g-box-shadow-none g-pa-10 g-mt-10" action="/search/" method="get">
+											<div class="input-group g-brd-primary--focus">
+												<input id="search-box" name="query" class="form-control rounded-0 u-form-control g-brd-white" type="search" placeholder="Enter Your Search Here...">
+												<div class="input-group-addon p-0">
+													<button class="btn rounded-0 btn-primary btn-md g-font-size-14 g-px-18" type="submit">Go</button>
+												</div>
+											</div>
+										</form>
+										<!-- End Search Form -->
+									</div>
+									<!-- End Search -->
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Top Bar -->
+
+			<div class="u-header__section u-header__section--dark g-bg-white" data-header-fix-moment-exclude="u-header__section--dark g-bg-white g-py-10"
+			data-header-fix-moment-classes="u-header__section--light g-bg-white-opacity-1 u-shadow-v18 g-py-0">
+				<nav class="js-mega-menu navbar navbar-expand-lg py-0">
+					<div class="container">
+						<!-- Responsive Toggle Button -->
+						<button class="navbar-toggler navbar-toggler-right btn g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-top-3 g-right-0" type="button"
+						aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
+							<span class="hamburger hamburger--slider">
+								<span class="hamburger-box">
+									<span class="hamburger-inner"></span>
+								</span>
+							</span>
+						</button>
+						<!-- End Responsive Toggle Button -->
+
+						<!-- Navigation -->
+						<div class="collapse navbar-collapse align-items-center flex-sm-row g-pt-5--lg g-py-10" id="navBar">
+							<ul class="navbar-nav align-items-lg-center mx-auto text-uppercase g-font-weight-600 u-main-nav-v3 u-sub-menu-v3" data-splitted-breakpoint="992">
+								{% include menus/aboutUs.html %}
+								{% include menus/ourPeople.html %}
+
+								<li>
+									<a href="{{ site.url }}/" class="navbar-brand u-header__logo">
+										<img class="u-header__logo-img u-header__logo-img--main" src="/assets/images/logo/logo-text-below-horizontal-200x136.png"
+										alt="{{ site.title }}">
+
+										<img class="u-header__logo-img" src="/assets/images/logo/logo-text-below-horizontal-75x51.png" alt="{{ site.title }}">
+									</a>
+								</li>
+
+								{% include menus/practiceAreas.html %}
+								{% include menus/international.html %}
+							</ul>
+						</div>
+						<!-- End Navigation -->
+					</div>
+				</nav>
+			</div>
+		</header>
+		<!-- End Header -->
+
+        {%- for person in site.data.people -%}
+            {%- if person.id == page.personID -%}
+                <section>
+                    <div class="container g-pt-150 g-pb-20">
+                        <div class="row">
+                            <div class="col g-py-30 g-pa-30--md">
+                                <section class="g-py-100">
+                                    <figure class="row">
+                                        <div class="col-md-4 col-lg-8 order-2">
+                                            <div class="row">
+                                                <div class="col-lg-9"><h4 class="h4 g-color-purple g-font-weight-600 g-mb-5">{{ person.name }} </h4></div>
+                                                {%- if page.pdflink != false -%}
+                                                    <div class="col-lg-3 text-right"><a href="/print/{{ page.path | replace: '.html', '.pdf' }}" target="_blank">Printable PDF</a></div>
+                                                {%- endif -%}
+                                            </div>
+
+                                            <div class="d-flex justify-content-between g-mb-10">
+                                                <div class="g-mb-20">
+                                                    {%- if person.qualifications -%}
+                                                        <p class="g-font-size-13 g-color-gray-dark-v1">{{ person.qualifications }}</p>
+                                                    {%- endif -%}
+
+                                                    <em class="d-block g-font-style-normal g-font-size-default text-uppercase g-color-primary">{{ person.position }}</em>
+                                                </div>
+                                            </div>
+
+                                            <div class="g-mb-50">
+                                                {{ content }}
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-8 col-lg-4 order-1">
+                                            <img class="w-100" src="{{ site.url }}/assets/images/bio/{{ person.id }}.jpg" alt="{{ person.name }}">
+
+                                            <hr class="g-brd-gray-light-v4 g-my-15">
+
+                                            <ul class="list-unstyled g-font-size-13 g-color-gray-dark-v1">
+                                                {%- if person.email -%}
+                                                    <li class="g-mb-5 g-color-primary">
+                                                        <i class="fa fa-envelope g-mr-10"></i>
+                                                        <a href="mailto:{{ person.email }}">{{ person.email }}</a>
+                                                    </li>
+                                                {%- endif -%}
+
+                                                {%- if person.ddi -%}
+                                                    <li class="g-mb-5 g-color-primary">
+                                                        <i class="fa fa-phone g-mr-10"></i>
+                                                        {{ person.ddi }}
+                                                    </li>
+                                                {%- endif -%}
+
+                                                {%- if person.mobile -%}
+                                                    <li class="g-mb-5 g-color-primary">
+                                                        <i class="fa fa-mobile g-mr-10"></i>
+                                                        {{ person.mobile }}
+                                                    </li>
+                                                {%- endif -%}
+                                            </ul>
+                                        </div>
+                                    </figure>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            {%- endif -%}
+        {%- endfor -%}
+
+		<div id="contacts-section" class="g-bg-black-opacity-0_9 g-color-white-opacity-0_8 g-py-60">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6 g-mb-40 g-mb-0--lg">
+						<div class="u-heading-v2-3--bottom g-brd-white-opacity-0_8 g-mb-20">
+							<h2 class="u-heading-v2__title h6 text-uppercase mb-0">About Us</h2>
+						</div>
+
+						<p>Carter Perry Bailey LLP is a specialist law firm, practicing in both contentious and non-contentious insurance
+							and reinsurance, commercial litigation and arbitration and trust &amp; fiduciary disputes. </p>
+					</div>
+
+					<div class="col-lg-3 col-md-6 g-mb-40 g-mb-0--lg">
+						<div class="u-heading-v2-3--bottom g-brd-white-opacity-0_8 g-mb-20">
+							<h2 class="u-heading-v2__title h6 text-uppercase mb-0">Latest Publications</h2>
+						</div>
+
+						{% for year in site.data.publications.years limit:1 %}
+							{% for publication in year.publications limit:3 %}
+								{% comment %} <li><a href="/publications/{{ publication.file }}" class="tickerAnchorText"><h3>| {{ publication.title }} |</h3></a></li> {% endcomment %}
+
+								<article>
+									<h3 class="h6 g-mb-2">
+										<a class="g-color-white-opacity-0_8 g-color-white--hover" href="/publications/{{ publication.file }}">{{ publication.title }}</a>
+									</h3>
+									<!--<div class="small g-color-white-opacity-0_6">May 8, 2017</div>-->
+								</article>
+
+								<hr class="g-brd-white-opacity-0_1 g-my-10">
+							{% endfor %}
+						{% endfor %}
+					</div>
+
+					<div class="col-lg-3 col-md-6 g-mb-40 g-mb-0--lg">
+						<div class="u-heading-v2-3--bottom g-brd-white-opacity-0_8 g-mb-20">
+							<h2 class="u-heading-v2__title h6 text-uppercase mb-0">Useful Links</h2>
+						</div>
+
+						<nav class="text-uppercase1">
+							<ul class="list-unstyled g-mt-minus-10 mb-0">
+								<li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
+									<h4 class="h6 g-pr-20 mb-0">
+										<a class="g-color-white-opacity-0_8 g-color-white--hover" href="/overview/">About Us</a>
+										<i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
+									</h4>
+								</li>
+								<li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
+									<h4 class="h6 g-pr-20 mb-0">
+										<a class="g-color-white-opacity-0_8 g-color-white--hover" href="/publications/">Publications</a>
+										<i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
+									</h4>
+								</li>
+								<li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
+									<h4 class="h6 g-pr-20 mb-0">
+										<a class="g-color-white-opacity-0_8 g-color-white--hover" href="/other-legal-issues/">Other Legal Issues</a>
+										<i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
+									</h4>
+								</li>
+								<li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
+									<h4 class="h6 g-pr-20 mb-0">
+										<a class="g-color-white-opacity-0_8 g-color-white--hover" href="/regulation-notices-information/">Regulation, Notices &amp; Information</a>
+										<i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
+									</h4>
+								</li>
+							</ul>
+						</nav>
+					</div>
+
+					<div class="col-lg-3 col-md-6">
+						<div class="u-heading-v2-3--bottom g-brd-white-opacity-0_8 g-mb-20">
+							<h2 class="u-heading-v2__title h6 text-uppercase mb-0">Our Contacts</h2>
+						</div>
+
+						<address class="g-bg-no-repeat g-font-size-12 mb-0"{% comment %} style="background-image: url(/assets/img/maps/map2.png);"{% endcomment %}>
+							<div class="d-flex g-mb-20">
+								<div class="g-mr-10">
+									<span class="u-icon-v3 u-icon-size--xs g-bg-white-opacity-0_1 g-color-white-opacity-0_6">
+										<i class="fa fa-map-marker"></i>
+									</span>
+								</div>
+								<p class="mb-0">Carter Perry Bailey<br> 10, Lloyd's Avenue<br> London<br>EC3N 3AJ</p>
+							</div>
+
+							<div class="d-flex g-mb-20">
+								<div class="g-mr-10">
+									<span class="u-icon-v3 u-icon-size--xs g-bg-white-opacity-0_1 g-color-white-opacity-0_6">
+										<i class="fa fa-phone"></i>
+									</span>
+								</div>
+								<p class="mb-0">+44 20 3697 1900</p>
+							</div>
+
+							<div class="d-flex g-mb-20">
+								<div class="g-mr-10">
+									<span class="u-icon-v3 u-icon-size--xs g-bg-white-opacity-0_1 g-color-white-opacity-0_6">
+										<i class="fa fa-fax"></i>
+									</span>
+								</div>
+								<p class="mb-0">+44 20 3697 1911</p>
+							</div>
+
+							<div class="d-flex g-mb-20">
+								<div class="g-mr-10">
+									<span class="u-icon-v3 u-icon-size--xs g-bg-white-opacity-0_1 g-color-white-opacity-0_6">
+										<i class="fa fa-envelope"></i>
+									</span>
+								</div>
+								<p class="mb-0">
+									<a class="g-color-white-opacity-0_8 g-color-white--hover" href="mailto:info@cpblaw.com">info@cpblaw.com</a>
+								</p>
+							</div>
+						</address>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="g-bg-gray-dark-v1 g-color-white-opacity-0_8 g-py-20">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 text-center text-md-left g-mb-10 g-mb-0--md">
+						<div class="d-lg-flex">
+							<small class="d-block g-font-size-default g-mr-10 g-mb-10 g-mb-0--md">&copy; Carter Perry Bailey LLP {{ 'now' | date: '%Y' }}.  All Rights Reserved</small>
+
+							<ul class="u-list-inline">
+								<li class="list-inline-item">
+									<span>|</span>
+								</li>
+
+								<li class="list-inline-item">
+									<a class="g-color-white-opacity-0_8 g-color-white--hover" href="/sitemap/">Sitemap</a>
+								</li>
+
+								<li class="list-inline-item">
+									<span>|</span>
+								</li>
+
+								<li class="list-inline-item">
+									<a class="g-color-white-opacity-0_8 g-color-white--hover" href="/legal/">Legal</a>
+								</li>
+
+								<li class="list-inline-item">
+									<span>|</span>
+								</li>
+
+								<li class="list-inline-item">
+									<a class="g-color-white-opacity-0_8 g-color-white--hover" href="/accessibility/">Accessibility</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<a class="js-go-to u-go-to-v1" href="#" data-type="fixed" data-position='{
+		 "bottom": 15,
+		 "right": 15
+	 }' data-offset-top="400" data-compensation="#js-header" data-show-effect="zoomIn">
+			<i class="hs-icon hs-icon-arrow-top"></i>
+		</a>
+	</main>
+
+	<!-- JS Global Compulsory -->
+	<script src="/assets/vendor/jquery/jquery.min.js"></script>
+	<script src="/assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
+	<script src="/assets/vendor/jquery.easing/js/jquery.easing.js"></script>
+	<script src="/assets/vendor/popper.min.js"></script>
+	<script src="/assets/vendor/bootstrap/bootstrap.min.js"></script>
+	<script src="/assets/vendor/bootstrap/offcanvas.js"></script>
+
+	<!-- JS Implementing Plugins -->
+	<script src="/assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+	<script src="/assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
+	<script src="/assets/vendor/dzsparallaxer/dzsscroller/scroller.js"></script>
+	<script src="/assets/vendor/dzsparallaxer/advancedscroller/plugin.js"></script>
+	<script src="/assets/vendor/masonry/dist/masonry.pkgd.min.js"></script>
+	<script src="/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+	<script src="/assets/vendor/slick-carousel/slick/slick.js"></script>
+	<script src="/assets/vendor/fancybox/jquery.fancybox.min.js"></script>
+
+	<!-- JS Unify -->
+	<script src="/assets/js/hs.core.js"></script>
+
+	<script src="/assets/js/components/hs.header.js"></script>
+	<script src="/assets/js/components/hs.dropdown.js"></script>
+	<script src="/assets/js/helpers/hs.hamburgers.js"></script>
+
+	<script src="/assets/js/helpers/hs.navigation-splitted.js"></script>
+	<script src="/assets/js/components/hs.popup.js"></script>
+	<script src="/assets/js/components/hs.carousel.js"></script>
+
+	<script src="/assets/js/components/hs.go-to.js"></script>
+
+	<!-- JS Custom -->
+	<script src="/assets/js/jquery.webticker.min.js"></script>
+	<script src="/assets/js/custom.js"></script>
+
+	<!-- JS Plugins Init. -->
+	<script>
+		$(document).on('ready', function () {
+			// initialization of go to
+			$.HSCore.components.HSGoTo.init('.js-go-to');
+
+			// initialization of carousel
+			$.HSCore.components.HSCarousel.init('.js-carousel');
+
+			$('#we-provide').slick('setOption', 'responsive', [{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 2
+				}
+			}, {
+				breakpoint: 576,
+				settings: {
+					slidesToShow: 1
+				}
+			}], true);
+
+			// initialization of HSDropdown component
+			$.HSCore.components.HSDropdown.init($('[data-dropdown-target]'), {
+				afterOpen: function(){
+					$(this).find('input[type="search"]').focus();
+				}
+			});
+
+			// initialization of masonry
+			$('.masonry-grid').imagesLoaded().then(function () {
+				$('.masonry-grid').masonry({
+					columnWidth: '.masonry-grid-sizer',
+					itemSelector: '.masonry-grid-item',
+					percentPosition: true
+				});
+			});
+
+			// initialization of popups
+			$.HSCore.components.HSPopup.init('.js-fancybox');
+		});
+
+		$(window).on('load', function () {
+			// initialization of header
+			$.HSCore.components.HSHeader.init($('#js-header'));
+			$.HSCore.helpers.HSHamburgers.init('.hamburger');
+
+			// initialization of HSNavigationSplitted helper
+			$.HSCore.helpers.HSNavigationSplitted.init($('.navbar-collapse'));
+		});
+
+		// initialization of HSMegaMenu component
+		$('.js-mega-menu').HSMegaMenu({
+			event: 'hover',
+			pageContainer: $('.container'),
+			breakpoint: 991
+		});
+
+		$('#webTicker').webTicker(
+			{
+				 duplicate:true
+				,speed: 30
+				,height: '40px'
+				,startEmpty: false
+			}
+		);
+	</script>
+</body>
+</html>

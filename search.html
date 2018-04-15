@@ -1,0 +1,46 @@
+---
+title: Search Results
+description:
+
+layout: default
+searchExclude: true
+permalink: /search/
+---
+
+<div class="container g-pt-250 g-pb-20">
+	<div class="row justify-content-center">
+		<div class="col-lg-6 g-mb-80">
+			<div class="g-pl-20--lg">
+				<article class="g-mb-100">
+					<div class="g-mb-30 g-color-gray-dark-v1">
+						<h2 class="h2 g-color-purple g-font-weight-600 mb-3">{{ page.title }}</h2>
+
+						<ul id="search-results"></ul>
+					</div>
+		  		</article>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+  window.store = {
+	{% for page in site.pages %}
+		{% if page.searchExclude == true or page.content contains 'Redirecting…' %}
+		{% else %}
+			"{{ page.url | slugify }}": {
+				"title": "{{ page.title | xml_escape }}",
+				"author": "{{ page.author | xml_escape }}",
+				"category": "{{ page.category | xml_escape }}",
+				"content": {{ page.content | strip_html | strip_newlines | replace: 'Printable PDF' | replace: '	', ' ' | replace: '  ' | strip | jsonify }},
+				"url": "{{ page.url | xml_escape }}"
+			}
+
+			{% unless forloop.last %},{% endunless %}
+		{% endif %}
+	{% endfor %}
+  };
+</script>
+
+<script src="/assets/js/lunr.min.js"></script>
+<script src="/assets/js/search.js"></script>

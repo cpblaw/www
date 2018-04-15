@@ -1,0 +1,19 @@
+<url>
+	<loc>{{site.url}}{{include.entry.url}}</loc>
+
+	{% if include.entry.lastmod %}
+		<lastmod>{{include.entry.lastmod}}</lastmod>
+	{% endif %}
+
+	{% if include.entry.changefreq %}
+		<changefreq>{{include.entry.changefreq}}</changefreq>
+	{% else %}
+		<changefreq>monthly</changefreq>
+	{% endif %}
+
+	{% if include.entry.priority %}
+		<priority>{{include.entry.priority}}</priority>
+	{% else %}
+		<priority>0.5</priority>
+	{% endif %}
+</url>

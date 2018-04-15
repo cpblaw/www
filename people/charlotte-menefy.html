@@ -1,0 +1,39 @@
+---
+title: Charlotte Menefy
+description:
+
+layout: people
+permalink: /people/charlotte-menefy/
+personID: charlotte-menefy
+
+redirect_from: /charlotte-marshall.html
+redirect_from: /people/charlotte-marshall/
+---
+
+<p>Since qualifying as a Solicitor in 2015, Charlotte has been involved in numerous cases, ranging from small personal injury claims to large-scale proceedings before the Privy Council. She has acted for both claimants and defendants in trust and fiduciary disputes, professional negligence claims and property damage cases.</p>
+
+<p>Charlotte also deals with non-contentious matters, including advising on FCA regulation, policy wordings and company documentation, as well as setting up companies and restoring companies to the Register.</p>
+
+{% assign titles = titles | append: "Career Overview" | append: "|" %}
+{% capture accordion %}
+	<p>Charlotte joined Carter Perry Bailey in 2013 as a Paralegal after obtaining a First Class Honours Degree in Commercial Law.  Following completion of the Accelerated Legal Practice Course at the University of Law (London) Charlotte returned to Carter Perry Bailey as a Trainee Solicitor before qualifying in November 2015.</p>
+{% endcapture %}
+{% assign accordions = accordions | append: accordion | append: "|" %}
+
+{% assign titles = titles | append: "Reported Cases" | append: "|" %}
+{% capture accordion %}
+		<p><em>Hall v Maritek [2015] UKPC 23</em> - acted for successful respondent before the Judicial Committee of the Privy Council in this appeal from the Bahamas courts – a dispute as to whether there was a binding contract between the parties.</p>
+{% endcapture %}
+{% assign accordions = accordions | append: accordion | append: "|" %}
+
+{% assign titles = titles | append: "Appointments &amp; Memberships" | append: "|" %}
+{% capture accordion %}
+		<p>Insurance and Reinsurance Legacy Association (“IRLA”) Young Professionals Group</p>
+		<p>British Insurance Law Association (“BILA”) Under 35s Group</p>
+		<p>Association of Lawyers for Animal Welfare</p>
+		<p>London Young Lawyers Group</p>
+		<p>Former Director of Headstart Heath Limited, the company behind the franchise “énergie Fitness for Women” in St Albans, which was a Health Club of the Year Finalist in 2012 and winner of the Local Business Accelerator Award</p>
+{% endcapture %}
+{% assign accordions = accordions | append: accordion | append: "|" %}
+
+{% include templates/accordions.html titles=titles accordions=accordions %}

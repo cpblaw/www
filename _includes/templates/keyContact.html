@@ -1,0 +1,23 @@
+{% for person in site.data.people %}
+    {% if person.id == include.personID %}
+        <div class="col-md-4 col-lg-4 g-mb-30">
+            <a href="/people/{{ person.id }}/"><img class="w-100" src="/assets/images/bio/{{ person.id }}.jpg" alt="{{ person.name }}"></a>
+
+            <h5 class="h5 g-color-purple g-font-weight-600">{{ person.name }}</h5>
+
+            <ul class="list-unstyled g-font-size-13 g-color-gray-dark-v1">
+                <li class="g-mb-5 g-color-primary">
+                    <i class="fa fa-envelope g-mr-10"></i>
+                    <a href="mailto:{{ person.email }}">{{ person.email }}</a>
+                </li>
+
+                {% if person.ddi %}
+                    <li class="g-mb-5 g-color-primary">
+                        <i class="fa fa-phone g-mr-10"></i>
+                        {{ person.ddi }}
+                    </li>
+                {% endif %}
+            </ul>
+        </div>
+    {% endif %}
+{% endfor %}

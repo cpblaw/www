@@ -1,0 +1,31 @@
+---
+title: Awards
+description:
+
+layout: aboutus
+permalink: /awards/
+
+redirect_from: /awards.html
+---
+
+<div class="table-responsive">
+	{% for years in site.data.awards %}
+		<table class="table table-bordered table-hover u-table--v2 g-col-border-side-0">
+			<tr class="g-bg-primary g-color-white g-col-border-top-0" colspan="2">
+				<td class="g-brd-white-opacity-0_1">{{ years.year }}</td>
+				<td>&nbsp;</td>
+			</tr>
+
+			{% for awards in years.awards %}
+				<tr class="award">
+					<td>&nbsp;</td>
+					<td class="g-color-black-opacity-0_8" scope="row">
+					{{ awards.award }}
+						<br />
+						<div class="reference">({{ awards.organisation}})</div>
+					</td>
+				</tr>
+			{% endfor %}
+		</table>
+	{% endfor %}
+</div>
