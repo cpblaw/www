@@ -246,7 +246,7 @@
 							<h2 class="u-heading-v2__title h6 text-uppercase mb-0">Latest Publications</h2>
 						</div>
 
-						{% for year in site.data.publications.years limit:1 %}
+						{% for year in site.data.publications.years limit:2 %}
 							{% for publication in year.publications limit:3 %}
 								{% comment %} <li><a href="/publications/{{ publication.file }}" class="tickerAnchorText"><h3>| {{ publication.title }} |</h3></a></li> {% endcomment %}
 
