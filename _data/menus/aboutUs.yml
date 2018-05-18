@@ -19,3 +19,6 @@
 - title: Contact Us
   name: contact.html
   url: /contact/
+- title: Privacy Notice
+  name: privacy-notice.html
+  url: /privacy-notice.pdf
