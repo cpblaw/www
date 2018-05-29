@@ -36,10 +36,8 @@ redirect_from: /contact-us.html
 			<div class="col-lg-10">
 <!-- https://maze.digital/webticker/ -->
 				<ul id="webTicker">
-					{% for year in site.data.publications.years limit:2 %}
-						{% for publication in year.publications limit:3 %}
-							<li><h3>| <a href="/publications/{{ publication.file }}" class="tickerAnchorText">{{ publication.title }}</a> |</h3></li>
-						{% endfor %}
+					{% for publication in site.data.publications limit:5 %}
+						<li><h3>| <a href="/{{ publication.file }}" class="tickerAnchorText">{{ publication.title }}</a> |</h3></li>
 					{% endfor %}
 				</ul>
 			</div>
