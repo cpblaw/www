@@ -11,51 +11,52 @@ redirect_from: /articles.html
 
 <div id="accordion-11" class="u-accordion u-accordion-bg-primary u-accordion-color-purple" role="tablist" aria-multiselectable="true">
 	{% assign counter = 0 %}
+	{% assign publications = site.data.publications | group_by:"year" %}
 
-	{% for year in site.data.publications.years %}
+	{% for year in publications %}
 		{% assign counter = counter | plus: 1 %}
 
 		{% if counter == 1 %}
 			<div class="card g-brd-none rounded-0 g-mb-15">
-				<div id="accordion-11-heading-{{ year.year }}" class="u-accordion__header g-pa-0" role="tab">
+				<div id="accordion-11-heading-{{ year.name }}" class="u-accordion__header g-pa-0" role="tab">
 					<h5 class="mb-0">
-						<a class="d-block g-color-white g-text-underline--none--hover g-brd-around g-bg-primary-dark-v4 g-rounded-5 g-pa-10-15" href="#accordion-11-body-{{ year.year }}" data-toggle="collapse" data-parent="#accordion-11" aria-expanded="true" aria-controls="accordion-11-body-{{ year.year }}">
+						<a class="d-block g-color-white g-text-underline--none--hover g-brd-around g-bg-primary-dark-v4 g-rounded-5 g-pa-10-15" href="#accordion-11-body-{{ year.name }}" data-toggle="collapse" data-parent="#accordion-11" aria-expanded="true" aria-controls="accordion-11-body-{{ year.name }}">
 						<span class="u-accordion__control-icon g-mr-10">
 							<i class="fa fa-angle-down"></i>
 							<i class="fa fa-angle-up"></i>
 						</span>
-						{{ year.year }}
+						{{ year.name }}
 						</a>
 					</h5>
 				</div>
 
-				<div id="accordion-11-body-{{ year.year }}" class="collapse show" role="tabpanel" aria-labelledby="accordion-11-heading-{{ year.year }}">
+				<div id="accordion-11-body-{{ year.name }}" class="collapse show" role="tabpanel" aria-labelledby="accordion-11-heading-{{ year.name }}">
 					<div class="u-accordion__body g-color-gray-dark-v5">
-						{% for article in year.publications %}
-							<p><a href="/publications/{{ article.file }}">{{ article.title }}</a></p>
+						{% for publication in year.items %}
+							<p><a href="/{{ publication.file }}">{{ publication.title }}</a></p>
 						{% endfor %}
 					</div>
 				</div>
 			</div>
 		{% else %}
 			<div class="card g-brd-none rounded-0 g-mb-15">
-				<div id="accordion-11-heading-{{ year.year }}" class="u-accordion__header g-pa-0" role="tab">
+				<div id="accordion-11-heading-{{ year.name }}" class="u-accordion__header g-pa-0" role="tab">
 					<h5 class="mb-0">
 						<a class="collapsed d-block g-color-white g-text-underline--none--hover g-brd-around g-bg-primary-dark-v4 g-rounded-5 g-pa-10-15"
-							href="#accordion-11-body-{{ year.year }}" data-toggle="collapse" data-parent="#accordion-11" aria-expanded="false" aria-controls="accordion-11-body-{{ year.year }}">
+							href="#accordion-11-body-{{ year.name }}" data-toggle="collapse" data-parent="#accordion-11" aria-expanded="false" aria-controls="accordion-11-body-{{ year.name }}">
 							<span class="u-accordion__control-icon g-mr-10">
 								<i class="fa fa-angle-down"></i>
 								<i class="fa fa-angle-up"></i>
 							</span>
-							{{ year.year }}
+							{{ year.name }}
 						</a>
 					</h5>
 				</div>
 
-				<div id="accordion-11-body-{{ year.year }}" class="collapse" role="tabpanel" aria-labelledby="accordion-11-heading-{{ year.year }}">
+				<div id="accordion-11-body-{{ year.name }}" class="collapse" role="tabpanel" aria-labelledby="accordion-11-heading-{{ year.name }}">
 					<div class="u-accordion__body g-color-gray-dark-v5">
-						{% for publication in year.publications %}
-							<p><a href="/publications/{{ publication.file }}">{{ publication.title }}</a></p>
+						{% for publication in year.items %}
+							<p><a href="/{{ publication.file }}">{{ publication.title }}</a></p>
 						{% endfor %}
 					</div>
 				</div>
