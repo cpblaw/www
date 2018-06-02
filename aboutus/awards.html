@@ -7,20 +7,22 @@ permalink: /awards/
 ---
 
 <div class="table-responsive">
-	{% for years in site.data.awards %}
+	{% assign awards = site.data.awards | group_by:"year" %}
+
+	{% for year in awards %}
 		<table class="table table-bordered table-hover u-table--v2 g-col-border-side-0">
 			<tr class="g-bg-primary g-color-white g-col-border-top-0" colspan="2">
-				<td class="g-brd-white-opacity-0_1">{{ years.year }}</td>
+				<td class="g-brd-white-opacity-0_1">{{ year.name }}</td>
 				<td>&nbsp;</td>
 			</tr>
 
-			{% for awards in years.awards %}
+			{% for award in year.items %}
 				<tr class="award">
 					<td>&nbsp;</td>
 					<td class="g-color-black-opacity-0_8" scope="row">
-					{{ awards.award }}
+					{{ award.award }}
 						<br />
-						<div class="reference">({{ awards.organisation}})</div>
+						<div class="reference">({{ award.organisation}})</div>
 					</td>
 				</tr>
 			{% endfor %}
