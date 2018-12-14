@@ -162,7 +162,7 @@
 		<!-- End Header -->
 
         {%- for person in site.data.people -%}
-            {%- if person.id == page.personID -%}
+            {%- if person.reference == page.personID -%}
                 <section>
                     <div class="container g-pt-150 g-pb-20">
                         <div class="row">
@@ -193,26 +193,26 @@
                                         </div>
 
                                         <div class="col-md-8 col-lg-4 order-1">
-                                            <img class="w-100" src="/assets/images/bio/{{ person.id }}.jpg" alt="{{ person.name }}">
+                                            <img class="w-100" src="/assets/images/bio/{{ person.reference }}.jpg" alt="{{ person.name }}">
 
                                             <hr class="g-brd-gray-light-v4 g-my-15">
 
                                             <ul class="list-unstyled g-font-size-13 g-color-gray-dark-v1">
-                                                {%- if person.email -%}
+                                                {%- if person.email != '' -%}
                                                     <li class="g-mb-5 g-color-primary">
                                                         <i class="fa fa-envelope g-mr-10"></i>
                                                         <a href="mailto:{{ person.email }}">{{ person.email }}</a>
                                                     </li>
                                                 {%- endif -%}
 
-                                                {%- if person.ddi -%}
+                                                {%- if person.ddi != '' -%}
                                                     <li class="g-mb-5 g-color-primary">
                                                         <i class="fa fa-phone g-mr-10"></i>
                                                         {{ person.ddi }}
                                                     </li>
                                                 {%- endif -%}
 
-                                                {%- if person.mobile -%}
+                                                {%- if person.mobile != '' -%}
                                                     <li class="g-mb-5 g-color-primary">
                                                         <i class="fa fa-mobile g-mr-10"></i>
                                                         {{ person.mobile }}
