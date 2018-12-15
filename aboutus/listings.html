@@ -16,14 +16,14 @@ redirect_from: /links.html
 
 
 <ul>
-	{% assign associations = site.data.listings %}
+	{% assign associations = site.data.associations %}
 
 	{% for association in associations %}
 		<li>
-			{% if association.link %}
-				<a href="{{ association.link }}" target="_blank">{{ association.association }}</a>
+			{% if association.website !='' %}
+				<a href="{{ association.website }}" target="_blank">{{ association.name }}</a>
 			{% else %}
-				{{ association.association }}
+				{{ association.name }}
 			{% endif %}
 		</li>
 	{% endfor %}
