@@ -1,0 +1,24 @@
+---
+title: Dean De Cesare
+description:
+
+layout: people
+permalink: /people/dean-de-cesare/
+personID: dean-de-cesare
+---
+
+<p>Dean’s practice focuses on defending claims against professionals and their insurers. He also advises on coverage issues and policy wording.</p>
+
+<p>Dean has extensive litigation experience and a strong record of resolving matters through mediation and other forms of alternative dispute resolution. Prior to joining Cater Perry Bailey, Dean predominantly acted for major financial institutions in relation to claims involving a variety of professionals. He also defended claims against financial services providers, which often involved sensitive reputational issues.</p>
+
+{% assign titles = titles | append: "Career Overview" | append: "|" %}
+{% capture accordion %}
+	<p>Dean joined Carter Perry Bailey as a Solicitor in August 2019.</p>
+
+	<p>Prior to this, Dean had worked within the financial services litigation team of a leading UK firm since his qualification in 2011. He managed a diverse caseload of banking litigation matters.</p>
+
+	<p>Dean predominantly acted for financial services providers in relation to claims involving professionals, typically arising out of residential and commercial lending and often including contested refinancing issues and interest rate hedging products. He also has experience in large-scale fraud investigations involving parties and assets in multiple jurisdictions.</p>
+{% endcapture %}
+{% assign accordions = accordions | append: accordion | append: "|" %}
+
+{% include templates/accordions.html titles=titles accordions=accordions %}
