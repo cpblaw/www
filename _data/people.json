@@ -83,6 +83,15 @@
 	{
 		"position": "Consultant",
 		"ddi": "",
+		"mobile": "",
+		"reference": "adam-barker",
+		"qualification": "",
+		"name": "Adam Barker",
+		"email": "adam.barker@cpblaw.com"
+	},
+	{
+		"position": "Consultant",
+		"ddi": "",
 		"mobile": "+44 7453 464 496",
 		"reference": "alan-bannister",
 		"qualification": "LLB (Hons, University of London).",
