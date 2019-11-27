@@ -11,10 +11,17 @@
                     <a href="mailto:{{ person.email }}">{{ person.email }}</a>
                 </li>
 
-                {% if person.ddi %}
+                {% if person.ddi != '' %}
                     <li class="g-mb-5 g-color-primary">
                         <i class="fa fa-phone g-mr-10"></i>
                         {{ person.ddi }}
+                    </li>
+                {% endif %}
+
+                {% if person.mobile != '' %}
+                    <li class="g-mb-5 g-color-primary">
+                        <i class="fa fa-mobile g-mr-10"></i>
+                        {{ person.mobile }}
                     </li>
                 {% endif %}
             </ul>
