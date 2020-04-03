@@ -1,0 +1,17 @@
+[
+	{
+		"topic": "Government Links",
+		"title": "Apple Link",
+		"file": "https://www.apple.com/"
+	}
+	,{
+		"topic": "Government Links",
+		"title": "Some Title 2",
+		"file": "publications/covid-19/something.pdf"
+	}
+	,{
+		"topic": "Insurance / Industry Links",
+		"title": "Some Title 3",
+		"file": "publications/covid-19/something.pdf"
+	}
+]
