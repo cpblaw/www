@@ -1,17 +1,7 @@
 [
 	{
-		"topic": "Government Links",
-		"title": "Apple Link",
-		"file": "https://www.apple.com/"
-	}
-	,{
-		"topic": "Government Links",
-		"title": "Some Title 2",
-		"file": "publications/covid-19/something.pdf"
-	}
-	,{
-		"topic": "Insurance / Industry Links",
-		"title": "Some Title 3",
-		"file": "publications/covid-19/something.pdf"
+		"topic": "Articles",
+		"title": "COVID-19: Insurance Implications",
+		"link": "publications/covid-19/COVID-19 - Insurance Implications.pdf"
 	}
 ]

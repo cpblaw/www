@@ -31,7 +31,7 @@ permalink: /covid-19-information/
 				<div id="accordion-body-{{ article.name | slugify }}" class="collapse show" role="tabpanel" aria-labelledby="accordion-heading-{{ article.name | slugify }}">
 					<div class="u-accordion__body g-color-gray-dark-v5">
 						{% for publication in article.items %}
-							<p><a href="{{ publication.file }}">{{ publication.title }}</a></p>
+							<p><a href="{{ publication.link }}">{{ publication.title }}</a></p>
 						{% endfor %}
 					</div>
 				</div>
@@ -54,7 +54,7 @@ permalink: /covid-19-information/
 				<div id="accordion-body-{{ article.name | slugify }}" class="collapse" role="tabpanel" aria-labelledby="accordion-heading-{{ article.name | slugify }}">
 					<div class="u-accordion__body g-color-gray-dark-v5">
 						{% for publication in article.items %}
-							<p><a href="{{ publication.file }}">{{ publication.title }}</a></p>
+							<p><a href="{{ publication.link }}">{{ publication.title }}</a></p>
 						{% endfor %}
 					</div>
 				</div>
