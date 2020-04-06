@@ -162,3 +162,38 @@ a:focus,
 a:hover {
   color: #532d6d;
 }
+
+
+/* Button Dark Gray */
+.u-btn-white {
+	color: #532d6d;
+	background-color: #fff; }
+
+  .u-btn-white:hover, .u-btn-white.active {
+	border-color: #fff;
+	background-color: #fff; }
+
+  .u-btn-white:hover, .u-btn-white:focus, .u-btn-white.active {
+	color: #532d6d; }
+
+  .u-btn-white.g-btn-hover-reset:hover, .u-btn-white.g-btn-hover-reset.active {
+	background-color: #fff;
+	border-color: #fff; }
+
+  .u-btn-white.u-btn-hover-v1-1 {
+	overflow: hidden; }
+
+  .u-btn-white.u-btn-hover-v1-1::after, .u-btn-white.u-btn-hover-v1-1:hover::after {
+	background-color: #fff; }
+
+  .u-btn-white.u-btn-hover-v1-1:hover {
+	background-color: #fff;
+	overflow: hidden; }
+
+
+.ml-md-10 {
+	margin-left: 6rem !important;
+	}
+
+
+
