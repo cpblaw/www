@@ -9,7 +9,7 @@ permalink: /covid-19-information/
 
 <div id="accordion" class="u-accordion u-accordion-bg-primary u-accordion-color-purple" role="tablist" aria-multiselectable="true">
 	{% assign counter = 0 %}
-	{% assign articles = site.data.covid-19 | group_by:"topic" %}
+	{% assign articles = site.data.covid-19 | group_by:"Category" %}
 
 	{% for article in articles %}
 		{% assign counter = counter | plus: 1 %}
@@ -31,7 +31,7 @@ permalink: /covid-19-information/
 				<div id="accordion-body-{{ article.name | slugify }}" class="collapse show" role="tabpanel" aria-labelledby="accordion-heading-{{ article.name | slugify }}">
 					<div class="u-accordion__body g-color-gray-dark-v5">
 						{% for publication in article.items %}
-							<p><a href="{{ publication.link }}" target="_blank">{{ publication.title }}</a></p>
+							<p><a href="{{ publication.Link }}" target="_blank" target="_blank">{{ publication.Title }}</a></p>
 						{% endfor %}
 					</div>
 				</div>
@@ -54,7 +54,7 @@ permalink: /covid-19-information/
 				<div id="accordion-body-{{ article.name | slugify }}" class="collapse" role="tabpanel" aria-labelledby="accordion-heading-{{ article.name | slugify }}">
 					<div class="u-accordion__body g-color-gray-dark-v5">
 						{% for publication in article.items %}
-							<p><a href="{{ publication.link }}">{{ publication.title }}</a></p>
+							<p><a href="{{ publication.Link }}" target="_blank">{{ publication.Title }}</a></p>
 						{% endfor %}
 					</div>
 				</div>
