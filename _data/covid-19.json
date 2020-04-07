@@ -1,23 +1,28 @@
 [
 	{
 		"Category": "Articles",
-		"Title": "COVID-19: Insurance Implications",
+		"Title": "COVID-19 Furlough FAQs - 7 April 2020",
+		"Link": "publications/covid-19/COVID-19 Furlough FAQs.pdf"
+	},
+	{
+		"Category": "Articles",
+		"Title": "Legal implications of Coronavirus - 31 March 2020 - Heuking Kühn Lüer Wojtek (Insuralex, Germany)",
+		"Link": "https://www.heuking.de/en/news-events/articles/legal-implications-of-the-coronavirus-at-a-glance.html?belongsTo[praxisgruppe][0]=34"
+	},
+	{
+		"Category": "Articles",
+		"Title": "The Procedural Implications of COVID-19 in Washington, Oregon and California - Updated 30 March 2020",
+		"Link": "publications/covid-19/The Procedural Implications of COVID-19 in Washington, Oregon and California - Updated 30 March 2020.pdf"
+	},
+	{
+		"Category": "Articles",
+		"Title": "COVID-19: Insurance Implications - 11 March 2020",
 		"Link": "publications/covid-19/COVID-19 - Insurance Implications.pdf"
 	},
 	{
 		"Category": "Articles",
 		"Title": "Is “Direct Physical Loss” Being Redefined - Hepler Bloom (Insuralex, Illinois)",
 		"Link": "publications/covid-19/Is “Direct Physical Loss” Being Redefined - Hepler Bloom (Insuralex, Illinois).pdf"
-	},
-	{
-		"Category": "Articles",
-		"Title": "COVID-19 Furlough FAQs",
-		"Link": "publications/covid-19/COVID-19 Furlough FAQs.pdf"
-	},
-	{
-		"Category": "Articles",
-		"Title": "Legal implications of Coronavirus - Heuking Kühn Lüer Wojtek (Insuralex, Germany)",
-		"Link": "https://www.heuking.de/en/news-events/articles/legal-implications-of-the-coronavirus-at-a-glance.html?belongsTo[praxisgruppe][0]=34"
 	},
 	{
 		"Category": "Articles",
@@ -41,12 +46,12 @@
 	},
 	{
 		"Category": "Government & Courts",
-		"Title": "Court Proceedure - Protocol Regarding remote Hearings",
+		"Title": "Court Procedure - Protocol Regarding remote Hearings",
 		"Link": "https://www.judiciary.uk/wp-content/uploads/2020/03/Civil-court-guidance-on-how-to-conduct-remote-hearings.pdf"
 	},
 	{
 		"Category": "Government & Courts",
-		"Title": "Court Procedure - Civil Procedure Rules Regarding Coronavirus",
+		"Title": "Court Procedure - Civil Procedure Rules regarding Coronavirus",
 		"Link": "https://www.justice.gov.uk/courts/procedure-rules/civil"
 	},
 	{
@@ -58,6 +63,26 @@
 		"Category": "Government & Courts",
 		"Title": "Health & Safety Executive Information & Advice",
 		"Link": "https://www.hse.gov.uk/news/coronavirus.htm#"
+	},
+	{
+		"Category": "Insurance & Reinsurance",
+		"Title": "FOS decision DRN0228866 Zika virus",
+		"Link": "publications/covid-19/FOS decision DRN0228866 Zika virus.pdf"
+	},
+	{
+		"Category": "Insurance & Reinsurance",
+		"Title": "FOS decision DRN2120556 Zika-Cuba",
+		"Link": "publications/covid-19/FOS decision DRN2120556 Zika-Cuba.pdf"
+	},
+	{
+		"Category": "Insurance & Reinsurance",
+		"Title": "Actuaries Response Group - Friday Report 3 April 2020",
+		"Link": "publications/covid-19/Actuaries Response Group - Friday Report 3 April 2020.pdf"
+	},
+	{
+		"Category": "Insurance & Reinsurance",
+		"Title": "Actuaries Response Group Charter",
+		"Link": "publications/covid-19/Actuaries Response Group Charter.pdf"
 	},
 	{
 		"Category": "Insurance & Reinsurance",
@@ -123,6 +148,11 @@
 		"Category": "Insurance & Reinsurance",
 		"Title": "ILS Bermuda - ILS News",
 		"Link": "http://www.ilsbermuda.com/news/ils-news/"
+	},
+	{
+		"Category": "Other Useful Information",
+		"Title": "BBC Isolation chart Source - Public Health England advice",
+		"Link": "publications/covid-19/BBC Isolation chart Source - Public Health England advice.jpg"
 	},
 	{
 		"Category": "Other Useful Information",
