@@ -66,26 +66,6 @@
 	},
 	{
 		"Category": "Insurance & Reinsurance",
-		"Title": "FOS decision DRN0228866 Zika virus",
-		"Link": "publications/covid-19/FOS decision DRN0228866 Zika virus.pdf"
-	},
-	{
-		"Category": "Insurance & Reinsurance",
-		"Title": "FOS decision DRN2120556 Zika-Cuba",
-		"Link": "publications/covid-19/FOS decision DRN2120556 Zika-Cuba.pdf"
-	},
-	{
-		"Category": "Insurance & Reinsurance",
-		"Title": "Actuaries Response Group - Friday Report 3 April 2020",
-		"Link": "publications/covid-19/Actuaries Response Group - Friday Report 3 April 2020.pdf"
-	},
-	{
-		"Category": "Insurance & Reinsurance",
-		"Title": "Actuaries Response Group Charter",
-		"Link": "publications/covid-19/Actuaries Response Group Charter.pdf"
-	},
-	{
-		"Category": "Insurance & Reinsurance",
 		"Title": "Regulatory - FCA : Expectations",
 		"Link": "https://www.fca.org.uk/firms/insurance-and-coronavirus-our-expectations"
 	},
@@ -111,8 +91,28 @@
 	},
 	{
 		"Category": "Insurance & Reinsurance",
-		"Title": "Financial ombudsman Service : Covid-19 Information",
+		"Title": "Actuaries Response Group - Friday Report 3 April 2020",
+		"Link": "publications/covid-19/Actuaries Response Group - Friday Report 3 April 2020.pdf"
+	},
+	{
+		"Category": "Insurance & Reinsurance",
+		"Title": "Actuaries Response Group Charter",
+		"Link": "publications/covid-19/Actuaries Response Group Charter.pdf"
+	},
+	{
+		"Category": "Insurance & Reinsurance",
+		"Title": "Financial Ombudsman Service : Covid-19 Information",
 		"Link": "https://www.financial-ombudsman.org.uk/coronavirus"
+	},
+	{
+		"Category": "Insurance & Reinsurance",
+		"Title": "Financial Ombudsman Service : Decision DRN0228866 Zika virus",
+		"Link": "publications/covid-19/FOS decision DRN0228866 Zika virus.pdf"
+	},
+	{
+		"Category": "Insurance & Reinsurance",
+		"Title": "Financial Ombudsman Service : Decision DRN2120556 Zika-Cuba",
+		"Link": "publications/covid-19/FOS decision DRN2120556 Zika-Cuba.pdf"
 	},
 	{
 		"Category": "Insurance & Reinsurance",
