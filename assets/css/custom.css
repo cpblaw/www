@@ -10,6 +10,11 @@
 	border-color: #fff;
 }
 
+
+.u-btn-primary:hover, .u-btn-primary.active {
+	border-color: #846c94;
+	background-color: #846c94; }
+
 /* Base stylesheets */
 .u-header__section--dark .navbar [class*="u-main-nav-v"] .nav-link {
 	color: #532d6d;
