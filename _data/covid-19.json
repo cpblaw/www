@@ -1,7 +1,162 @@
 [
 	{
-		"topic": "Articles",
-		"title": "COVID-19: Insurance Implications",
-		"link": "publications/covid-19/COVID-19 - Insurance Implications.pdf"
+		"Category": "Articles",
+		"Title": "COVID-19: Insurance Implications",
+		"Link": "publications/covid-19/COVID-19 - Insurance Implications.pdf"
+	},
+	{
+		"Category": "Articles",
+		"Title": "Is “Direct Physical Loss” Being Redefined - Hepler Bloom (Insuralex, Illinois)",
+		"Link": "publications/covid-19/Is “Direct Physical Loss” Being Redefined - Hepler Bloom (Insuralex, Illinois).pdf"
+	},
+	{
+		"Category": "Articles",
+		"Title": "Legal implications of Coronavirus - Heuking Kühn Lüer Wojtek (Insuralex, Germany)",
+		"Link": "https://www.heuking.de/en/news-events/articles/legal-implications-of-the-coronavirus-at-a-glance.html?belongsTo[praxisgruppe][0]=34"
+	},
+	{
+		"Category": "Articles",
+		"Title": "Suspension of Procedural Time Limits – Belzuz (Insuralex, Portugal)",
+		"Link": "http://www.belzuz.com/en/publications/in-english/item/11027-suspension-of-procedural-time-limits-portugal.html"
+	},
+	{
+		"Category": "Government & Courts",
+		"Title": "The latest  Government Guidance",
+		"Link": "https://www.gov.uk/coronavirus"
+	},
+	{
+		"Category": "Government & Courts",
+		"Title": "Government Furlough Guidance",
+		"Link": "https://www.gov.uk/guidance/claim-for-wage-costs-through-the-coronavirus-job-retention-scheme"
+	},
+	{
+		"Category": "Government & Courts",
+		"Title": "The latest information from HM Courts & Tribunal Service",
+		"Link": "https://www.gov.uk/guidance/coronavirus-covid-19-courts-and-tribunals-planning-and-preparation"
+	},
+	{
+		"Category": "Government & Courts",
+		"Title": "Court Proceedure - Protocol Regarding remote Hearings",
+		"Link": "https://www.judiciary.uk/wp-content/uploads/2020/03/Civil-court-guidance-on-how-to-conduct-remote-hearings.pdf"
+	},
+	{
+		"Category": "Government & Courts",
+		"Title": "Court Procedure - Civil Procedure Rules Regarding Coronavirus",
+		"Link": "https://www.justice.gov.uk/courts/procedure-rules/civil"
+	},
+	{
+		"Category": "Government & Courts",
+		"Title": "The Scottish Government Guidance",
+		"Link": "https://www.gov.scot/coronavirus-covid-19"
+	},
+	{
+		"Category": "Government & Courts",
+		"Title": "Health & Safety Executive Information & Advice",
+		"Link": "https://www.hse.gov.uk/news/coronavirus.htm#"
+	},
+	{
+		"Category": "Insurance & Reinsurance",
+		"Title": "Regulatory - FCA : Expectations",
+		"Link": "https://www.fca.org.uk/firms/insurance-and-coronavirus-our-expectations"
+	},
+	{
+		"Category": "Insurance & Reinsurance",
+		"Title": "Regulatory - FCA : Latest Coronavirus News",
+		"Link": "https://www.fca.org.uk/coronavirus"
+	},
+	{
+		"Category": "Insurance & Reinsurance",
+		"Title": "Regulatory - PRA : Coronavirus Regulatory Measures",
+		"Link": "https://www.bankofengland.co.uk/coronavirus/information-for-firms"
+	},
+	{
+		"Category": "Insurance & Reinsurance",
+		"Title": "Regulatory -  Lloyd's : Coronavirus Updates",
+		"Link": "https://www.lloyds.com/news-and-risk-insight/media-centre/coronavirus-updates-hub"
+	},
+	{
+		"Category": "Insurance & Reinsurance",
+		"Title": "Regulatory -  EIOPA : Covid-19 Financial Stability",
+		"Link": "https://www.eiopa.europa.eu/"
+	},
+	{
+		"Category": "Insurance & Reinsurance",
+		"Title": "Financial ombudsman Service : Covid-19 Information",
+		"Link": "https://www.financial-ombudsman.org.uk/coronavirus"
+	},
+	{
+		"Category": "Insurance & Reinsurance",
+		"Title": "LMA Wordings",
+		"Link": "https://www.lmalloyds.com/LMA/Underwriting/Wordings/LMA/lma_wordings.aspx"
+	},
+	{
+		"Category": "Insurance & Reinsurance",
+		"Title": "LMA Continuity Clause",
+		"Link": "https://www.lmalloyds.com/LMA/News/Releases/NewLMAclause_120320.aspx"
+	},
+	{
+		"Category": "Insurance & Reinsurance",
+		"Title": "British insurance Brokers Association (BIBA) - Covid-19 News",
+		"Link": "https://www.biba.org.uk/tag/covid-19/"
+	},
+	{
+		"Category": "Insurance & Reinsurance",
+		"Title": "Association of British Insurers (ABI) -Coronavirus Information Hub",
+		"Link": "https://www.abi.org.uk/products-and-issues/topics-and-issues/coronavirus-hub"
+	},
+	{
+		"Category": "Insurance & Reinsurance",
+		"Title": "The Association of Medical Insurers and Intermediaries (AMII) - News",
+		"Link": "https://amii.org.uk/news"
+	},
+	{
+		"Category": "Insurance & Reinsurance",
+		"Title": "Artemis - Covid News: Reinsurance,ILS,ART",
+		"Link": "https://www.artemis.bm/?s=covid"
+	},
+	{
+		"Category": "Insurance & Reinsurance",
+		"Title": "ILS Bermuda - ILS News",
+		"Link": "http://www.ilsbermuda.com/news/ils-news/"
+	},
+	{
+		"Category": "Miscellaneous",
+		"Title": "Information Commissioners Office (ICO) - Data Protection and Coronavirus Hub",
+		"Link": "https://ico.org.uk/global/data-protection-and-coronavirus-information-hub/"
+	},
+	{
+		"Category": "Miscellaneous",
+		"Title": "BBC Coronavirus Update",
+		"Link": "https://www.bbc.co.uk/programmes/p085rxwh"
+	},
+	{
+		"Category": "Miscellaneous",
+		"Title": "NHS Coronavirus Advice",
+		"Link": "https://www.nhs.uk/conditions/coronavirus-covid-19"
+	},
+	{
+		"Category": "Miscellaneous",
+		"Title": "Institute of Actuaries - News",
+		"Link": "https://www.actuaries.org.uk/news-insights"
+	},
+	{
+		"Category": "Miscellaneous",
+		"Title": "Institute of Chartered Accountants - Coronavirus Updates",
+		"Link": "https://www.icaew.com/"
+	},
+	{
+		"Category": "Miscellaneous",
+		"Title": "Solicitors Regulation Authority Coronavirus Update",
+		"Link": "https://www.sra.org.uk/sra/news/coronavirus-update/"
+	},
+	{
+		"Category": "Miscellaneous",
+		"Title": "European Union for Cyber Security : Working Remotely Advice",
+		"Link": "https://www.enisa.europa.eu/news/executive-news/top-tips-for-cybersecurity-when-working-remotely"
+	},
+	{
+		"Category": "Miscellaneous",
+		"Title": "Financial Action Task Force (FATF) - COVID-19 and measures to combat illicit financing",
+		"Link": "http://www.fatf-gafi.org/publications/fatfgeneral/documents/statement-covid-19.html"
 	}
 ]
