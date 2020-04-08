@@ -81,13 +81,18 @@
 	},
 	{
 		"Category": "Insurance & Reinsurance",
-		"Title": "Regulatory -  Lloyd's : Coronavirus Updates",
+		"Title": "Regulatory - Lloyd's : Coronavirus Updates",
 		"Link": "https://www.lloyds.com/news-and-risk-insight/media-centre/coronavirus-updates-hub"
 	},
 	{
 		"Category": "Insurance & Reinsurance",
-		"Title": "Regulatory -  EIOPA : Covid-19 Financial Stability",
+		"Title": "Regulatory - EIOPA : Covid-19 Financial Stability",
 		"Link": "https://www.eiopa.europa.eu/"
+	},
+	{
+		"Category": "Insurance & Reinsurance",
+		"Title": "Reinsurance Market Coronavirus Survey (Pub Artemis  April 2020)",
+		"Link": "hthttps://www.artemis.bm/coronavirus-survey/"
 	},
 	{
 		"Category": "Insurance & Reinsurance",
@@ -148,6 +153,11 @@
 		"Category": "Insurance & Reinsurance",
 		"Title": "ILS Bermuda - ILS News",
 		"Link": "http://www.ilsbermuda.com/news/ils-news/"
+	},
+	{
+		"Category": "Insurance & Reinsurance",
+		"Title": "Reinsurance News Coronavirus Section",
+		"Link": "https://www.reinsurancene.ws/tag/coronavirus/"
 	},
 	{
 		"Category": "Other Useful Information",
