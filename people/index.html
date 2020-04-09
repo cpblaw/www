@@ -21,12 +21,12 @@ searchExclude: true
 								{% for person in site.data.people %}
 									<div class="col-lg-3 col-sm-6 g-mb-30">
 										<figure class="g-color-gray-dark-v2">
-											<a href="./{{ person.reference }}/">
+											<a href="people/{{ person.reference }}/">
 												<img class="w-100 g-mb-30" src="/assets/images/bio/{{ person.reference }}.jpg" alt="{{ person.name }}">
 											</a>
 
 											<em class="d-block g-font-style-normal g-font-size-11 text-uppercase g-color-primary g-mb-5">{{ person.position }}</em>
-											<h4 class="h4 g-color-purple g-font-weight-600 mb-4"><a href="./{{ person.reference }}/">{{ person.name }}</a></h4>
+											<h4 class="h4 g-color-purple g-font-weight-600 mb-4"><a href="people/{{ person.reference }}/">{{ person.name }}</a></h4>
 
 											<hr class="g-brd-gray-light-v4 g-my-15">
 
