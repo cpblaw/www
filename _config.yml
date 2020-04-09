@@ -2,7 +2,7 @@
 title: Carter Perry Bailey LLP
 email: webmaster@cpblaw.com
 baseurl: ""
-url: "https://www.cpblaw.com"
+url: "https://preview.cpblaw.com"
 
 plugins:
   - jekyll-redirect-from
