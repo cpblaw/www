@@ -72,7 +72,12 @@
 	{
 		"Category": "Government & Courts",
 		"Title": "Health & Safety Executive Information & Advice",
-		"Link": "https://www.hse.gov.uk/news/coronavirus.htm#"
+		"Link": "https://www.hse.gov.uk/news/coronavirus.htm"
+	},
+	{
+		"Category": "Government & Courts",
+		"Title": "The Coronavirus Act 2020",
+		"Link": "https://www.legislation.gov.uk/ukpga/2020/7/contents"
 	},
 	{
 		"Category": "Insurance & Reinsurance",
