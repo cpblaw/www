@@ -2,77 +2,65 @@
 title: COVID-19 Information
 description: COVID-19 Information
 
-layout: default
+layout: covid-19
 pdflink: false
 permalink: /covid-19-information/
 ---
 
-<div class="container g-pt-250 g-pb-20">
-	<div class="row justify-content-center">
-		<div class="col-lg-9 order-lg-2 g-mb-80">
-			<div class="g-pl-20--lg">
-				<article class="g-mb-100">
-					<div class="g-mb-30 g-color-gray-dark-v1">
-						<h2 class="h2 g-color-purple g-font-weight-600 mb-3">{{ page.title }}</h2>
+<h2 class="h2 g-color-purple g-font-weight-600 mb-3">{{ page.title }}</h2>
 
-						<div id="accordion" class="u-accordion u-accordion-bg-primary u-accordion-color-purple" role="tablist" aria-multiselectable="true">
-							{% assign counter = 0 %}
-							{% assign articles = site.data.covid-19 | group_by:"Category" %}
+<div id="accordion" class="u-accordion u-accordion-bg-primary u-accordion-color-purple" role="tablist" aria-multiselectable="true">
+	{% assign counter = 0 %}
+	{% assign articles = site.data.covid-19 | group_by:"Category" %}
 
-							{% for article in articles %}
-								{% assign counter = counter | plus: 1 %}
+	{% for article in articles %}
+		{% assign counter = counter | plus: 1 %}
 
-								{% if counter == 1 %}
-									<div class="card g-brd-none rounded-0 g-mb-15">
-										<div id="accordion-heading-{{ article.name | slugify }}" class="u-accordion__header g-pa-0" role="tab">
-											<h5 class="mb-0">
-												<a class="d-block g-color-white g-text-underline--none--hover g-brd-around g-bg-primary-dark-v4 g-rounded-5 g-pa-10-15" href="#accordion-body-{{ article.name | slugify }}" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="accordion-body-{{ article.name | slugify }}">
-												<span class="u-accordion__control-icon g-mr-10">
-													<i class="fa fa-angle-down"></i>
-													<i class="fa fa-angle-up"></i>
-												</span>
-												{{ article.name }}
-												</a>
-											</h5>
-										</div>
+		{% if counter == 1 %}
+			<div class="card g-brd-none rounded-0 g-mb-15">
+				<div id="accordion-heading-{{ article.name | slugify }}" class="u-accordion__header g-pa-0" role="tab">
+					<h5 class="mb-0">
+						<a class="d-block g-color-white g-text-underline--none--hover g-brd-around g-bg-primary-dark-v4 g-rounded-5 g-pa-10-15" href="#accordion-body-{{ article.name | slugify }}" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="accordion-body-{{ article.name | slugify }}">
+						<span class="u-accordion__control-icon g-mr-10">
+							<i class="fa fa-angle-down"></i>
+							<i class="fa fa-angle-up"></i>
+						</span>
+						{{ article.name }}
+						</a>
+					</h5>
+				</div>
 
-										<div id="accordion-body-{{ article.name | slugify }}" class="collapse show" role="tabpanel" aria-labelledby="accordion-heading-{{ article.name | slugify }}">
-											<div class="u-accordion__body g-color-gray-dark-v5">
-												{% for publication in article.items %}
-													<p><a href="{{ publication.Link }}" target="_blank" target="_blank">{{ publication.Title }}</a></p>
-												{% endfor %}
-											</div>
-										</div>
-									</div>
-								{% else %}
-									<div class="card g-brd-none rounded-0 g-mb-15">
-										<div id="accordion-heading-{{ article.name | slugify }}" class="u-accordion__header g-pa-0" role="tab">
-											<h5 class="mb-0">
-												<a class="collapsed d-block g-color-white g-text-underline--none--hover g-brd-around g-bg-primary-dark-v4 g-rounded-5 g-pa-10-15"
-													href="#accordion-body-{{ article.name | slugify }}" data-toggle="collapse" data-parent="#accordion" aria-expanded="false" aria-controls="accordion-body-{{ article.name | slugify }}">
-													<span class="u-accordion__control-icon g-mr-10">
-														<i class="fa fa-angle-down"></i>
-														<i class="fa fa-angle-up"></i>
-													</span>
-													{{ article.name }}
-												</a>
-											</h5>
-										</div>
-
-										<div id="accordion-body-{{ article.name | slugify }}" class="collapse" role="tabpanel" aria-labelledby="accordion-heading-{{ article.name | slugify }}">
-											<div class="u-accordion__body g-color-gray-dark-v5">
-												{% for publication in article.items %}
-													<p><a href="{{ publication.Link }}" target="_blank">{{ publication.Title }}</a></p>
-												{% endfor %}
-											</div>
-										</div>
-									</div>
-								{% endif %}
-							{% endfor %}
-						</div>
+				<div id="accordion-body-{{ article.name | slugify }}" class="collapse show" role="tabpanel" aria-labelledby="accordion-heading-{{ article.name | slugify }}">
+					<div class="u-accordion__body g-color-gray-dark-v5">
+						{% for publication in article.items %}
+							<p><a href="{{ publication.Link }}" target="_blank" target="_blank">{{ publication.Title }}</a></p>
+						{% endfor %}
 					</div>
-				</article>
+				</div>
 			</div>
-		</div>
-	</div>
+		{% else %}
+			<div class="card g-brd-none rounded-0 g-mb-15">
+				<div id="accordion-heading-{{ article.name | slugify }}" class="u-accordion__header g-pa-0" role="tab">
+					<h5 class="mb-0">
+						<a class="collapsed d-block g-color-white g-text-underline--none--hover g-brd-around g-bg-primary-dark-v4 g-rounded-5 g-pa-10-15"
+							href="#accordion-body-{{ article.name | slugify }}" data-toggle="collapse" data-parent="#accordion" aria-expanded="false" aria-controls="accordion-body-{{ article.name | slugify }}">
+							<span class="u-accordion__control-icon g-mr-10">
+								<i class="fa fa-angle-down"></i>
+								<i class="fa fa-angle-up"></i>
+							</span>
+							{{ article.name }}
+						</a>
+					</h5>
+				</div>
+
+				<div id="accordion-body-{{ article.name | slugify }}" class="collapse" role="tabpanel" aria-labelledby="accordion-heading-{{ article.name | slugify }}">
+					<div class="u-accordion__body g-color-gray-dark-v5">
+						{% for publication in article.items %}
+							<p><a href="{{ publication.Link }}" target="_blank">{{ publication.Title }}</a></p>
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+		{% endif %}
+	{% endfor %}
 </div>

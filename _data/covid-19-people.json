@@ -1,0 +1,47 @@
+[
+	{
+		"position": "Partner",
+		"ddi": "+44 20 3697 1910",
+		"mobile": "+44 7717 733865",
+		"reference": "helen-tilley",
+		"qualification": "LLB (Hons).",
+		"name": "Helen Tilley",
+		"email": "helen.tilley@cpblaw.com"
+	},
+	{
+		"position": "Partner",
+		"ddi": "+44 20 3697 1902",
+		"mobile": "+44 7887 645262",
+		"reference": "stephen-carter",
+		"qualification": "BA (Hons, Dunelm), MCIArb.",
+		"name": "Stephen Carter",
+		"email": "stephen.carter@cpblaw.com"
+	},
+	{
+		"position": "Partner",
+		"ddi": "+44 20 3697 1903",
+		"mobile": "+44 7887 645263",
+		"reference": "bernadette-bailey",
+		"qualification": "LLB (Hons), D.E.J.F (Limoges).",
+		"name": "Bernadette Bailey",
+		"email": "bernadette.bailey@cpblaw.com"
+	},
+	{
+		"position": "Consultant",
+		"ddi": "",
+		"mobile": "+44 7866 441249",
+		"reference": "joseph-sutton",
+		"qualification": "LLB (Hons, Manchester). Called to the Bar in 2000.",
+		"name": "Joseph Sutton",
+		"email": "joseph.sutton@cpblaw.com"
+	},
+	{
+		"position": "Partner - Head of Professional Indemnity",
+		"ddi": "+44 20 3697 1908",
+		"mobile": "+44 7469 852355",
+		"reference": "mark-aizlewood",
+		"qualification": "",
+		"name": "Mark Aizlewood",
+		"email": "mark.aizlewood@cpblaw.com"
+	}
+]
