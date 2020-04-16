@@ -1,6 +1,7 @@
 [
 	{
 		"position": "Partner",
+		"category": "Life / A&H",
 		"ddi": "+44 20 3697 1910",
 		"mobile": "+44 7717 733865",
 		"reference": "helen-tilley",
@@ -10,6 +11,7 @@
 	},
 	{
 		"position": "Partner",
+		"category": "Reinsurance",
 		"ddi": "+44 20 3697 1902",
 		"mobile": "+44 7887 645262",
 		"reference": "stephen-carter",
@@ -19,6 +21,7 @@
 	},
 	{
 		"position": "Partner",
+		"category": "Insurance",
 		"ddi": "+44 20 3697 1903",
 		"mobile": "+44 7887 645263",
 		"reference": "bernadette-bailey",
@@ -28,6 +31,7 @@
 	},
 	{
 		"position": "Consultant",
+		"category": "Employment",
 		"ddi": "",
 		"mobile": "+44 7866 441249",
 		"reference": "joseph-sutton",
@@ -37,6 +41,7 @@
 	},
 	{
 		"position": "Partner - Head of Professional Indemnity",
+		"category": "Professional and Financial Risks",
 		"ddi": "+44 20 3697 1908",
 		"mobile": "+44 7469 852355",
 		"reference": "mark-aizlewood",
