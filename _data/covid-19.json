@@ -45,6 +45,11 @@
 		"Link": "http://www.belzuz.com/en/publications/in-english/item/11027-suspension-of-procedural-time-limits-portugal.html"
 	},
 	{
+		"Category": "Articles",
+		"Title": "Anticipated impact of COVID-19 on Professional Indemnity Claims",
+		"Link": "publications/Anticipated impact of COVID-19 on Professional Indemnity Claims.pdf"
+	},
+	{
 		"Category": "Government & Courts",
 		"Title": "The latest  Government Guidance",
 		"Link": "https://www.gov.uk/coronavirus"
@@ -238,5 +243,10 @@
 		"Category": "Other Useful Information",
 		"Title": "Financial Action Task Force (FATF) - COVID-19 and measures to combat illicit financing",
 		"Link": "http://www.fatf-gafi.org/publications/fatfgeneral/documents/statement-covid-19.html"
+	},
+	{
+		"Category": "Other Useful Information",
+		"Title": "Open letter from Chief Executive of ABTA",
+		"Link": "https://www.abta.com/news/abta-issues-letter-ask-customers-support"
 	}
 ]
