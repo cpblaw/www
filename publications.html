@@ -33,7 +33,7 @@ redirect_from: /articles.html
 				<div id="accordion-11-body-{{ year.name }}" class="collapse show" role="tabpanel" aria-labelledby="accordion-11-heading-{{ year.name }}">
 					<div class="u-accordion__body g-color-gray-dark-v5">
 						{% for publication in year.items %}
-							<p><a href="/{{ publication.file }}">{{ publication.title }}</a></p>
+							<p><a href="/{{ publication.file }}" target="_blank">{{ publication.title }}</a></p>
 						{% endfor %}
 					</div>
 				</div>
@@ -56,7 +56,7 @@ redirect_from: /articles.html
 				<div id="accordion-11-body-{{ year.name }}" class="collapse" role="tabpanel" aria-labelledby="accordion-11-heading-{{ year.name }}">
 					<div class="u-accordion__body g-color-gray-dark-v5">
 						{% for publication in year.items %}
-							<p><a href="/{{ publication.file }}">{{ publication.title }}</a></p>
+							<p><a href="/{{ publication.file }}" target="_blank">{{ publication.title }}</a></p>
 						{% endfor %}
 					</div>
 				</div>
