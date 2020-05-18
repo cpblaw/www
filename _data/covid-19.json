@@ -191,8 +191,19 @@
 	},
 	{
 		"Category": "Insurance & Reinsurance",
-		"Title": "Asia insurance Review - Coroavirus Watch",
+		"Title": "Asia insurance Review - Coronavirus Watch",
 		"Link": "https://www.asiainsurancereview.com/News/View-NewsLetter-Article/id/61053/Type/eDaily"
+	},
+	{
+		"Category": "Other Useful Information",
+		"Title": "Vaccine Timeline - NEJM 2020",
+		"Link": "publications/covid-19/Vaccine Timeline - NEJM 2020.pdf"
+	},
+	},
+	{
+		"Category": "Other Useful Information",
+		"Title": "Cabinet Office - Guidance on responsible contractual behaviour - 7 May 20",
+		"Link": "publications/covid-19/Cabinet Office - Guidance on responsible contractual behaviour - 7 May 20.pdf"
 	},
 	{
 		"Category": "Other Useful Information",
@@ -248,10 +259,5 @@
 		"Category": "Other Useful Information",
 		"Title": "Open letter from Chief Executive of ABTA",
 		"Link": "https://www.abta.com/news/abta-issues-letter-ask-customers-support"
-	},
-	{
-		"Category": "Other Useful Information",
-		"Title": "Cabinet Office - Guidance on responsible contractual behaviour - 7 May 20",
-		"Link": "publications/covid-19/Cabinet Office - Guidance on responsible contractual behaviour - 7 May 20.pdf"
 	}
 ]
