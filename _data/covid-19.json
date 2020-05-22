@@ -51,8 +51,18 @@
 	},
 	{
 		"Category": "Government & Courts",
-		"Title": "The latest  Government Guidance",
+		"Title": "The latest Government Guidance",
 		"Link": "https://www.gov.uk/coronavirus"
+	},
+	{
+		"Category": "Government & Courts",
+		"Title": "Government guidance on self-isolation - 18 May 2020",
+		"Link": "https://www.gov.uk/government/news/statement-from-the-uk-chief-medical-officers-on-an-update-to-coronavirus-symptoms-18-may-2020"
+	},
+	{
+		"Category": "Government & Courts",
+		"Title": "Government guidance on self-isolation (diagram)",
+		"Link": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/874011/Stay_at_home_guidance_diagram.pdf"
 	},
 	{
 		"Category": "Government & Courts",
@@ -96,6 +106,11 @@
 	},
 	{
 		"Category": "Insurance & Reinsurance",
+		"Title": "Regulatory – FCA Guidance on Treating Customers Fairly – effective 18 May 2020",
+		"Link": "https://www.fca.org.uk/publications/finalised-guidance/coronavirus-customers-temporary-financial-difficulty-guidance-insurance-premium-finance"
+	},
+	{
+		"Category": "Insurance & Reinsurance",
 		"Title": "Regulatory - FCA : Expectations",
 		"Link": "https://www.fca.org.uk/firms/insurance-and-coronavirus-our-expectations"
 	},
@@ -113,6 +128,11 @@
 		"Category": "Insurance & Reinsurance",
 		"Title": "Regulatory - Lloyd's : Coronavirus Updates",
 		"Link": "https://www.lloyds.com/news-and-risk-insight/media-centre/coronavirus-updates-hub"
+	},
+	{
+		"Category": "Insurance & Reinsurance",
+		"Title": "Regulatory Lloyds - Lloyds anticipates $3 - 4.3bn payout (diagram)",
+		"Link": "publications/covid-19/Regulatory Lloyds - Lloyds anticipates $3 - 4.3bn payout (diagram).jpg"
 	},
 	{
 		"Category": "Insurance & Reinsurance",
