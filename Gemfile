@@ -1,3 +1,3 @@
 source "https://rubygems.org"
-gem 'jekyll', '~> 3.7.2'
-gem 'jekyll-redirect-from'
+gem 'jekyll', '~> 4.1.0'
+gem 'jekyll-redirect-from', '0.15.0'
