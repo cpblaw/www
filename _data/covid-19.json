@@ -196,8 +196,13 @@
 	},
 	{
 		"Category": "Insurance & Reinsurance",
-		"Title": "Association of British Insurers (ABI) -Coronavirus Information Hub",
+		"Title": "Association of British Insurers (ABI) - Coronavirus Information Hub",
 		"Link": "https://www.abi.org.uk/products-and-issues/topics-and-issues/coronavirus-hub"
+	},
+	{
+		"Category": "Insurance & Reinsurance",
+		"Title": "Joint statement from the ABI and British Medical Association on COVID-19",
+		"Link": "https://www.abi.org.uk/news/news-articles/2020/06/joint-statement-from-the-abi-and-bma/"
 	},
 	{
 		"Category": "Insurance & Reinsurance",
