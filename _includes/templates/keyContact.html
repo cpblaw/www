@@ -1,4 +1,4 @@
-{% for person in site.data.people %}
+{% for person in people %}
     {% if person.reference == include.personID %}
         <div class="col-md-4 col-lg-4 g-mb-30">
             <a href="/people/{{ person.reference }}/"><img class="w-100" src="/assets/images/bio/{{ person.reference }}.jpg" alt="{{ person.name }}"></a>
