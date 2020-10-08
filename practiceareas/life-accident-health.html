@@ -10,8 +10,8 @@ permalink: /life-accident-health/
 	Approaching 30 years’ experience in advising the life, protection and A&amp;H/ specialty (re)insurance market on contentious and non-contentious matters.
 </p>
 
-<div id="accordion-11" class="u-accordion u-accordion-bg-primary u-accordion-color-purple" role="tablist" aria-multiselectable="true">
-	{% capture accordion %}
+<div id="accordion-00" class="u-accordion u-accordion-bg-primary u-accordion-color-purple" role="tablist" aria-multiselectable="true">
+	{% accordion 'What we do' %}
 		<div class="row">
 			<div class="col-lg-6">
 				<ul>
@@ -55,11 +55,9 @@ permalink: /life-accident-health/
 				</ul>
 			</div>
 		</div>
-	{% endcapture %}
+	{% endaccordion %}
 
-	{% include templates/accordion.html title="What we do" accordion="01" content=accordion %}
-
-	{% capture accordion %}
+	{% accordion 'Our Experience' %}
 		<h5 class="h5 g-color-purple g-font-weight-600">Contentious:</h5>
 
 		<ul>
@@ -101,13 +99,11 @@ permalink: /life-accident-health/
 			<li>Advised on the setting up of a Friendly Society, its insurance contract and reinsurance protections.</li>
 			<li>Advised on regulatory implications of the provision of life assurance by an unincorporated military association to its members.</li>
 		</ul>
-	{% endcapture %}
-
-	{% include templates/accordion.html title="Our Experience" accordion="02" content=accordion %}
+	{% endaccordion %}
 </div>
 
 <h5 class="h5 g-color-purple g-font-weight-600 mb-4">Key Contacts</h5>
 
 <div class="row">
-	{% include templates/keyContact.html personID="helen-tilley" %}
+	{% include keyContact, personID: 'helen-tilley' %}
 </div>

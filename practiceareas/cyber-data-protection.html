@@ -6,14 +6,14 @@ layout: practiceareas
 permalink: /cyber-data-protection/
 ---
 
-<div id="accordion-11" class="u-accordion u-accordion-bg-primary u-accordion-color-purple" role="tablist" aria-multiselectable="true">
+<div id="accordion-00" class="u-accordion u-accordion-bg-primary u-accordion-color-purple" role="tablist" aria-multiselectable="true">
 	<p>The substantial increase in data breaches and the changing landscape in reporting regulations have led to a heightened awareness of the need for network security and data protection. The potential financial and reputational implications of a cyber incident are becoming a board level concern across all organisations.</p>
 
 	<p>Our lawyers recognise that clients face different challenges when it comes to cyber security and insurance. Whether advising insurers or their policyholders we ensure we understand the client’s objectives and provide advice tailored to meet those individual needs.</p>
 
 	<p>Following the General Data Protection Regulation (“GDPR”) that came into force in May 2018 we continue to advise our clients on how they should regularly review and adapt their policies and procedures to ensure they remain compliant with the regulation.</p>
 
-	{% capture accordion %}
+	{% accordion 'What we do' %}
 		<h5 class="h5 g-color-purple g-font-weight-600 mb-4">Regulatory</h5>
 		<p>We advise clients on their compliance with EU and international data protection regulations. We advise on the continuing monitoring that is required following the implementation of the GDPR and the associated EU Directive on data protection. In particular, we consider what our clients need to do to ensure they remain compliant now that the legislation has been enacted.</p>
 
@@ -27,12 +27,11 @@ permalink: /cyber-data-protection/
 		<p>Our lawyers have drawn on their contacts across the insurance market to put together a team of experts that specialise in every stage of cyber security.</p>
 
 		<p>From preventative risk management to post-breach instant response we are able to connect our clients with an expert in the required discipline. We offer advice to ensure clients obtain policies that suit their specific requirements. If the worst occurs, we can assemble a team of technical experts to locate the source of the breach. Whatever happens, we and our contacts are on hand to minimise interruption to the business and contain the extent of any prospective loss.</p>
-	{% endcapture %}
-	{% include templates/accordion.html title="What we do" accordion="01" content=accordion %}
+	{% endaccordion %}
 </div>
 
 <h5 class="h5 g-color-purple g-font-weight-600 mb-4">Key Contacts</h5>
 
 <div class="row">
-	{% include templates/keyContact.html personID="samantha-zaozirny" %}
+	{% include keyContact, personID: 'samantha-zaozirny' %}
 </div>

@@ -41,18 +41,16 @@ redirect_from: /fine-art-specie.html
 	</div>
 </div>
 
-<div id="accordion-11" class="u-accordion u-accordion-bg-primary u-accordion-color-purple" role="tablist" aria-multiselectable="true">
-	{% capture accordion %}
+<div id="accordion-00" class="u-accordion u-accordion-bg-primary u-accordion-color-purple" role="tablist" aria-multiselectable="true">
+	{% accordion 'What we do' %}
 		<p>
 			We act in disputed claims, in relation to both defence and coverage issues, involving domestic and international litigation and arbitration.  We also advise on policy construction and the application of terms and conditions of a policy to the facts of individual or multiple losses. We conduct drafting work, advise on regulatory issues and carry out transactional work – see <a href="/commercial-transactional-regulatory/">Commercial, Transactional and Regulatory</a>.
 		</p>
 
 		<p>We work with both UK and international insurers, Lloyd’s and those involved in <a href="/broking-agency/">Broking and Agency</a>. Our lawyers are experienced in handling multi-jurisdictional issues arising from international risks and coordinating the requisite representation with overseas lawyers. In this respect, we enjoy the distinct advantage of being the UK members of <a href="/international-networks/">Insuralex</a>, and of Partners in our firm having been elected to membership of the <a href="/international-networks/">International Association of Defense Counsel</a>, and the <a href="/international-networks/">Federation of Defense &amp; Corporate Counsel</a>. As a result of all these memberships, we enjoy close relations with specialist insurance lawyers globally.</p>
-	{% endcapture %}
+	{% endaccordion %}
 
-	{% include templates/accordion.html title="What we do" accordion="01" content=accordion %}
-
-	{% capture accordion %}
+	{% accordion 'Our Experience' %}
 		<h5 class="h5 g-color-purple g-font-weight-600">Non-Contentious:</h5>
 
 		<p>
@@ -132,11 +130,9 @@ redirect_from: /fine-art-specie.html
 		<p>
 			<span class="g-color-purple g-font-weight-600">Specie:</span> Acting in a coverage dispute involving international issues as to the location of the cause of loss of jewellery by fraud.
 		</p>
-	{% endcapture %}
+	{% endaccordion %}
 
-	{% include templates/accordion.html title="Our Experience" accordion="02" content=accordion %}
-
-	{% capture accordion %}
+	{% accordion 'Directory Recognition' %}
 		<h5 class="h5 g-color-purple g-font-weight-600 mb-4">Legal 500</h5>
 
 		<p>
@@ -158,15 +154,13 @@ redirect_from: /fine-art-specie.html
 		<p>
 			Highly recommended in Insurance Litigation (for Insurers)
 		</p>
-	{% endcapture %}
-
-	{% include templates/accordion.html title="Directory Recognition" accordion="03" content=accordion %}
+	{% endaccordion %}
 </div>
 
 <h5 class="h5 g-color-purple g-font-weight-600 mb-4">Key Contacts</h5>
 
 <div class="row">
-	{% include templates/keyContact.html personID="stephen-carter" %}
-	{% include templates/keyContact.html personID="bernadette-bailey" %}
-	{% include templates/keyContact.html personID="helen-tilley" %}
+	{% include keyContact, personID: 'stephen-carter' %}
+	{% include keyContact, personID: 'bernadette-bailey' %}
+	{% include keyContact, personID: 'helen-tilley' %}
 </div>

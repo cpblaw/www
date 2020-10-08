@@ -12,8 +12,8 @@ redirect_from: /corporate-commercial.html
 	Our in-depth understanding of our clients’ requirements, whether a corporation or an individual, active in the (re)insurance market, the not-for-profit sector or involved in the fine art world, enable us to work diligently to achieve their commercial goals. This may involve drafting documentation, advising on regulatory and competition issues, conducting transactions, or simply advising on the duties and obligations that arise from their business relationships.
 </p>
 
-<div id="accordion-11" class="u-accordion u-accordion-bg-primary u-accordion-color-purple" role="tablist" aria-multiselectable="true">
-	{% capture accordion %}
+<div id="accordion-00" class="u-accordion u-accordion-bg-primary u-accordion-color-purple" role="tablist" aria-multiselectable="true">
+	{% accordion 'What we do' %}
 		<h5 class="h5 g-color-purple g-font-weight-600 mb-4">Drafting and advisory</h5>
 
 		<p>We work with our clients to navigate the legal niceties of a variety of contract wordings.  This involves drafting of the documentation that frames their business relationships, advising on the implications in the context of the specific needs of the business or, where required, working with our extensive network of overseas lawyers to coordinate a multi-jurisdictional approach.</p>
@@ -52,11 +52,9 @@ redirect_from: /corporate-commercial.html
 		<p>We work with London and overseas (re)insurers, brokers and individuals in relation to issues involving their carrying on of business in the UK, FCA and Lloyd’s authorisation, compliance and disciplinary proceedings.</p>
 
 		<p>We are particularly experienced in working with not-for-profit organisations (such as trade associations) in respect of their commercial and competition needs.</p>
-	{% endcapture %}
+	{% endaccordion %}
 
-	{% include templates/accordion.html title="What we do" accordion="01" content=accordion %}
-
-	{% capture accordion %}
+	{% accordion 'Our Experience' %}
 		<p><span class="g-color-purple g-font-weight-900">Auction house</span>: Advising a major international auction house on its logistics, insurance requirements and policy wording.</p>
 
 		<p><span class="g-color-purple g-font-weight-900">Educational charity</span>: Advising an educational and research charity in arranging its insurance programme to cover its medical research and clinical trials.</p>
@@ -92,21 +90,17 @@ redirect_from: /corporate-commercial.html
 		<p><span class="g-color-purple g-font-weight-900">Sale of insurance broker</span>: Sale of a French insurance broker by an English holding company, working with the French member of Insuralex.</p>
 
 		<p><span class="g-color-purple g-font-weight-900">Warranty and indemnity advice</span>: Instructed by a City of London firm specialised in telecoms to provide specialist insurance input on the sale of an overseas telecoms company, including drafting a warranty and indemnity insurance wording and associated warranty and dispute resolution clauses in the transactional documents.</p>
-	{% endcapture %}
+	{% endaccordion %}
 
-	{% include templates/accordion.html title="Our Experience" accordion="02" content=accordion %}
-
-	{% capture accordion %}
+	{% accordion 'Directory Recognition' %}
 		<ul>
 			<li>Legal 500: Leading Firm in Insurance Corporate &amp; Regulatory.</li>
 		</ul>
-	{% endcapture %}
-
-	{% include templates/accordion.html title="Directory Recognition" accordion="03" content=accordion %}
+	{% endaccordion %}
 </div>
 
 <h5 class="h5 g-color-purple g-font-weight-600 mb-4">Key Contact</h5>
 
 <div class="row">
-	{% include templates/keyContact.html personID="stephen-carter" %}
+	{% include keyContact, personID: 'stephen-carter' %}
 </div>

@@ -10,8 +10,8 @@ permalink: /directors-officers/
 
 <p>In an environment of increasing shareholder and regulator activity, we advise on all types and size of dispute, for both boards and individual directors, regardless of their company’s size or area of specialisation.</p>
 
-<div id="accordion-11" class="u-accordion u-accordion-bg-primary u-accordion-color-purple" role="tablist" aria-multiselectable="true">
-	{% capture accordion %}
+<div id="accordion-00" class="u-accordion u-accordion-bg-primary u-accordion-color-purple" role="tablist" aria-multiselectable="true">
+	{% accordion 'What we do' %}
 		<h4 class="h4 g-color-purple g-font-weight-600 g-mb-5">Contentious matters</h4>
 
 		<p>We advise on the full range of disputes relating to directors and officers insurances.</p>
@@ -23,10 +23,9 @@ permalink: /directors-officers/
 		<h4 class="h4 g-color-purple g-font-weight-600 g-mb-5">Non-contentious matters</h4>
 
 		<p>Non-contentious work includes drafting and advising on policy wordings and new products.  We also advise individual directors, companies and groups on their D&O insurance needs, such as whether the emphasis in the purchase of their D&O insurance should be on “Side A” coverage or “Side C” coverage, and on their risk management.</p>
-	{% endcapture %}
-	{% include templates/accordion.html title="What we do" accordion="01" content=accordion %}
+	{% endaccordion %}
 
-	{% capture accordion %}
+	{% accordion 'Our Experience' %}
 		<ul>
 			<li>Advising on disputes concerning financial investment products and hedging transactions</li>
 			<li>Acting in claims against main board directors and senior managers of banks, investment advisers, asset managers and hedge funds, including in relation to the alleged breach of stock exchange rules</li>
@@ -38,13 +37,12 @@ permalink: /directors-officers/
 			<li>Advising the boards of various professional associations in relation to their duties and obligations under the associations’ articles and statutes</li>
 			<li>Advising regulated companies in relation to FCA investigations and enforcement activity</li>
 		</ul>
-	{% endcapture %}
-	{% include templates/accordion.html title="Our Experience" accordion="02" content=accordion %}
+	{% endaccordion %}
 </div>
 
 <h5 class="h5 g-color-purple g-font-weight-600 mb-4">Key Contact</h5>
 
 <div class="row">
-	{% include templates/keyContact.html personID="william-sturge" %}
-	{% include templates/keyContact.html personID="stephen-carter" %}
+	{% include keyContact, personID: 'william-sturge' %}
+	{% include keyContact, personID: 'stephen-carter' %}
 </div>

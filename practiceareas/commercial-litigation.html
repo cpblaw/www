@@ -16,8 +16,8 @@ redirect_from: /commercial-disputes.html
 
 <p>Whether it is in Court, before a Tribunal or as part of a multi-party cross-jurisdictional arbitration, we advise on the full range of issues. We develop long-standing relationships with our clients so that we understand their businesses and provide the advice best suited to them.</p>
 
-<div id="accordion-11" class="u-accordion u-accordion-bg-primary u-accordion-color-purple" role="tablist" aria-multiselectable="true">
-	{% capture accordion %}
+<div id="accordion-00" class="u-accordion u-accordion-bg-primary u-accordion-color-purple" role="tablist" aria-multiselectable="true">
+	{% accordion 'What we do' %}
 		<p>‘Commercial litigation’ means what it says. It covers all disputes and court proceedings between businesses and non-consumer claims relating to business (except debt collection, employment, IP, land law and specialist shipping/aviation).</p>
 
 		<p>We act for companies (including world-wide household names) conducting business in a broad range of fields including commodities, distribution, fine art, hotels, (re)insurance, manufacturing, pharmaceuticals, property, technology, television, shipping and transportation, as well as public authorities, trade associations and not-for-profit institutions. We act for national and multi-national associations of companies and businesses, both domestically and on an international basis.</p>
@@ -25,11 +25,9 @@ redirect_from: /commercial-disputes.html
 		<p>We help our clients choose the right forum, the right tribunal, the right team, the right tactics and, above all, the right strategy to secure the outcome they want. This can, and often does, involve the use of many forms of ADR, particularly mediation, which although once considered an alternative to court proceedings, has now been embraced by the court system and therefore often invoked at an appropriate stage of proceedings.</p>
 
 		<p>Our lawyers have proven track records of achieving excellent results quickly and cost effectively.</p>
-	{% endcapture %}
+	{% endaccordion %}
 
-	{% include templates/accordion.html title="What we do" accordion="01" content=accordion %}
-
-	{% capture accordion %}
+	{% accordion 'Our Experience' %}
 		<ul>
 			<li>Acting in LCIA arbitrations regarding disputed international sales contracts.</li>
 			<li>Acting in a commodities dispute over three continents involving two arbitrations and a mediation</li>
@@ -46,15 +44,12 @@ redirect_from: /commercial-disputes.html
 			<li>Acting for a pharmacy in recovering demolition and rebuilding costs and damages for loss of business following damage to its premises</li>
 			<li>Acting in an ICC arbitration concerning failure to supply a cargo from South America to the USA under an English law contract</li>
 		</ul>
-	{% endcapture %}
-
-	{% include templates/accordion.html title="Our Experience" accordion="02" content=accordion %}
+	{% endaccordion %}
 </div>
 
 <h5 class="h5 g-color-purple g-font-weight-600 mb-4">Key Contacts</h5>
 
 <div class="row">
-	{% include templates/keyContact.html personID="stephen-carter" %}
-
-	{% include templates/keyContact.html personID="simon-thomas" %}
+	{% include keyContact, personID: 'stephen-carter' %}
+	{% include keyContact, personID: 'simon-thomas' %}
 </div>
