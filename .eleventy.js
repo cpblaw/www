@@ -1,6 +1,3 @@
-// add yaml support with npm install js-yaml --save-dev
-// const yaml = require( 'js-yaml' );
-
 module.exports = function( eleventyConfig ) {
 	eleventyConfig.setQuietMode( true );
 	eleventyConfig.setTemplateFormats( 'html,md' );
@@ -8,12 +5,14 @@ module.exports = function( eleventyConfig ) {
 	eleventyConfig.addPassthroughCopy( 'assets' );
 	eleventyConfig.addPassthroughCopy( 'images' );
 	eleventyConfig.addPassthroughCopy( 'favicon' );
-	eleventyConfig.addPassthroughCopy( 'resources' );
-
-	eleventyConfig.addDataExtension( 'yml', contents => yaml.safeLoad( contents ) );
+	eleventyConfig.addPassthroughCopy( '*.pdf' );
 
 	eleventyConfig.addFilter( 'where', function( array, property, value ) {
 		return array.filter( p => p[ property ] == value );
+	} );
+
+	eleventyConfig.addFilter( 'dump', function( anything ) {
+		console.log( 'dump:', anything );
 	} );
 
 	eleventyConfig.addFilter( 'dateFormat', function( value, format ) {

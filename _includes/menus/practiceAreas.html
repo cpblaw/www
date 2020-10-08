@@ -2,7 +2,7 @@
 	<a href="#" class="nav-link" id="nav-link-2" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu-2">Practice Areas</a>
 
 	<ul class="hs-sub-menu list-unstyled" id="nav-submenu-2" aria-labelledby="nav-link-2">
-		{% for item in site.data.menus.practiceAreas %}
+		{% for item in menus.practiceAreas %}
 			<li>
 				<a href="{{ item.url }}">{{ item.title }}</a>
 			</li>

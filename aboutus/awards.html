@@ -7,7 +7,7 @@ permalink: /awards/
 ---
 
 <div class="table-responsive">
-	{% assign awards = site.data.awards | group_by:"year" %}
+	{% assign awards = awards | group_by:"year" %}
 
 	{% for year in awards %}
 		<table class="table table-bordered table-hover u-table--v2 g-col-border-side-0">

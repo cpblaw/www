@@ -2,7 +2,7 @@
 	<a href="#" class="nav-link" id="nav-link-1" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu-1">About Us</a>
 
 	<ul class="hs-sub-menu list-unstyled" id="nav-submenu-1" aria-labelledby="nav-link-1">
-		{% for item in site.data.menus.aboutUs %}
+		{% for item in menus.aboutUs %}
 			<li>
 				<a href="{{ item.url }}">{{ item.title }}</a>
 			</li>

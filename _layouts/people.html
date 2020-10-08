@@ -4,7 +4,7 @@
 <html lang="en">
 
 <head>
-	<title>{% if page.title %}{{ page.title }} | Carter Perry Bailey LLP{% else %}{{ site.title }}{% endif %}</title>
+	<title>{% if title %}{{ title }} | Carter Perry Bailey LLP{% else %}{{ site.title }}{% endif %}</title>
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -175,8 +175,8 @@
 		</header>
 		<!-- End Header -->
 
-        {%- for person in site.data.people -%}
-            {%- if person.reference == page.personID -%}
+        {%- for person in people -%}
+            {%- if person.reference == personID -%}
                 <section>
                     <div class="container g-pt-150 g-pb-20">
                         <div class="row">
@@ -186,8 +186,8 @@
                                         <div class="col-md-4 col-lg-8 order-2">
                                             <div class="row">
                                                 <div class="col-lg-9"><h4 class="h4 g-color-purple g-font-weight-600 g-mb-5">{{ person.name }} </h4></div>
-                                                {%- if page.pdflink != false -%}
-                                                    <div class="col-lg-3 text-right"><a href="/print/{{ page.path | replace: '.html', '.pdf' }}" target="_blank">Printable PDF</a></div>
+                                                {%- if pdflink != false -%}
+                                                    <div class="col-lg-3 text-right"><a href="/print/{{ path | replace: '.html', '.pdf' }}" target="_blank">Printable PDF</a></div>
                                                 {%- endif -%}
                                             </div>
 

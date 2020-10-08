@@ -4,7 +4,7 @@
             <h3 class="h5 g-color-purple g-font-weight-600 mb-4">International</h3>
 
             <ul class="list-unstyled g-font-size-13 mb-0">
-                {% for item in site.data.menus.international %}
+                {% for item in menus.international %}
                 <li>
                     {% if page.name == item.name %}
                         {% assign menuClass = 'd-block active u-link-v5 g-color-black g-bg-gray-light-v5 g-font-weight-600 g-rounded-50 g-px-20 g-py-8' %}

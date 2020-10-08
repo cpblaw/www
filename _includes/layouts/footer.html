@@ -18,7 +18,7 @@
 					<h2 class="u-heading-v2__title h6 text-uppercase mb-0">Latest Publications</h2>
 				</div>
 
-				{% for publication in site.data.publications limit:5 %}
+				{% for publication in publications limit:5 %}
 					<article>
 						<h3 class="h6 g-mb-2">
 							<a class="g-color-white-opacity-0_8 g-color-white--hover" href="/{{ publication.file }}">{{ publication.title }}</a>
