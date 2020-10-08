@@ -1,6 +1,6 @@
 [build] # default master branch
-  publish = "_site/"
-  command = "JEKYLL_ENV=production jekyll build"
+  publish = "_site"
+  command = "ELEVENTY_ENV=production eleventy"
 [context.preview] # 'preview' is the branch name
-  publish = "_site/"
-  command = "JEKYLL_ENV=preview jekyll build --config _config.yml,_config_preview.yml"
+  publish = "_site"
+  command = "ELEVENTY_ENV=preview eleventy"

@@ -17,7 +17,7 @@ permalink: /sitemap/
 						<h5 class="h5 g-color-purple g-font-weight-600 mb-3">About Us</h5>
 
 						<ul>
-							{% for item in site.data.menus.aboutUs %}
+							{% for item in menus.aboutUs %}
 								<li>
 									<a href="{{ item.url }}">{{ item.title }}</a>
 								</li>
@@ -27,7 +27,7 @@ permalink: /sitemap/
 						<h5 class="h5 g-color-purple g-font-weight-600 mb-3">Our People</h5>
 
 						<ul>
-							{% for item in site.data.people %}
+							{% for item in people %}
 								<li>
 									<a href="/people/{{ item.id }}/">{{ item.name }}</a>
 								</li>
@@ -37,7 +37,7 @@ permalink: /sitemap/
 						<h5 class="h5 g-color-purple g-font-weight-600 mb-3">Practice Areas</h5>
 
 						<ul>
-							{% for item in site.data.menus.practiceAreas %}
+							{% for item in menus.practiceAreas %}
 								<li>
 									<a href="{{ item.url }}">{{ item.title }}</a>
 								</li>
@@ -47,7 +47,7 @@ permalink: /sitemap/
 						<h5 class="h5 g-color-purple g-font-weight-600 mb-3">International</h5>
 
 						<ul>
-							{% for item in site.data.menus.international %}
+							{% for item in menus.international %}
 								<li>
 									<a href="{{ item.url }}">{{ item.title }}</a>
 								</li>

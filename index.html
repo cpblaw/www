@@ -36,7 +36,7 @@ redirect_from: /contact-us.html
 			<div class="col-lg-10">
 <!-- https://maze.digital/webticker/ -->
 				<ul id="webTicker">
-					{% for publication in site.data.publications limit:5 %}
+					{% for publication in publications limit:5 %}
 						<li><h3>| <a href="/{{ publication.file }}" class="tickerAnchorText">{{ publication.title }}</a> |</h3></li>
 					{% endfor %}
 				</ul>
@@ -62,7 +62,7 @@ redirect_from: /contact-us.html
 			<div class="col-lg-9">
 				<div id="we-provide" class="js-carousel" data-infinite="true" data-slides-show="3" data-slides-scroll="3" data-center-mode="true"
 				 data-center-padding="1px" data-pagi-classes="u-carousel-indicators-v1 g-absolute-centered--x g-bottom-minus-30">
-					{% for area in site.data.menus.practiceAreas %}
+					{% for area in menus.practiceAreas %}
 						<div class="js-slide">
 							<div class="u-shadow-v21--hover g-brd-gray-light-v3 g-brd-transparent--hover g-bg-white--hover g-transition-0_3 g-cursor-pointer g-px-30 g-pt-30 g-pb-50 g-ml-minus-1">
 								<div class="mb-4">
