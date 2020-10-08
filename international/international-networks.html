@@ -15,8 +15,8 @@ redirect_from: /international-outreach.html
 
 	<p>Through these networks we are able to call upon assistance from leading lawyers in top ranking law firms in the USA and all over the world.</p>
 
-	<div id="accordion-11" class="u-accordion u-accordion-bg-primary u-accordion-color-purple" role="tablist" aria-multiselectable="true">
-		{% capture accordion %}
+	<div id="accordion-00" class="u-accordion u-accordion-bg-primary u-accordion-color-purple" role="tablist" aria-multiselectable="true">
+		{% accordion 'Insuralex' %}
 			<p>Insuralex has over 50 member firms from countries all over the globe.</p>
 
 			<p>Insuralex members are independent firms with specialisms in insurance, reinsurance and risk management.  We meet and work together regularly: our people know each other personally and there is trust and confidence between the firms, as well as great experience and expertise in handling cross-border legal work.  Each member is considered to be a leading practice in insurance and reinsurance within its national jurisdiction.  Together we can navigate you through the complexities of differing local laws and procedures, which affect the conduct of insurance business on a cross-border basis.</p>
@@ -34,11 +34,9 @@ redirect_from: /international-outreach.html
 
 				<img src="/assets/images/logo-insuralex.png" alt="Insuralex">
 			</div>
-		{% endcapture %}
+		{% endaccordion %}
 
-		{% include templates/accordion.html title="Insuralex" accordion="01" content=accordion %}
-
-		{% capture accordion %}
+		{% accordion 'International Association of Defense Counsel (“IADC”)' %}
 			<p>IADC is the world’s oldest global network of lawyers working for insurers, reinsurers and corporations.  Its 2,500 members are all elected by invitation only following a strict vetting process.  Members meet for general and regional meetings to share knowledge and experience, and to foster legal cooperation.</p>
 
 			<div class="media">
@@ -51,10 +49,9 @@ redirect_from: /international-outreach.html
 
 				<img src="/assets/images/associations/iadc.png" alt="IADC">
 			</div>
-		{% endcapture %}
-		{% include templates/accordion.html title="International Association of Defense Counsel (“IADC”)" accordion="02" content=accordion %}
+		{% endaccordion %}
 
-		{% capture accordion %}
+		{% accordion 'Federation of Defense and Corporate Counsel (“FDCC”)' %}
 			<p>FDCC is a global network of lawyers and insurance industry professionals, based in the USA.  Its membership is by invitation only following careful investigation to ensure that those selected are of the requisite calibre to enhance the organisation’s aims and objectives.</p>
 
 			<div class="media">
@@ -66,10 +63,9 @@ redirect_from: /international-outreach.html
 
 				<img src="/assets/images/associations/FDCCLogo_Color250.png" alt="FDCC">
 			</div>
-		{% endcapture %}
-		{% include templates/accordion.html title="Federation of Defense and Corporate Counsel (“FDCC”)" accordion="03" content=accordion %}
+		{% endaccordion %}
 
-		{% capture accordion %}
+		{% accordion 'Association of Defense Trial Attorneys (“ADTA”)' %}
 			<div class="media">
 				<div class="media-body align-self-end">
 					<p>ADTA is an association of defence lawyers in the USA, Canada, UK and Ireland.  It holds a continuing legal educational programme annually.  Its members are by invitation only.</p>
@@ -81,16 +77,14 @@ redirect_from: /international-outreach.html
 
 				<img src="/assets/images/associations/adta.png" alt="ADTA">
 			</div>
-
-		{% endcapture %}
-		{% include templates/accordion.html title="Association of Defense Trial Attorneys (“ADTA”)" accordion="04" content=accordion %}
+		{% endaccordion %}
 	</div>
 </div>
 
 <h5 class="h5 g-color-purple g-font-weight-600 mb-4">Key Contacts</h5>
 
 <div class="row">
-	{% include templates/keyContact.html personID="stephen-carter" %}
-	{% include templates/keyContact.html personID="bill-perry" %}
-	{% include templates/keyContact.html personID="bernadette-bailey" %}
+	{% include keyContact, personID: 'stephen-carter' %}
+	{% include keyContact, personID: 'bill-perry' %}
+	{% include keyContact, personID: 'bernadette-bailey' %}
 </div>

@@ -12,8 +12,8 @@ redirect_from: /international-arbitration.html
 
 <p>International disputes have therefore always been a mainstay of our work.  They may take the form of international arbitration, litigation, advisory work or even appeals from overseas jurisdictions whose ultimate Court of Appeal is the Privy Council in London.  Whatever form it takes, we are used to coordinating and working with overseas lawyers where multi-disciplinary teams are required.</p>
 
-<div id="accordion-11" class="u-accordion u-accordion-bg-primary u-accordion-color-purple" role="tablist" aria-multiselectable="true">
-	{% capture accordion %}
+<div id="accordion-00" class="u-accordion u-accordion-bg-primary u-accordion-color-purple" role="tablist" aria-multiselectable="true">
+	{% accordion 'What we do' %}
 		<h5 class="h5 g-color-purple g-font-weight-600 mb-4">International arbitration</h5>
 
 		<p>Many international commercial contracts, including in particular a large proportion of reinsurance treaties, contain arbitration clauses.  We advise and represent clients in all forms of international arbitration – whether ad hoc or institutional.  We are, for example, very familiar with the fundamental differences between US and UK arbitral procedures.  Likewise, we are accustomed to the civil procedures often adopted in international arbitration and those of countries whose arbitral systems reflect the UNCITRAL Model Law.</p>
@@ -27,11 +27,9 @@ redirect_from: /international-arbitration.html
 		<p>Much of the litigation and dispute resolution work that we carry out involves overseas parties or cross-border issues. Given the global nature of both insurance and reinsurance products, they regularly give rise to claims involving losses in one State, coverage of which is governed by a policy issued and subject to law in another, while the insured claim may be subject to a differing system of law altogether.</p>
 
 		<p>With London being a global centre of international dispute resolution, and since many of the world’s commercial contracts specify the London Commercial Court as the arbiter of such conflicts, our lawyers have a wealth of experience of conducting disputes in that arena.</p>
-	{% endcapture %}
+	{% endaccordion %}
 
-	{% include templates/accordion.html title="What we do" accordion="01" content=accordion %}
-
-	{% capture accordion %}
+	{% accordion 'Our Experience' %}
 		<p><span class="g-color-purple g-font-weight-600">Aviation insurance:</span> Acting for European insurers under an aviation, hull and liability insurance policy subject to English law, to act for the insured following an aviation accident in a Caribbean jurisdiction and to pursue a subrogated claim in the overseas Courts against an airport authority and a refuelling contractor.</p>
 
 		<p><span class="g-color-purple g-font-weight-600">BBB/financial risks insurance:</span> Acting for insurers through a Lloyd’s broker and an overseas broker in relation to separate insurance slips providing BBB insurance to an overseas bank, including aggregation and non-disclosure issues, arising from a US$20m+ fraud on the bank (including consequent issues of recoverability under reinsurance).</p>
@@ -59,16 +57,14 @@ redirect_from: /international-arbitration.html
 		<p><span class="g-color-purple g-font-weight-600">Reinsurance coverage:</span> Successfully representing AGF Insurance in the House of Lords decision <em>AGF &amp; WASA v Lexington</em>, concerning circumstances in which, under English law, a facultative reinsurer has to follow the settlements of its reinsured, whose contract is subject to an overseas (in this case US) system of law.</p>
 
 		<p><span class="g-color-purple g-font-weight-600">Trusts and fiduciary:</span> Providing advice on conflict of laws issues regarding the different rules under English law, a Middle Eastern country’s law and an Eastern European country’s law regarding distribution on intestacy of the overseas assets of an English domiciled intestate with an English Grant of Administration.</p>
-	{% endcapture %}
-
-	{% include templates/accordion.html title="Our Experience" accordion="02" content=accordion %}
+	{% endaccordion %}
 </div>
 
 <h5 class="h5 g-color-purple g-font-weight-600 mb-4">Key Contacts</h5>
 
 <div class="row">
-	{% include templates/keyContact.html personID="stephen-carter" %}
-	{% include templates/keyContact.html personID="bill-perry" %}
-	{% include templates/keyContact.html personID="samantha-zaozirny" %}
-	{% include templates/keyContact.html personID="paul-bugden" %}
+	{% include keyContact, personID: 'stephen-carter' %}
+	{% include keyContact, personID: 'bill-perry' %}
+	{% include keyContact, personID: 'samantha-zaozirny' %}
+	{% include keyContact, personID: 'paul-bugden' %}
 </div>

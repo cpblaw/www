@@ -10,13 +10,12 @@ permalink: /international-business/
 
 <p>With our focus on the insurance and reinsurance markets, we have a deep understanding of the legal issues faced by insurers, reinsurers and insurance intermediaries when engaged in international business.</p>
 
-<div id="accordion-11" class="u-accordion u-accordion-bg-primary u-accordion-color-purple" role="tablist" aria-multiselectable="true">
-	{% capture accordion %}
+<div id="accordion-00" class="u-accordion u-accordion-bg-primary u-accordion-color-purple" role="tablist" aria-multiselectable="true">
+	{% accordion 'What we do' %}
 		<p>We are familiar with UK and EU rules and requirements and, for business further afield, place at our clients’ disposal our global network of insurance-specialist law firms in the <a href="/international-networks/">Insuralex</a> group.  We focus on simplifying complex requirements and regulations, and finding practical solutions, so that our clients can focus on growing their businesses.</p>
-	{% endcapture %}
-	{% include templates/accordion.html title="What We Do" accordion="01" content=accordion %}
+	{% endaccordion %}
 
-	{% capture accordion %}
+	{% accordion 'Our Experience' %}
 		<ul>
 			<li>Advising on all forms of agreement, and regulatory compliance, for the distribution of both marine and non-marine insurance and reinsurance products, in the EEA and beyond.</li>
 			<li>Advising on establishment of non-European insurers in the EEA, including an evaluation of the legal, regulatory, commercial and logistical aspects of the various alternative jurisdictions.</li>
@@ -31,14 +30,13 @@ permalink: /international-business/
 			<li>Advising on compliance with data protection legislation and the EU’s General Data Protection Regulation (applicable in the UK from 25 May 2018).</li>
 			<li>Advising on arrangements to cater for Brexit.</li>
 		</ul>
-	{% endcapture %}
-	{% include templates/accordion.html title="Our Experience" accordion="02" content=accordion %}
+	{% endaccordion %}
 </div>
 
 <h5 class="h5 g-color-purple g-font-weight-600 mb-4">Key Contacts</h5>
 
 <div class="row">
-	{% include templates/keyContact.html personID="stephen-carter" %}
-	{% include templates/keyContact.html personID="samantha-zaozirny" %}
+	{% include keyContact, personID: 'stephen-carter' %}
+	{% include keyContact, personID: 'samantha-zaozirny' %}
 </div>
 
