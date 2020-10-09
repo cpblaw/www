@@ -41,6 +41,10 @@ module.exports = function( eleventyConfig ) {
 		return [ ...new Set( awards.map( award => award.year ) ) ];
 	} );
 
+	eleventyConfig.addFilter( 'publicationYears', function( publications ) {
+		return [ ...new Set( publications.map( publication => publication.year ) ) ];
+	} );
+
 	eleventyConfig.addFilter( 'dump', function( anything ) {
 		console.log( 'dump:', anything );
 	} );
