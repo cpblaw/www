@@ -5,18 +5,19 @@ description:
 layout: aboutus
 permalink: /awards/
 ---
+{% assign awardYears = awards | awardYears %}
 
 <div class="table-responsive">
-	{% assign awards = awards | group_by:"year" %}
+	{% for year in awardYears %}
+		{%- assign awardsByYear = awards | where: "year", year -%}
 
-	{% for year in awards %}
 		<table class="table table-bordered table-hover u-table--v2 g-col-border-side-0">
 			<tr class="g-bg-primary g-color-white g-col-border-top-0" colspan="2">
-				<td class="g-brd-white-opacity-0_1">{{ year.name }}</td>
+				<td class="g-brd-white-opacity-0_1">{{ year }}</td>
 				<td>&nbsp;</td>
 			</tr>
 
-			{% for award in year.items %}
+			{% for award in awardsByYear %}
 				<tr class="award">
 					<td>&nbsp;</td>
 					<td class="g-color-black-opacity-0_8" scope="row">
