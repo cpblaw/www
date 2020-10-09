@@ -6,6 +6,8 @@ module.exports = function( eleventyConfig ) {
 	eleventyConfig.addPassthroughCopy( 'images' );
 	eleventyConfig.addPassthroughCopy( 'favicon' );
 	eleventyConfig.addPassthroughCopy( '*.pdf' );
+	eleventyConfig.addPassthroughCopy( 'publications' );
+	eleventyConfig.addPassthroughCopy( 'print' );
 
 	eleventyConfig.addPairedShortcode( 'accordion', function( content, title ) {
 		let accordion = Math.random().toString( 36 ).substring( 7 );
