@@ -37,6 +37,10 @@ module.exports = function( eleventyConfig ) {
 		return array.filter( p => p[ property ] == value );
 	} );
 
+	eleventyConfig.addFilter( 'awardYears', function( awards ) {
+		return [ ...new Set( awards.map( award => award.year ) ) ];
+	} );
+
 	eleventyConfig.addFilter( 'dump', function( anything ) {
 		console.log( 'dump:', anything );
 	} );
