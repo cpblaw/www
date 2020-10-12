@@ -15,34 +15,28 @@ redirect_from: /samantha-wilson.html
 
 <p>Sam has extensive advocacy experience, having appeared regularly in the County Courts in the UK and the District and Supreme Courts in Australia.</p>
 
-{% assign titles = titles | append: "Career Overview" | append: "|" %}
-{% capture accordion %}
-	<p>Sam was called to the Bar in 2006. She then moved to Australia, where she worked for 5 years at leading Sydney commercial and insurance law firm Holman Webb in its insurance litigation team. During this time she completed a secondment within the claims team of a prominent Australian insurer advising on coverage and defending CTP (compulsory third party) claims.</p>
+<div id="accordion-00" class="u-accordion u-accordion-bg-primary u-accordion-color-purple" role="tablist" aria-multiselectable="true">
+	{% accordion 'Career Overview' %}
+		<p>Sam was called to the Bar in 2006. She then moved to Australia, where she worked for 5 years at leading Sydney commercial and insurance law firm Holman Webb in its insurance litigation team. During this time she completed a secondment within the claims team of a prominent Australian insurer advising on coverage and defending CTP (compulsory third party) claims.</p>
 
-	<p>Following her return to England in 2012, Sam qualified as a solicitor and worked for Simmons &amp; Simmons in its financial litigation team, handling the defence of financial mis-selling claims and advising on regulatory issues and risk management. Sam joined Carter Perry Bailey in February 2015.</p>
-{% endcapture %}
-{% assign accordions = accordions | append: accordion | append: "|" %}
+		<p>Following her return to England in 2012, Sam qualified as a solicitor and worked for Simmons &amp; Simmons in its financial litigation team, handling the defence of financial mis-selling claims and advising on regulatory issues and risk management. Sam joined Carter Perry Bailey in February 2015.</p>
+	{% endaccordion %}
 
-{% assign titles = titles | append: "Memberships" | append: "|" %}
-{% capture accordion %}
-	<ul>
-		<li>British Insurance Law Association (“BILA”)</li>
-		<li>Insurance and Reinsurance Legacy Association (“IRLA”)</li>
-		<li>Association of Insurance &amp; Reinsurance Service Providers (“AirSP”)</li>
-		<li>Women in Claims</li>
-		<li>Under 35s Reinsurance Group</li>
-		<li>Amnesty International</li>
-		<li>Gray’s Inn</li>
-	</ul>
-{% endcapture %}
-{% assign accordions = accordions | append: accordion | append: "|" %}
+	{% accordion 'Memberships' %}
+		<ul>
+			<li>British Insurance Law Association (“BILA”)</li>
+			<li>Insurance and Reinsurance Legacy Association (“IRLA”)</li>
+			<li>Association of Insurance &amp; Reinsurance Service Providers (“AirSP”)</li>
+			<li>Women in Claims</li>
+			<li>Under 35s Reinsurance Group</li>
+			<li>Amnesty International</li>
+			<li>Gray’s Inn</li>
+		</ul>
+	{% endaccordion %}
 
-{% assign titles = titles | append: "Directory Recognition" | append: "|" %}
-{% capture accordion %}
-	<ul>
-		<li>Recognised by Legal 500 as “experienced in insurance and banking professional indemnity work”.</li>
-	</ul>
-{% endcapture %}
-{% assign accordions = accordions | append: accordion | append: "|" %}
-
-{% include templates/accordions.html titles=titles accordions=accordions %}
+	{% accordion 'Directory Recognition' %}
+		<ul>
+			<li>Recognised by Legal 500 as “experienced in insurance and banking professional indemnity work”.</li>
+		</ul>
+	{% endaccordion %}
+</div>

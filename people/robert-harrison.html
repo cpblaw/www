@@ -19,27 +19,23 @@ redirect_from: /robert-harrison.html
 
 <p>Robert speaks Dutch, French and Spanish.</p>
 
-{% assign titles = titles | append: "Career Overview" | append: "|" %}
-{% capture accordion %}
-	<p>He is experienced in major complex loss casualty claims, including oil and chemical losses and rail disasters. He has, as a result, been retained to advise upon disaster management planning for both the Heathrow Express and Heathrow Terminal 5 projects at the instruction of BAA.</p>
+<div id="accordion-00" class="u-accordion u-accordion-bg-primary u-accordion-color-purple" role="tablist" aria-multiselectable="true">
+	{% accordion 'Career Overview' %}
+		<p>He is experienced in major complex loss casualty claims, including oil and chemical losses and rail disasters. He has, as a result, been retained to advise upon disaster management planning for both the Heathrow Express and Heathrow Terminal 5 projects at the instruction of BAA.</p>
 
-	<p>Throughout his career, Robert has been particularly involved in all-manner of commercial disputes involving both his insurer and reinsurer clients.</p>
+		<p>Throughout his career, Robert has been particularly involved in all-manner of commercial disputes involving both his insurer and reinsurer clients.</p>
 
-	<p>Having qualified in 1984, Robert has acted for those within the insurance and reinsurance industry during the course of his career spanning over 30 years.</p>
+		<p>Having qualified in 1984, Robert has acted for those within the insurance and reinsurance industry during the course of his career spanning over 30 years.</p>
 
-	<p>Robert joined Carter Perry Bailey as a Consultant in 2012, having been a Partner and Consultant at several leading insurance law firms, in particular Vizards Wyeth.</p>
-{% endcapture %}
-{% assign accordions = accordions | append: accordion | append: "|" %}
+		<p>Robert joined Carter Perry Bailey as a Consultant in 2012, having been a Partner and Consultant at several leading insurance law firms, in particular Vizards Wyeth.</p>
+	{% endaccordion %}
 
-{% assign titles = titles | append: "Appointments &amp; Memberships" | append: "|" %}
-{% capture accordion %}
-	<ul>
-		<li>Freeman of the City of London</li>
-		<li>City of London Solicitors Company</li>
-		<li>Association of Insurance & Reinsurance Service Providers (“AirSP”) – Board Member.</li>
-		<li>British Insurance Law Association (“BILA”)</li>
-	</ul>
-{% endcapture %}
-{% assign accordions = accordions | append: accordion | append: "|" %}
-
-{% include templates/accordions.html titles=titles accordions=accordions %}
+	{% accordion 'Appointments &amp; Memberships' %}
+		<ul>
+			<li>Freeman of the City of London</li>
+			<li>City of London Solicitors Company</li>
+			<li>Association of Insurance & Reinsurance Service Providers (“AirSP”) – Board Member.</li>
+			<li>British Insurance Law Association (“BILA”)</li>
+		</ul>
+	{% endaccordion %}
+</div>

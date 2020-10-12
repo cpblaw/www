@@ -20,35 +20,31 @@ redirect_from: /anthony-rose.html
 <p>He has given numerous seminars, including on topics such as Corporate Capital at Lloyd’s, Broker Credit Write Backs, Insurance
 	Brokers and the Law of Agency and the Buying and Selling of Insurance Brokers.</p>
 
-{% assign titles = titles | append: "Career Overview" | append: "|" %}
-{% capture accordion %}
-	<p>Having begun his legal career in 1970, Anthony worked for 2 years at Slaughter &amp; May before entering the world of industry
-		as a member of the Legal Department of ICI, where he gained significant experience in acquisitions and in competition law.</p>
+<div id="accordion-00" class="u-accordion u-accordion-bg-primary u-accordion-color-purple" role="tablist" aria-multiselectable="true">
+	{% accordion 'Career Overview' %}
+		<p>Having begun his legal career in 1970, Anthony worked for 2 years at Slaughter &amp; May before entering the world of industry
+			as a member of the Legal Department of ICI, where he gained significant experience in acquisitions and in competition law.</p>
 
-	<p>In 1977 Anthony returned to private practice as a Partner at Charles Russell. He remained there for 15 years, during which
-		time he became Head of Corporate, where he was involved largely in M&amp;A transactional work, principally in the insurance
-		sector.</p>
+		<p>In 1977 Anthony returned to private practice as a Partner at Charles Russell. He remained there for 15 years, during which
+			time he became Head of Corporate, where he was involved largely in M&amp;A transactional work, principally in the insurance
+			sector.</p>
 
-	<p>In 1992 he joined Barlow Lyde &amp; Gilbert as Head of the Corporate group. In 1999 Anthony left BLG to form his own practice
-		focussing on non-contentious work in the insurance industry. He subsequently became a Consultant with Carter Perry Bailey.</p>
+		<p>In 1992 he joined Barlow Lyde &amp; Gilbert as Head of the Corporate group. In 1999 Anthony left BLG to form his own practice
+			focussing on non-contentious work in the insurance industry. He subsequently became a Consultant with Carter Perry Bailey.</p>
 
-	<h6 class="h6 g-color-purple g-font-weight-600 g-mb-5">Experience highlights</h6>
+		<h6 class="h6 g-color-purple g-font-weight-600 g-mb-5">Experience highlights</h6>
 
-	<ul>
-		<li>Acted in ECS v AKZO, the landmark case for predatory pricing</li>
-		<li>Anthony was a member of the Lloyd’s Group of City Solicitors involved in the introduction of corporate capital to Lloyd’s</li>
-		<li>An author of the legal appendix to the FT Management Report on Cross Border Mergers in the Insurance and Reinsurance Industry</li>
-	</ul>
-{% endcapture %}
-{% assign accordions = accordions | append: accordion | append: "|" %}
+		<ul>
+			<li>Acted in ECS v AKZO, the landmark case for predatory pricing</li>
+			<li>Anthony was a member of the Lloyd’s Group of City Solicitors involved in the introduction of corporate capital to Lloyd’s</li>
+			<li>An author of the legal appendix to the FT Management Report on Cross Border Mergers in the Insurance and Reinsurance Industry</li>
+		</ul>
+	{% endaccordion %}
 
-{% assign titles = titles | append: "Appointments &amp; Memberships" | append: "|" %}
-{% capture accordion %}
-	<ul>
-		<li>Honorary legal adviser to the National Army Museum</li>
-		<li>Freeman of the City of London</li>
-	</ul>
-{% endcapture %}
-{% assign accordions = accordions | append: accordion | append: "|" %}
-
-{% include templates/accordions.html titles=titles accordions=accordions %}
+	{% accordion 'Appointments &amp; Memberships' %}
+		<ul>
+			<li>Honorary legal adviser to the National Army Museum</li>
+			<li>Freeman of the City of London</li>
+		</ul>
+	{% endaccordion %}
+</div>
