@@ -7,6 +7,10 @@ switch ( process.env.ELEVENTY_ENV ) {
 		url = 'http://localhost:8080';
 	break;
 
+	case '11ty':
+		url = 'https://11ty.cpblaw.com';
+	break;
+
 	default:
 		url = '/';
 }
