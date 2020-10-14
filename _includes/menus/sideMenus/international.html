@@ -1,24 +1,23 @@
 <div class="col-lg-3 order-lg-1 g-brd-right--lg g-brd-gray-light-v4 g-mb-80">
-    <div class="g-pr-20--lg">
-        <div class="g-mb-50">
-            <h3 class="h5 g-color-purple g-font-weight-600 mb-4">International</h3>
+	<div class="g-pr-20--lg">
+		<div class="g-mb-50">
+			<h3 class="h5 g-color-purple g-font-weight-600 mb-4">International</h3>
 
-            <ul class="list-unstyled g-font-size-13 mb-0">
-                {% for item in menus.international %}
-                <li>
-                    {% if page.name == item.name %}
-                        {% assign menuClass = 'd-block active u-link-v5 g-color-black g-bg-gray-light-v5 g-font-weight-600 g-rounded-50 g-px-20 g-py-8' %}
-                    {% else %}
-                        {% assign menuClass = 'd-block u-link-v5 g-color-gray-dark-v1 rounded g-px-20 g-py-8' %}
-                    {% endif %}
+			<ul class="list-unstyled g-font-size-13 mb-0">
+				{%- for item in menus.international -%}
+					<li>
+						{%- if page.url == item.url -%}
+							{%- assign menuClass = 'd-block active u-link-v5 g-color-black g-bg-gray-light-v5 g-font-weight-600 g-rounded-50 g-px-20 g-py-8' -%}
+						{% else %}
+							{%- assign menuClass = 'd-block u-link-v5 g-color-gray-dark-v1 rounded g-px-20 g-py-8' -%}
+						{% endif %}
 
-                    <a class="{{ menuClass }}" href="{{ item.url }}"><i class="mr-2 fa fa-angle-right"></i> {{ item.title }}</a>
-                </li>
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
+						<a class="{{ menuClass }}" href="{{ item.url }}"><i class="mr-2 fa fa-angle-right"></i> {{ item.title }}</a>
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
 
-        <hr class="g-brd-gray-light-v4 g-mt-50 mb-0">
-    </div>
+		<hr class="g-brd-gray-light-v4 g-mt-50 mb-0">
+	</div>
 </div>
