@@ -3,7 +3,6 @@ title: Search Results
 description:
 
 layout: default
-searchExclude: true
 permalink: /search/
 ---
 
@@ -13,7 +12,7 @@ permalink: /search/
 			<div class="g-pl-20--lg">
 				<article class="g-mb-100">
 					<div class="g-mb-30 g-color-gray-dark-v1">
-						<h2 class="h2 g-color-purple g-font-weight-600 mb-3">{{ page.title }}</h2>
+						<h2 class="h2 g-color-purple g-font-weight-600 mb-3">{{ title }}</h2>
 
 						<ul id="search-results"></ul>
 					</div>
@@ -25,19 +24,15 @@ permalink: /search/
 
 <script>
   window.store = {
-	{% for page in site.pages %}
-		{% if page.searchExclude == true or page.content contains 'Redirecting…' %}
-		{% else %}
-			"{{ page.url | slugify }}": {
-				"title": "{{ page.title | xml_escape }}",
-				"author": "{{ page.author | xml_escape }}",
-				"category": "{{ page.category | xml_escape }}",
-				"content": {{ page.content | strip_html | strip_newlines | replace: 'Printable PDF' | replace: '	', ' ' | replace: '  ' | strip | jsonify }},
-				"url": "{{ page.url | xml_escape }}"
+	{% for searchablePage in collections.searchable %}
+			"{{ searchablePage.fileSlug }}": {
+				"title": "{{ searchablePage.data.title }}",
+				"author": "{{ searchablePage.author }}",
+				"content": "{{ searchablePage.templateContent | strip_html | strip_newlines | escape }}",
+				"url": "{{ searchablePage.url }}"
 			}
 
 			{% unless forloop.last %},{% endunless %}
-		{% endif %}
 	{% endfor %}
   };
 </script>
