@@ -1,12 +1,8 @@
 require( 'dotenv' ).config();
 
-url = 'https://www.cpblaw.com';
+let url = 'https://www.cpblaw.com';
 
 switch ( process.env.ELEVENTY_ENV ) {
-	// case 'production':
-	// 	url = 'https://www.cpblaw.com';
-	// break;
-
 	case 'development':
 		url = 'http://localhost:8080';
 	break;
@@ -14,9 +10,6 @@ switch ( process.env.ELEVENTY_ENV ) {
 	case '11ty':
 		url = 'https://11ty.cpblaw.com';
 	break;
-
-	default:
-		url = '/';
 }
 
 module.exports = {
