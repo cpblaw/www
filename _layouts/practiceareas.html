@@ -184,7 +184,8 @@
 								<div class="row">
 									<div class="col-lg-9"><h2 class="h2 g-color-purple g-font-weight-600 g-mb-5">{{ title }} </h2></div>
 									{% if pdflink != false %}
-										<div class="col-lg-3 text-right"><a href="/print/{{ path | replace: '.html', '.pdf' }}" target="_blank">Printable PDF</a></div>
+									{{ page | dump }}
+										<div class="col-lg-3 text-right"><a href="/print/{{ page.filePathStem }}.pdf" target="_blank">Printable PDF</a></div>
 									{% endif %}
 								</div>
 
