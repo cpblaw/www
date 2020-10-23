@@ -1,8 +1,12 @@
 require( 'dotenv' ).config();
 
-let url = 'https://www.cpblaw.com';
+url = 'https://www.cpblaw.com';
 
 switch ( process.env.ELEVENTY_ENV ) {
+	// case 'production':
+	// 	url = 'https://www.cpblaw.com';
+	// break;
+
 	case 'development':
 		url = 'http://localhost:8080';
 	break;
