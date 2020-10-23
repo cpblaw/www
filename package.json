@@ -21,6 +21,7 @@
     "@11ty/eleventy": "^0.11.0"
   },
   "dependencies": {
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "sanity": "^2.0.1"
   }
 }
