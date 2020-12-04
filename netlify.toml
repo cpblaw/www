@@ -9,3 +9,9 @@
 [context.11ty] # '11ty' is the branch name
   publish = "_site"
   command = "ELEVENTY_ENV=11ty eleventy"
+
+[[redirects]]
+  from = "/CPB_Christmas_Quiz_2020_-_Answer_Sheet.pdf"
+  to = "/xmas-quiz/"
+  status = 301
+  force = true
