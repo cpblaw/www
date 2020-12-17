@@ -1,27 +1,27 @@
 {
-  "name": "webroot",
-  "version": "1.0.0",
-  "description": "",
-  "main": ".eleventy.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://richardherbert@github.com/cpblaw/cpblaw.com.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cpblaw/cpblaw.com/issues"
-  },
-  "homepage": "https://github.com/cpblaw/cpblaw.com#readme",
-  "devDependencies": {
-    "@11ty/eleventy": "^0.11.0"
-  },
-  "dependencies": {
-    "dotenv": "^8.2.0",
-    "sanity": "^2.0.1"
-  }
+	"name": "webroot",
+	"version": "1.0.0",
+	"description": "",
+	"main": ".eleventy.js",
+	"scripts": {
+		"watch": "npx @11ty/eleventy --serve --watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://richardherbert@github.com/cpblaw/cpblaw.com.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/cpblaw/cpblaw.com/issues"
+	},
+	"homepage": "https://github.com/cpblaw/cpblaw.com#readme",
+	"devDependencies": {
+		"@11ty/eleventy": "^0.11.0"
+	},
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"sanity": "^2.0.1"
+	}
 }
