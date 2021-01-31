@@ -1,0 +1,17 @@
+# https://chan.dev/posts/schedule-netlify-builds-with-github-actions/
+
+name: New Years Day Date Rebuild
+
+on:
+  schedule:
+    # run on 1st January at 1:37
+    - cron: "37 0 01 1 *"
+
+jobs:
+  build:
+    name: Call Netlify build hook
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Curl request
+        run: curl -X POST -d {} ${{ secrets.NETLIFY_BUILD_WEBHOOK_URL }}
