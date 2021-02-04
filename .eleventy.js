@@ -8,6 +8,7 @@ module.exports = function( eleventyConfig ) {
 	eleventyConfig.addPassthroughCopy( '*.pdf' );
 	eleventyConfig.addPassthroughCopy( 'publications' );
 	eleventyConfig.addPassthroughCopy( 'print' );
+	eleventyConfig.addPassthroughCopy( 'documents' );
 	eleventyConfig.addPassthroughCopy( '_redirects' );
 
 	eleventyConfig.addCollection( 'searchable', function ( collection ) {
