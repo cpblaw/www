@@ -1,14 +1,19 @@
 [build] # default master branch
   publish = "_site"
   command = "ELEVENTY_ENV=production eleventy"
+  environment = { ELEVENTY_ENV = 'production', NODE_VERSION = "14" } # to enable Eleventy to know the environment
+
+
 
 [context.preview] # 'preview' is the branch name
   publish = "_site"
   command = "ELEVENTY_ENV=preview eleventy"
+  environment = { ELEVENTY_ENV = 'preview', NODE_VERSION = "14" } # to enable Eleventy to know the environment
 
 [context.11ty] # '11ty' is the branch name
   publish = "_site"
   command = "ELEVENTY_ENV=11ty eleventy"
+  environment = { ELEVENTY_ENV = '11ty', NODE_VERSION = "14" } # to enable Eleventy to know the environment
 
 [[redirects]]
   from = "/CPB_Christmas_Quiz_2020_-_Answer_Sheet.pdf"
