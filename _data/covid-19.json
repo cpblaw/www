@@ -1,6 +1,36 @@
 [
 	{
 		"Category": "Articles",
+		"Title": "Open Letter to Package Travel Companies from the CMA",
+		"Link": "publications/covid-19/Open_letter_to_package_travel_companies_May_2021_HV_edit.pdf"
+	},
+	{
+		"Category": "Articles",
+		"Title": "Civil liability, vaccination, and vaccines: a European and national perspective - Belzuz Abogados (Spain)",
+		"Link": "https://insuralex.com/civil-liability-vaccination-insurance-lawyers-spain/"
+	},
+	{
+		"Category": "Articles",
+		"Title": "The impact on Latin America and Argentina of the legal actions brought for Business Interruption losses as a result of COVID 19 in the UK, France and the USA - Allende & Brea (Argentina)",
+		"Link": "https://insuralex.com/covid-business-interruption-latin-america/"
+	},
+	{
+		"Category": "Articles",
+		"Title": "Impact of COVID-19 on Operational and Contractors’ All Risk insurance contracts - Allende & Brea (Argentina)",
+		"Link": "https://insuralex.com/covid-car-insurance-latin-america/"
+	},
+	{
+		"Category": "Articles",
+		"Title": "FCA business interruption insurance test case – summary of Supreme Court judgment",
+		"Link": "publications/covid-19/FCA BI test case - CPB Summary of Supreme Court judgment - 15 January 2021.pdf"
+	},
+	{
+		"Category": "Articles",
+		"Title": "FCA BI test case - Supreme Court – Full judgment",
+		"Link": "https://www.supremecourt.uk/cases/docs/uksc-2020-0177-judgment.pdf"
+	},
+	{
+		"Category": "Articles",
 		"Title": "FCA Test Case - Leapfrogging to the Supreme Court - 1 October 2020",
 		"Link": "publications/covid-19/FCA Test Case - Leapfrogging to the Supreme Court - 1 October 2020.pdf"
 	},
@@ -101,18 +131,13 @@
 	},
 	{
 		"Category": "Government & Courts",
+		"Title": "Coronavirus (COVID-19): testing guidance for employers",
+		"Link": "https://www.gov.uk/government/publications/coronavirus-covid-19-testing-guidance-for-employers"
+	},
+	{
+		"Category": "Government & Courts",
 		"Title": "The latest Government Guidance",
 		"Link": "https://www.gov.uk/coronavirus"
-	},
-	{
-		"Category": "Government & Courts",
-		"Title": "Government guidance on self-isolation - 18 May 2020",
-		"Link": "https://www.gov.uk/government/news/statement-from-the-uk-chief-medical-officers-on-an-update-to-coronavirus-symptoms-18-may-2020"
-	},
-	{
-		"Category": "Government & Courts",
-		"Title": "Government guidance on self-isolation (diagram)",
-		"Link": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/874011/Stay_at_home_guidance_diagram.pdf"
 	},
 	{
 		"Category": "Government & Courts",
@@ -156,6 +181,11 @@
 	},
 	{
 		"Category": "Insurance & Reinsurance",
+		"Title": "Pandemic risk coverage and legal actions against insurers",
+		"Link": "https://www.atlas-mag.net/en/article/pandemic-risk-coverage-and-legal-actions-against-insurers"
+	},
+	{
+		"Category": "Insurance & Reinsurance",
 		"Title": "Regulatory - FCA Guidance on travel cancellation and refunds - Oct 2020",
 		"Link": "publications/covid-19/Regulatory - FCA Guidance on travel cancellation and refunds - Oct 2020.pdf"
 	},
@@ -183,11 +213,6 @@
 		"Category": "Insurance & Reinsurance",
 		"Title": "Regulatory - Lloyd's : Coronavirus Updates",
 		"Link": "https://www.lloyds.com/news-and-risk-insight/media-centre/coronavirus-updates-hub"
-	},
-	{
-		"Category": "Insurance & Reinsurance",
-		"Title": "Regulatory Lloyds - Lloyds anticipates $3 - 4.3bn payout (diagram)",
-		"Link": "publications/covid-19/Regulatory Lloyds - Lloyds anticipates $3 - 4.3bn payout (diagram).jpg"
 	},
 	{
 		"Category": "Insurance & Reinsurance",
@@ -231,7 +256,7 @@
 	},
 	{
 		"Category": "Insurance & Reinsurance",
-		"Title": "LMA Continuity Clause",
+		"Title": "LMA Continuity Clause - 12 March 2020",
 		"Link": "https://www.lmalloyds.com/LMA/News/Releases/NewLMAclause_120320.aspx"
 	},
 	{
@@ -246,7 +271,7 @@
 	},
 	{
 		"Category": "Insurance & Reinsurance",
-		"Title": "Joint statement from the ABI and British Medical Association on COVID-19",
+		"Title": "Joint statement from the ABI and British Medical Association on COVID-19 - 19 June 2020",
 		"Link": "https://www.abi.org.uk/news/news-articles/2020/06/joint-statement-from-the-abi-and-bma/"
 	},
 	{
@@ -276,13 +301,18 @@
 	},
 	{
 		"Category": "Other Useful Information",
-		"Title": "U.S. decision upholds virus exclusion in COVID-19 coverage case",
-		"Link": "https://www.businessinsurance.com/article/20200903/NEWS06/912336459/Virus-exclusion-holds-up-in-COVID-19-coverage-case-Mauricio-Martinez-v-Allied-"
+		"Title": "Travel insurance cover for Covid-related risks",
+		"Link": "publications/covid-19/FCA-letter-re-Travel-insurance-cover-for-Covid-related-risks-28-June-2021.pdf"
 	},
 	{
 		"Category": "Other Useful Information",
-		"Title": "Vaccine Timeline - NEJM 2020",
-		"Link": "publications/covid-19/Vaccine Timeline - NEJM 2020.pdf"
+		"Title": "BSI Guide to Vaccinations for COVID19",
+		"Link": "publications/covid-19/BSI_guide_to_vaccinations_for_COVID19.pdf"
+	},
+	{
+		"Category": "Other Useful Information",
+		"Title": "U.S. decision upholds virus exclusion in COVID-19 coverage case",
+		"Link": "https://www.businessinsurance.com/article/20200903/NEWS06/912336459/Virus-exclusion-holds-up-in-COVID-19-coverage-case-Mauricio-Martinez-v-Allied-"
 	},
 	{
 		"Category": "Other Useful Information",
@@ -341,12 +371,12 @@
 	},
 	{
 		"Category": "Other Useful Information",
-		"Title": "Financial Action Task Force (FATF) - COVID-19 and measures to combat illicit financing",
+		"Title": "Financial Action Task Force (FATF) - COVID-19 and measures to combat illicit financing - 1 April 2020",
 		"Link": "http://www.fatf-gafi.org/publications/fatfgeneral/documents/statement-covid-19.html"
 	},
 	{
 		"Category": "Other Useful Information",
-		"Title": "Open letter from Chief Executive of ABTA",
+		"Title": "Open letter from Chief Executive of ABTA - 21 April 2020",
 		"Link": "https://www.abta.com/news/abta-issues-letter-ask-customers-support"
 	}
 ]
