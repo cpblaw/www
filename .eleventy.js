@@ -49,12 +49,30 @@ module.exports = function( eleventyConfig ) {
 		console.log( 'dump:', anything );
 	} );
 
+	eleventyConfig.addFilter( 'fileExtension', function( anything ) {
+		return anything.split( '.' ).pop();
+	} );
+
 	eleventyConfig.addFilter( 'dateFormat', function( value, format ) {
 		let moment = require( 'moment' );
 		let dateValue = new Date( value );
 
 		return moment( dateValue ).format( format );
 	} );
+
+
+	const slugify = require("slugify");
+
+	eleventyConfig.addFilter("slugify", (input) => {
+		const options = {
+			replacement: "-",
+			remove: /[&,+()$~%.'":*?\[\]<>{}]/g,
+			lower: true
+		};
+
+		return slugify(input, options);
+	});
+
 
 	eleventyConfig.setBrowserSyncConfig( {
 		ui: false,
