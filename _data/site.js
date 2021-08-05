@@ -17,5 +17,6 @@ module.exports = {
 	,title: 'Carter Perry Bailey LLP'
 	,environment: process.env.ELEVENTY_ENV
 	,GOOGLE_MAPS_API: process.env.GOOGLE_MAPS_API
+	,ADOBE_PDF_VIEWER: process.env.ADOBE_PDF_VIEWER
 	,timezone: 'UTC'
 };
