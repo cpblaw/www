@@ -1,0 +1,45 @@
+---
+pagination:
+    data: publications
+    size: 1
+    alias: publication
+permalink: "{{ publication.file | replace: '.pdf', '/' | replace: '.mp3', '/' }}"
+---
+
+{%- assign filext = publication.file | fileExtension -%}
+
+<div class="container g-pt-250 g-pb-20">
+	<div class="row justify-content-center">
+		{%- if filext == 'pdf' -%}
+			<div class="col-lg-12 order-lg-2">
+				<h1 class="h1 g-color-purple g-font-weight-600 mb-3">{{ publication.title }}</h1>
+			</div>
+		{%- else -%}
+			<div class="col-lg-12 order-lg-2 g-mb-80">
+				<h1 class="h1 g-color-purple g-font-weight-600 mb-3">{{ publication.title }}</h1>
+
+				<audio style="margin: 0 auto; display: block; margin-top: 80px;" controls src="{{ publication.file }}">
+					Your browser does not support the
+					<code>audio</code> element.
+				</audio>
+			</div>
+		{%- endif -%}
+	</div>
+</div>
+
+{%- if filext == 'pdf' -%}
+	<div id="adobe-dc-view" style="margin-top: -125px;"></div>
+
+	<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+
+	<script type="text/javascript">
+		document.addEventListener( "adobe_dc_view_sdk.ready", function() {
+			var adobeDCView = new AdobeDC.View( { clientId: "{{ site.ADOBE_PDF_VIEWER }}", divId: "adobe-dc-view" } );
+			adobeDCView.previewFile( {
+				content: { location: {url: "{{ publication.file }}" } },
+				metaData:{fileName: "{{ publication.title | slug }}.pdf"}
+				}, { embedMode: "IN_LINE" }
+			);
+		} );
+	</script>
+{%- endif -%}
