@@ -21,7 +21,7 @@
 				{% for publication in publications limit:5 %}
 					<article>
 						<h3 class="h6 g-mb-2">
-							<a class="g-color-white-opacity-0_8 g-color-white--hover" href="/{{ publication.pathfilename }}">{{ publication.title }}</a>
+							<a class="g-color-white-opacity-0_8 g-color-white--hover" href="{{ publication.file | replace: '.pdf', '/' | replace: '.mp3', '/' }}">{{ publication.title }}</a>
 						</h3>
 					</article>
 
