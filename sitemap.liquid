@@ -1,4 +1,5 @@
 ---
+layout: blank
 permalink: /sitemap.xml
 eleventyExcludeFromCollections: true
 reference: https://www.belter.io/eleventy-sitemap/
@@ -14,5 +15,14 @@ reference: https://www.belter.io/eleventy-sitemap/
                 <priority>{{ page.data.priority | default: '0.5' }}</priority>
             </url>
         {% endif %}
+    {% endfor %}
+
+    {% for page in publications %}
+        <url>
+            <loc>{{ site.url }}/publications/{{ page.year }}/{{ page.title | slug }}/</loc>
+            <lastmod>{{ page.publisheddate }}</lastmod>
+            <changefreq>yearly</changefreq>
+            <priority>0.8</priority>
+        </url>
     {% endfor %}
 </urlset>
