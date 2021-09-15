@@ -20,7 +20,7 @@ reference: https://www.belter.io/eleventy-sitemap/
     {% for page in publications %}
         <url>
             <loc>{{ site.url }}/publications/{{ page.year }}/{{ page.title | slug }}/</loc>
-            <lastmod>{{ page.year }}-01-01</lastmod>
+            <lastmod>{{ page.publisheddate }}</lastmod>
             <changefreq>yearly</changefreq>
             <priority>0.8</priority>
         </url>
