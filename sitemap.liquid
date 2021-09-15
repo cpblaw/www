@@ -16,4 +16,13 @@ reference: https://www.belter.io/eleventy-sitemap/
             </url>
         {% endif %}
     {% endfor %}
+
+    {% for page in publications %}
+        <url>
+            <loc>{{ site.url }}/publications/{{ page.year }}/{{ page.title | slug }}/</loc>
+            <lastmod>{{ page.year }}-01-01</lastmod>
+            <changefreq>yearly</changefreq>
+            <priority>0.8</priority>
+        </url>
+    {% endfor %}
 </urlset>
