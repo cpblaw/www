@@ -49,10 +49,6 @@ module.exports = function( eleventyConfig ) {
 		console.log( 'dump:', anything );
 	} );
 
-	eleventyConfig.addFilter( 'fileExtension', function( anything ) {
-		return anything.split( '.' ).pop();
-	} );
-
 	eleventyConfig.addFilter( 'dateFormat', function( value, format ) {
 		let moment = require( 'moment' );
 		let dateValue = new Date( value );

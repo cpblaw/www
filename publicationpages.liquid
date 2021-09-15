@@ -6,11 +6,9 @@ pagination:
 permalink: "{{ publication.file | replace: '.pdf', '/' | replace: '.mp3', '/' }}"
 ---
 
-{%- assign filext = publication.file | fileExtension -%}
-
 <div class="container g-pt-250 g-pb-20">
 	<div class="row justify-content-center">
-		{%- if filext == 'pdf' -%}
+		{%- if publication.fileextension == 'pdf' -%}
 			<div class="col-lg-12 order-lg-2">
 				<h1 class="h1 g-color-purple g-font-weight-600 mb-3">{{ publication.title }}</h1>
 			</div>
@@ -27,7 +25,7 @@ permalink: "{{ publication.file | replace: '.pdf', '/' | replace: '.mp3', '/' }}
 	</div>
 </div>
 
-{%- if filext == 'pdf' -%}
+{%- if publication.fileextension == 'pdf' -%}
 	<div id="adobe-dc-view" style="margin-top: -125px;"></div>
 
 	<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
