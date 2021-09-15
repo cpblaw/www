@@ -33,7 +33,7 @@ searchExclude: true
 <!-- https://maze.digital/webticker/ -->
 				<ul id="webTicker">
 					{% for publication in publications limit:5 %}
-						<li><h3>| <a href="{{ publication.file | replace: '.pdf', '/' | replace: '.mp3', '/' }}" class="tickerAnchorText">{{ publication.title }}</a> |</h3></li>
+						<li><h3>| <a href="{{ publication.pathfilename | replace: '.pdf', '/' | replace: '.mp3', '/' }}" class="tickerAnchorText">{{ publication.title }}</a> |</h3></li>
 					{% endfor %}
 				</ul>
 			</div>
