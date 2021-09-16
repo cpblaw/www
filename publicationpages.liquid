@@ -8,11 +8,7 @@ permalink: "{{ publication.pathfilename | replace: '.pdf', '/' | replace: '.mp3'
 
 <div class="container g-pt-250 g-pb-20">
 	<div class="row justify-content-center">
-		{%- if publication.fileextension == 'pdf' -%}
-			<div class="col-lg-12 order-lg-2">
-				<h1 class="h1 g-color-purple g-font-weight-600 mb-3">{{ publication.title }}</h1>
-			</div>
-		{%- else -%}
+		{%- if publication.fileextension == 'mp3' -%}
 			<div class="col-lg-12 order-lg-2 g-mb-80">
 				<h1 class="h1 g-color-purple g-font-weight-600 mb-3">{{ publication.title }}</h1>
 
@@ -26,7 +22,7 @@ permalink: "{{ publication.pathfilename | replace: '.pdf', '/' | replace: '.mp3'
 </div>
 
 {%- if publication.fileextension == 'pdf' -%}
-	<div id="adobe-dc-view" style="margin-top: -125px;"></div>
+	<div id="adobe-dc-view" style="margin-top: -125px;"><h1>{{ publication.title }}</h1></div>
 
 	<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
 
