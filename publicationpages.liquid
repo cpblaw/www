@@ -1,9 +1,11 @@
 ---
 pagination:
-    data: publications
-    size: 1
-    alias: publication
+  data: publications
+  size: 1
+  alias: publication
 permalink: "{{ publication.pathfilename | replace: '.pdf', '/' | replace: '.mp3', '/' }}"
+eleventyComputed:
+  title: "{{ publication.title }}"
 ---
 
 <div class="container g-pt-250 g-pb-20">
@@ -13,8 +15,7 @@ permalink: "{{ publication.pathfilename | replace: '.pdf', '/' | replace: '.mp3'
 				<h1 class="h1 g-color-purple g-font-weight-600 mb-3">{{ publication.title }}</h1>
 
 				<audio style="margin: 0 auto; display: block; margin-top: 80px;" controls src="{{ publication.pathfilename }}">
-					Your browser does not support the
-					<code>audio</code> element.
+					Your browser does not support the <code>audio</code> element.
 				</audio>
 			</div>
 		{%- endif -%}
