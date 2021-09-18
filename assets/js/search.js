@@ -15,7 +15,7 @@
 
 		searchResults.innerHTML = appendString;
 	  } else {
-		searchResults.innerHTML = '<li>No results found</li>';
+		searchResults.innerHTML = "<li>Sorry, we've not found anything to match that search term. Maybe try something else? </li>";
 	  }
 	}
 
