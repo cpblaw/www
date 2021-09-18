@@ -26,15 +26,24 @@ permalink: /search/
 
 <script>
   window.store = {
-	{% for searchablePage in collections.searchable %}
-			"{{ searchablePage.fileSlug }}": {
-				"title": "{{ searchablePage.data.title }}",
-				"author": "{{ searchablePage.author }}",
-				"content": "{{ searchablePage.templateContent | strip_html | strip_newlines | escape }}",
-				"url": "{{ searchablePage.url }}"
-			}
+	{% for publication in publications %}
+		"publication-{{ forloop.index }}": {
+			"title": "{{ publication.title | escape }}",
+			"author": "",
+			"content": "",
+			"url": "{{ publication.pathfilename | replace: '.pdf', '/' | replace: '.mp3', '/' }}"
+		},
+	{% endfor %}
 
-			{% unless forloop.last %},{% endunless %}
+	{% for searchablePage in collections.searchable %}
+		"{{ searchablePage.fileSlug }}": {
+			"title": "{{ searchablePage.data.title }}",
+			"author": "{{ searchablePage.author }}",
+			"content": "{{ searchablePage.templateContent | strip_html | strip_newlines | escape }}",
+			"url": "{{ searchablePage.url }}"
+		}
+
+		{% unless forloop.last %},{% endunless %}
 	{% endfor %}
   };
 </script>
