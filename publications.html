@@ -33,7 +33,7 @@ permalink: /publications/
 				<div id="accordion-00-body-{{ year }}" class="collapse show" role="tabpanel" aria-labelledby="accordion-00-heading-{{ year }}">
 					<div class="u-accordion__body g-color-gray-dark-v5">
 						{% for publication in publicationsByYear %}
-							<p><a href="/{{ publication.pathfilename | replace: '.pdf', '/' | replace: '.mp3', '/' }}">{{ publication.title }}</a></p>
+							<p><a href="/{{ publication.pathfilename | replace: '.pdf', '/' | replace: '.mp3', '/' }}" target="_blank">{{ publication.title }}</a></p>
 						{% endfor %}
 					</div>
 				</div>
@@ -56,7 +56,7 @@ permalink: /publications/
 				<div id="accordion-00-body-{{ year }}" class="collapse" role="tabpanel" aria-labelledby="accordion-00-heading-{{ year }}">
 					<div class="u-accordion__body g-color-gray-dark-v5">
 						{% for publication in publicationsByYear %}
-							<p><a href="/{{ publication.pathfilename | replace: '.pdf', '/' | replace: '.mp3', '/' }}">{{ publication.title }}</a></p>
+							<p><a href="/{{ publication.pathfilename | replace: '.pdf', '/' | replace: '.mp3', '/' }}" target="_blank">{{ publication.title }}</a></p>
 						{% endfor %}
 					</div>
 				</div>
