@@ -29,6 +29,8 @@ module.exports = function( eleventyConfig ) {
 
 	eleventyConfig.addPairedShortcode( 'accordion', ( content, title, expand ) => accordion( content, title, expand ) );
 
+	eleventyConfig.addShortcode( 'year', () => `${ new Date().getFullYear() }`);
+
 	eleventyConfig.addFilter( 'where', function( array, property, value ) {
 		return array.filter( p => p[ property ] == value );
 	} );

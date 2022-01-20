@@ -21,7 +21,7 @@
 				{% for publication in publications limit:5 %}
 					<article>
 						<h3 class="h6 g-mb-2">
-							<a class="g-color-white-opacity-0_8 g-color-white--hover" href="{{ publication.pathfilename | replace: '.pdf', '/' | replace: '.mp3', '/' }}">{{ publication.title }}</a>
+							<a class="g-color-white-opacity-0_8 g-color-white--hover" href="{{ publication.pathfilename | replace: '.pdf', '/' | replace: '.mp3', '/' }}" target="_blank">{{ publication.title }}</a>
 						</h3>
 					</article>
 
@@ -118,7 +118,7 @@
 		<div class="row">
 			<div class="col-md-8 text-center text-md-left g-mb-10 g-mb-0--md">
 				<div class="d-lg-flex">
-					<small class="d-block g-font-size-default g-mr-10 g-mb-10 g-mb-0--md">&copy; Carter Perry Bailey LLP {{ 'now' | date: '%Y' }}.  All Rights Reserved</small>
+					<small class="d-block g-font-size-default g-mr-10 g-mb-10 g-mb-0--md">&copy; Carter Perry Bailey LLP {% year %}.  All Rights Reserved</small>
 
 					<ul class="u-list-inline">
 						<li class="list-inline-item">
