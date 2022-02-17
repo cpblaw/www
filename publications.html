@@ -33,8 +33,12 @@ permalink: /publications/
 				<div id="accordion-00-body-{{ year }}" class="collapse show" role="tabpanel" aria-labelledby="accordion-00-heading-{{ year }}">
 					<div class="u-accordion__body g-color-gray-dark-v5">
 						{% for publication in publicationsByYear %}
-							<p><a href="/{{ publication.pathfilename | replace: '.pdf', '/' | replace: '.mp3', '/' }}" target="_blank">{{ publication.title }}</a></p>
-						{% endfor %}
+							{%- if publication.fileextension == 'mp3' %}
+								<p><a href="/{{ publication.pathfilename | replace: '.pdf', '/' | replace: '.mp3', '/' }}" target="_blank">{{ publication.title }}</a></p>
+							{%- else %}
+								<p><a href="/{{ publication.pathfilename | replace: '.pdf', '/' | replace: '.mp3', '/' }}" target="_blank">{{ publication.title }}</a></p>
+							{% endif %}
+				{% endfor %}
 					</div>
 				</div>
 			</div>
@@ -56,7 +60,11 @@ permalink: /publications/
 				<div id="accordion-00-body-{{ year }}" class="collapse" role="tabpanel" aria-labelledby="accordion-00-heading-{{ year }}">
 					<div class="u-accordion__body g-color-gray-dark-v5">
 						{% for publication in publicationsByYear %}
-							<p><a href="/{{ publication.pathfilename | replace: '.pdf', '/' | replace: '.mp3', '/' }}" target="_blank">{{ publication.title }}</a></p>
+							{%- if publication.fileextension == 'mp3' %}
+								<p><a href="/{{ publication.pathfilename | replace: '.pdf', '/' | replace: '.mp3', '/' }}" target="_blank">{{ publication.title }}</a></p>
+							{%- else %}
+								<p><a href="/{{ publication.pathfilename | replace: '.pdf', '/' | replace: '.mp3', '/' }}" target="_blank">{{ publication.title }}</a></p>
+							{% endif %}
 						{% endfor %}
 					</div>
 				</div>
@@ -64,3 +72,17 @@ permalink: /publications/
 		{% endif %}
 	{% endfor %}
 </div>
+
+<script type="text/javascript" src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+
+<script type="text/javascript">
+	function displayPDF( url, filename ) {
+		var adobeDCView = new AdobeDC.View( { clientId: "{{ site.ADOBE_PDF_VIEWER }}" } );
+
+		adobeDCView.previewFile(
+			{ content: { location: { url: url } },
+			metaData: { fileName: filename }
+			}, { embedMode: "LIGHT_BOX" }
+		);
+	};
+</script>
