@@ -1,6 +1,0 @@
-https://www.sanity.io/docs/importing-data
-https://gist.github.com/bzerangue/7bf6610079659e57b8d50ecb94928c31
-https://stedolan.github.io/jq/manual/
-https://jqplay.org/
-
-sanity dataset import '/Volumes/sites/cpblaw.com/www/webroot/_data/covid-19.ndjson' production
