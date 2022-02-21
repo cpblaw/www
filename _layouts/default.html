@@ -17,7 +17,7 @@
 
 	<link rel="shortcut icon" href="/assets/images/logo/favicon.ico?v=1">
 
-	{%- include cookieControl.html -%}
+	{%- include 'cookieControl.html' -%}
 
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C500%2C600%2C700%7CPlayfair+Display%7CRoboto%7CRaleway%7CSpectral%7CRubik">
 
@@ -145,8 +145,8 @@
 						<!-- Navigation -->
 						<div class="collapse navbar-collapse align-items-center flex-sm-row g-pt-5--lg g-py-10" id="navBar">
 							<ul class="navbar-nav align-items-lg-center mx-auto text-uppercase g-font-weight-600 u-main-nav-v3 u-sub-menu-v3" data-splitted-breakpoint="992">
-								{% include menus/aboutUs.html %}
-								{% include menus/ourPeople.html %}
+								{% include 'menus/aboutUs.html' %}
+								{% include 'menus/ourPeople.html' %}
 
 								<li>
 									<a href="/" class="navbar-brand u-header__logo">
@@ -157,8 +157,8 @@
 									</a>
 								</li>
 
-								{% include menus/practiceAreas.html %}
-								{% include menus/international.html %}
+								{% include 'menus/practiceAreas.html' %}
+								{% include 'menus/international.html' %}
 							</ul>
 						</div>
 						<!-- End Navigation -->
@@ -170,7 +170,7 @@
 
 		{{ content }}
 
-		{% include layouts/footer.html %}
+		{% include 'layouts/footer.html' %}
 
 		<a class="js-go-to u-go-to-v1" href="#" data-type="fixed" data-position='{
 		 "bottom": 15,
