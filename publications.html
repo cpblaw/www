@@ -16,7 +16,7 @@ permalink: /publications/
 		{%- assign publicationsByYear = publications | where: "year", year -%}
 		{%- assign counter = counter | plus: 1 -%}
 
-		{% if counter == "1" %}
+		{% if counter == 1 %}
 			<div class="card g-brd-none rounded-0 g-mb-15">
 				<div id="accordion-00-heading-{{ year }}" class="u-accordion__header g-pa-0" role="tab">
 					<h5 class="mb-0">
