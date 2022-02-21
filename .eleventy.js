@@ -59,19 +59,6 @@ module.exports = function( eleventyConfig ) {
 	} );
 
 
-	const slugify = require("slugify");
-
-	eleventyConfig.addFilter("slugify", (input) => {
-		const options = {
-			replacement: "-",
-			remove: /[&,+()$~%.'":*?\[\]<>{}]/g,
-			lower: true
-		};
-
-		return slugify(input, options);
-	});
-
-
 	eleventyConfig.setBrowserSyncConfig( {
 		ui: false,
 		ghostMode: false

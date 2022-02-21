@@ -32,7 +32,7 @@ eleventyComputed:
 			var adobeDCView = new AdobeDC.View( { clientId: "{{ site.ADOBE_PDF_VIEWER }}" } );
 			adobeDCView.previewFile( {
 				content: { location: {url: "{{ publication.pathfilename }}" } },
-				metaData:{fileName: "{{ publication.title | slug }}.pdf"}
+				metaData:{fileName: "{{ publication.title | slugify }}.pdf"}
 				}, { embedMode: "LIGHT_BOX" }
 			);
 		} );
