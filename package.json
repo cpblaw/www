@@ -7,7 +7,7 @@
 		"build": "rm -rf ./_site && npm run build:eleventy",
 		"build:eleventy": "npx @11ty/eleventy",
 		"dev": "rm -rf ./_site && npm run dev:eleventy",
-		"dev:eleventy": "npx @11ty/eleventy --serve"
+		"dev:eleventy": "npx @11ty/eleventy --serve --incremental"
 	},
 	"repository": {
 		"type": "git",
@@ -21,7 +21,7 @@
 	},
 	"homepage": "https://github.com/cpblaw/cpblaw.com#readme",
 	"devDependencies": {
-		"@11ty/eleventy": "^1.0.0"
+		"@11ty/eleventy": "^1.0.1"
 	},
 	"dependencies": {
 		"dotenv": "^8.2.0"
