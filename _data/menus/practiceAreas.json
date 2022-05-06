@@ -1,93 +1,100 @@
 [
 	{
-	   "title": "Insurance",
-	   "name": "insurance.html",
-	   "icon": "",
-	   "extract": "We act in disputed claims, defence and coverage issues involving domestic and international litigation and arbitrations. We also advise on policy construction and the application of terms and conditions of a policy to the facts of individual or multiple losses. We also conduct drafting work, advise on regulatory issues and carry out transactional work",
-	   "url": "/insurance/"
+		"title": "Insurance",
+		"name": "insurance.html",
+		"icon": "",
+		"extract": "We act in disputed claims, defence and coverage issues involving domestic and international litigation and arbitrations. We also advise on policy construction and the application of terms and conditions of a policy to the facts of individual or multiple losses. We also conduct drafting work, advise on regulatory issues and carry out transactional work",
+		"url": "/insurance/"
 	},
 	{
-	   "title": "Reinsurance",
-	   "name": "reinsurance.html",
-	   "icon": "",
-	   "extract": "Reinsurance is a field requiring specialist expertise in the customs and practices of the international marketplace.  Our lawyers have been at the heart of that marketplace for the last 30 years. We are active in a broad range of reinsurance business, including alternative risk transfer, facultative, ILS backed, proportional, non-proportional and treaty.",
-	   "url": "/reinsurance/"
+		"title": "Reinsurance",
+		"name": "reinsurance.html",
+		"icon": "",
+		"extract": "Reinsurance is a field requiring specialist expertise in the customs and practices of the international marketplace.  Our lawyers have been at the heart of that marketplace for the last 30 years. We are active in a broad range of reinsurance business, including alternative risk transfer, facultative, ILS backed, proportional, non-proportional and treaty.",
+		"url": "/reinsurance/"
 	},
 	{
-	   "title": "Directors &amp; Officers",
-	   "name": "directors-officers.html",
-	   "icon": "",
-	   "extract": "Our lawyers have many years’ experience of advising on Directors’ &amp; Officers’ duties and the insurances taken out to indemnify against losses caused by the breach of such duties and the costs of defence. In an environment of increasing shareholder and regulator activity, we advise on all types and size of dispute, for both boards and individual directors, regardless of their company’s size or area of specialisation.",
-	   "url": "/directors-officers/"
+		"title": "Directors &amp; Officers",
+		"name": "directors-officers.html",
+		"icon": "",
+		"extract": "Our lawyers have many years’ experience of advising on Directors’ &amp; Officers’ duties and the insurances taken out to indemnify against losses caused by the breach of such duties and the costs of defence. In an environment of increasing shareholder and regulator activity, we advise on all types and size of dispute, for both boards and individual directors, regardless of their company’s size or area of specialisation.",
+		"url": "/directors-officers/"
 	},
 	{
-	   "title": "Professional &amp; Financial Risks",
-	   "name": "professional-financial-risks.html",
-	   "icon": "",
-	   "extract": "Our specialists in professional indemnity and financial lines insurances bring with them a thorough understanding of the challenges presented by claims made against professional firms and financial institutions.  We provide advice to both insurers and their policyholders to protect their financial and reputational interests.",
-	   "url": "/professional-financial-risks/"
+		"title": "Professional &amp; Financial Risks",
+		"name": "professional-financial-risks.html",
+		"icon": "",
+		"extract": "Our specialists in professional indemnity and financial lines insurances bring with them a thorough understanding of the challenges presented by claims made against professional firms and financial institutions.  We provide advice to both insurers and their policyholders to protect their financial and reputational interests.",
+		"url": "/professional-financial-risks/"
 	},
 	{
-	   "title": "Life, A&amp;H and Contingency",
-	   "name": "life-accident-health.html",
-	   "icon": "",
-	   "extract": "Approaching 30 years’ experience in advising the life, protection and A&H/ specialty (re)insurance market on contentious and non-contentious matters.",
-	   "url": "/life-accident-health/"
+		"title": "Life, A&amp;H and Contingency",
+		"name": "life-accident-health.html",
+		"icon": "",
+		"extract": "Approaching 30 years’ experience in advising the life, protection and A&H/ specialty (re)insurance market on contentious and non-contentious matters.",
+		"url": "/life-accident-health/"
 	},
 	{
-	   "title": "Run-off",
-	   "name": "run-off.html",
-	   "icon": "",
-	   "extract": "Insurance and reinsurance run-off, or “legacy business” as it is often called, has become a specialist class of business, traversing all other classes of insurance and reinsurance on an international basis.  Our lawyers have advised insurers and reinsurers on legacy issues over many years and have experience of working in-house at run-off organisations.",
-	   "url": "/run-off/"
+		"title": "Run-off",
+		"name": "run-off.html",
+		"icon": "",
+		"extract": "Insurance and reinsurance run-off, or “legacy business” as it is often called, has become a specialist class of business, traversing all other classes of insurance and reinsurance on an international basis.  Our lawyers have advised insurers and reinsurers on legacy issues over many years and have experience of working in-house at run-off organisations.",
+		"url": "/run-off/"
 	},
 	{
-	   "title": "Broking &amp; Agency",
-	   "name": "broking-agency.html",
-	   "icon": "",
-	   "extract": "All lawyers at Carter Perry Bailey have specialist knowledge in the broking and insurance intermediary markets and advise on issues of both a contentious and non-contentious nature. We have a thorough understanding not only of the legal and regulatory framework in which they operate, and of the commercial pressures applicable to acting as an intermediary in the market, but also of the issues that arise in practice.",
-	   "url": "/broking-agency/"
+		"title": "Broking &amp; Agency",
+		"name": "broking-agency.html",
+		"icon": "",
+		"extract": "All lawyers at Carter Perry Bailey have specialist knowledge in the broking and insurance intermediary markets and advise on issues of both a contentious and non-contentious nature. We have a thorough understanding not only of the legal and regulatory framework in which they operate, and of the commercial pressures applicable to acting as an intermediary in the market, but also of the issues that arise in practice.",
+		"url": "/broking-agency/"
 	},
 	{
-	   "title": "Cyber &amp; Data Protection",
-	   "name": "cyber-data-protection.html",
-	   "icon": "",
-	   "extract": "The substantial increase in data breaches and the changing landscape in reporting regulations have led to a heightened awareness of the need for network security and data protection. The potential financial and reputational implications of a cyber incident are becoming a board level concern across all organisations.",
-	   "url": "/cyber-data-protection/"
+		"title": "Cyber &amp; Data Protection",
+		"name": "cyber-data-protection.html",
+		"icon": "",
+		"extract": "The substantial increase in data breaches and the changing landscape in reporting regulations have led to a heightened awareness of the need for network security and data protection. The potential financial and reputational implications of a cyber incident are becoming a board level concern across all organisations.",
+		"url": "/cyber-data-protection/"
 	},
 	{
-	   "title": "Employment",
-	   "name": "employment.html",
-	   "icon": "",
-	   "extract": "All businesses and organisations employ people, from the insurance market and the financial sector to not-for-profit organisations and public authorities. They are all subject to the requirements of employment law.  Whether you are a company, firm or other organisation, or a director, partner or employee, we can advise you on how to best protect your interests.",
-	   "url": "/employment/"
+		"title": "War &amp; Terrorism",
+		"name": "war-and-terrorism.html",
+		"icon": "",
+		"extract": "Depth of experience in a range of insurance and reinsurance issues arising from war risks, terrorism and allied perils.",
+		"url": "/war-and-terrorism/"
 	},
 	{
-	   "title": "Fine Art",
-	   "name": "fine-art.html",
-	   "icon": "",
-	   "extract": "The world of Fine art and antiquities give rise to a myriad of questions for lawyers across the globe.  In such highly specialised fields, and with immense sums in issue (in one year, four leading artworks sold for a combined value of $bn in 2017), only the best advice will do.   At Carter Perry Bailey we understand the multitude of problems  that can arise.",
-	   "url": "/fine-art/"
+		"title": "Employment",
+		"name": "employment.html",
+		"icon": "",
+		"extract": "All businesses and organisations employ people, from the insurance market and the financial sector to not-for-profit organisations and public authorities. They are all subject to the requirements of employment law.  Whether you are a company, firm or other organisation, or a director, partner or employee, we can advise you on how to best protect your interests.",
+		"url": "/employment/"
 	},
 	{
-	   "title": "Trust &amp; Fiduciary Disputes",
-	   "name": "trust-fiduciary-disputes.html",
-	   "icon": "",
-	   "extract": "Wealth management, global investment and fund management and taxation optimisation are some of the increasingly complex structures that depend on both trust and trusts. They also demand great depths of knowledge and decisive action. Our lawyers have been working successfully in this field for 40 years. Bill Perry has regularly been a ‘Prominent Figure’ in Citywealth’s ranking and was named as one of the ‘Top 100 Lawyers in London’ for his work in this area.",
-	   "url": "/trust-fiduciary-disputes/"
+		"title": "Fine Art",
+		"name": "fine-art.html",
+		"icon": "",
+		"extract": "The world of Fine art and antiquities give rise to a myriad of questions for lawyers across the globe.  In such highly specialised fields, and with immense sums in issue (in one year, four leading artworks sold for a combined value of $bn in 2017), only the best advice will do.   At Carter Perry Bailey we understand the multitude of problems  that can arise.",
+		"url": "/fine-art/"
 	},
 	{
-	   "title": "Commercial Litigation &amp; ADR",
-	   "name": "commercial-litigation.html",
-	   "icon": "",
-	   "extract": "Most of the time commercial relationships, and the contracts that govern them, work as intended. If not, the parties’ mutual aims and interests are usually enough to overcome any problems which might occur. Sometimes, though, for any number of reasons, a dispute will arise which places a business and its reputation at risk. At that point, clients come to us for help.",
-	   "url": "/commercial-litigation/"
+		"title": "Trust &amp; Fiduciary Disputes",
+		"name": "trust-fiduciary-disputes.html",
+		"icon": "",
+		"extract": "Wealth management, global investment and fund management and taxation optimisation are some of the increasingly complex structures that depend on both trust and trusts. They also demand great depths of knowledge and decisive action. Our lawyers have been working successfully in this field for 40 years. Bill Perry has regularly been a ‘Prominent Figure’ in Citywealth’s ranking and was named as one of the ‘Top 100 Lawyers in London’ for his work in this area.",
+		"url": "/trust-fiduciary-disputes/"
 	},
 	{
-	   "title": "Commercial, Transactional &amp; Regulatory",
-	   "name": "commercial-transactional-regulatory.html",
-	   "icon": "",
-	   "extract": "Our in-depth understanding of our clients’ requirements, whether a corporation or an individual, active in the (re)insurance market, the not-for-profit sector or involved in the fine art world, enable us to work diligently to achieve their commercial goals. This may involve drafting documentation, advising on regulatory and competition issues, conducting transactions, or simply advising on the duties and obligations that arise from their business relationships.",
-	   "url": "/commercial-transactional-regulatory/"
+		"title": "Commercial Litigation &amp; ADR",
+		"name": "commercial-litigation.html",
+		"icon": "",
+		"extract": "Most of the time commercial relationships, and the contracts that govern them, work as intended. If not, the parties’ mutual aims and interests are usually enough to overcome any problems which might occur. Sometimes, though, for any number of reasons, a dispute will arise which places a business and its reputation at risk. At that point, clients come to us for help.",
+		"url": "/commercial-litigation/"
+	},
+	{
+		"title": "Commercial, Transactional &amp; Regulatory",
+		"name": "commercial-transactional-regulatory.html",
+		"icon": "",
+		"extract": "Our in-depth understanding of our clients’ requirements, whether a corporation or an individual, active in the (re)insurance market, the not-for-profit sector or involved in the fine art world, enable us to work diligently to achieve their commercial goals. This may involve drafting documentation, advising on regulatory and competition issues, conducting transactions, or simply advising on the duties and obligations that arise from their business relationships.",
+		"url": "/commercial-transactional-regulatory/"
 	}
  ]
