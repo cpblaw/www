@@ -84,7 +84,7 @@ function accordion( content, title, expand=false ) {
 	return `
 <div class="card g-brd-none rounded-0 g-mb-15">
 <div id="accordion-00-heading-${ accordion }" class="u-accordion__header g-pa-0" role="tab">
-<h5 class="mb-0">
+<h2 class="h5 mb-0">
 	<a class="${ collapsed } d-block g-color-white g-text-underline--none--hover g-brd-around g-rounded-5 g-pa-10-15 g-bg-primary-dark-v4" href="#accordion-00-body-${ accordion }" data-toggle="collapse" data-parent="#accordion-00" aria-expanded="${ expand }" aria-controls="accordion-00-body-${ accordion }">
 		<span class="u-accordion__control-icon g-mr-10">
 			<i class="fa fa-angle-down"></i>
@@ -92,7 +92,7 @@ function accordion( content, title, expand=false ) {
 		</span>
 		${ title }
 	</a>
-</h5>
+</h2>
 </div>
 
 <div id="accordion-00-body-${ accordion }" class="${ collapse }" role="tabpanel" aria-labelledby="accordion-00-heading$-$accordion}">
