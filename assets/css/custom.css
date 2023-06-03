@@ -168,6 +168,10 @@ a:hover {
   color: #532d6d;
 }
 
+p.subscribe {
+	display: none;
+}
+
 .ml-md-10 {
 	margin-left: 6rem !important;
 	}

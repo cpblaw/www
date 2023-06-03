@@ -1,0 +1,157 @@
+---
+title: Subscribe
+description: Subscribe to publications
+
+layout: aboutus
+pdflink: false
+permalink: /subscribe/
+---
+
+<div class="table-responsive">
+	<p>So that we can keep you up to date with our free publications and events please provide your contact details below and indicate your preferences.</p>
+
+	<form name="subscribe" action="/subscribe/thank-you/" class="g-brd-around g-brd-gray-light-v4 g-pa-30 g-mb-30" method="POST" data-netlify="true" netlify-honeypot="subscribe" data-netlify-recaptcha="true">
+		<input type="hidden" name="subject" value="Subscription Request" />
+
+		<p class="subscribe">
+			<label>
+				Don't fill this out if you're human: <input name="subscribe" />
+			</label>
+		</p>
+
+		<h4 class="h6 g-font-weight-700 g-mb-20">I wish to receive:</h4>
+
+		<div class="row g-mb-30">
+			<div class="col-md-6">
+				<div class="form-group g-mb-10">
+					<label class="u-check g-pl-25">
+						<input name="legal_updates" class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" type="checkbox" value="Yes">
+
+						<div class="u-check-icon-checkbox-v4 g-absolute-centered--y g-left-0">
+							<i class="fa" data-check-icon=""></i>
+						</div>
+
+						Free email legal updates and reports
+					</label>
+				</div>
+
+				<div class="form-group g-mb-10">
+					<label class="u-check g-pl-25">
+						<input name="seminar_invitations" class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" type="checkbox" value="Yes">
+
+						<div class="u-check-icon-checkbox-v4 g-absolute-centered--y g-left-0">
+							<i class="fa" data-check-icon=""></i>
+						</div>
+
+						Free seminar invitations (virtual and/or in person)
+					</label>
+				</div>
+
+				<div class="form-group g-mb-10 g-mb-0--md">
+					<label class="u-check g-pl-25">
+						<input name="social_events" class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" type="checkbox" value="Yes">
+
+						<div class="u-check-icon-checkbox-v4 g-absolute-centered--y g-left-0">
+							<i class="fa" data-check-icon=""></i>
+						</div>
+
+						Social events
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<p>Most communications shall be by email, and we do not anticipate contacting you by text. Please tick to indicate your preferences:</p>
+
+		<div class="g-mb-20">
+			<label class="form-check-inline u-check g-pl-25">
+				<input name="comms_by_email" class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" type="checkbox">
+
+				<div class="u-check-icon-checkbox-v6 g-absolute-centered--y g-left-0">
+					<i class="fa" data-check-icon=""></i>
+				</div>
+
+				email
+			</label>
+
+			<label class="form-check-inline u-check g-pl-25">
+				<input name="comms_by_post" class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" type="checkbox">
+				<div class="u-check-icon-checkbox-v6 g-absolute-centered--y g-left-0">
+					<i class="fa" data-check-icon=""></i>
+				</div>
+				post
+			</label>
+
+			<label class="form-check-inline u-check g-pl-25">
+				<input name="comms_by_phone" class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" type="checkbox">
+				<div class="u-check-icon-checkbox-v6 g-absolute-centered--y g-left-0">
+					<i class="fa" data-check-icon=""></i>
+				</div>
+				phone
+			</label>
+
+			<label class="form-check-inline u-check g-pl-25">
+				<input name="comms_by_text" class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" type="checkbox">
+				<div class="u-check-icon-checkbox-v6 g-absolute-centered--y g-left-0 g-transition-0_2 g-transition--ease-in">
+					<i class="fa" data-check-icon=""></i>
+				</div>
+				SMS/text
+			</label>
+		</div>
+
+		<p><span class="g-font-weight-700">I CONSENT</span> to receiving marketing communications from Carter Perry Bailey LLP and agree to my data being processed in line with CPB's privacy notice (<a href="https://www.cpblaw.com/privacy-notice.pdf">https://www.cpblaw.com/privacy-notice.pdf</a>)</p>
+
+		<div class="form-group row g-mb-25">
+			<label class="col-sm-3 col-form-label g-mb-10" for="name">Name *</label>
+
+			<div class="col-sm-9">
+				<input id="name" name="name" class="form-control u-form-control rounded-0" type="text" placeholder="Your name" required>
+			</div>
+		</div>
+
+		<div class="form-group row g-mb-25">
+			<label class="col-sm-3 col-form-label g-mb-10" for="email">Email address *</label>
+
+			<div class="col-sm-9">
+				<input id="email" name="email" class="form-control u-form-control rounded-0" type="email" placeholder="Your email address" required>
+				<small class="form-text text-muted g-font-size-default g-mt-10">We'll never share your email with anyone else.</small>
+			</div>
+		</div>
+
+		<div class="form-group row g-mb-25">
+			<label class="col-sm-3 col-form-label g-mb-10" for="job_title">Job title</label>
+
+			<div class="col-sm-9">
+				<input id="job_title" name="job_title" class="form-control u-form-control rounded-0" type="text" placeholder="Your job title">
+			</div>
+		</div>
+
+		<div class="form-group row g-mb-30">
+			<label class="col-sm-3 g-mb-10" for="inputGroup2_2">Firm & office address</label>
+
+			<div class="col-sm-9">
+				<textarea id="inputGroup2_2" class="form-control form-control-md rounded-0" rows="3" placeholder="Your firm's name and office address"></textarea>
+			</div>
+		</div>
+
+		<div class="form-group row g-mb-25">
+			<label class="col-sm-3 col-form-label g-mb-10" for="phone_number">Phone number</label>
+
+			<div class="col-sm-9">
+				<input id="phone_number" name="phone_number" class="form-control u-form-control rounded-0" type="text" placeholder="Your telephone number">
+			</div>
+		</div>
+
+		<div data-netlify-recaptcha="true"></div>
+
+		<button type="submit" class="btn btn-md u-btn-primary rounded-0">Submit</button>
+	</form>
+
+	<h4 class="h6 g-font-weight-700 g-mb-20">PLEASE NOTE</h4>
+
+	<p>We do not transfer your personal data or share it with anyone else.</p>
+
+	<p>We have separate mailing lists for our free legal updates/seminars and social events, so you have a choice.</p>
+
+	<p>Our marketing emails will have the option to "unsubscribe", so if you give your consent now but, at any time later, wish to opt out of that type of communication either click "unsubscribe" or write to the Data Protection Officer/ Stephen Carter at Carter Perry Bailey, 10 Lloyd's Avenue, London EC3N 3AJ or email <a href="mailto:tracy.bailey@cpblaw.com">tracy.bailey@cpblaw.com</a></p>
+</div>
