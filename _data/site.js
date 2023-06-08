@@ -5,7 +5,7 @@ let ADOBE_PDF_VIEWER = process.env.ADOBE_PDF_VIEWER;
 
 switch ( process.env.ELEVENTY_ENV ) {
 	case 'development':
-		url = 'http://localhost:8081';
+		url = 'http://localhost:8080';
 	break;
 
 	case 'preview':
