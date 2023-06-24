@@ -1,5 +1,4 @@
 <script src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js"></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VEM8XWSBST"></script>
 
 <script>
 	window.dataLayer = window.dataLayer || [];
@@ -63,6 +62,18 @@
 		position: 'LEFT',
 		theme: 'DARK'
 	};
+</script>
 
-	CookieControl.load(...);
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VEM8XWSBST"></script>
+
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+
+	gtag('js', new Date());
+
+	gtag('config', 'G-VEM8XWSBST');
+
+	// Cookie Control, with optionalCookies described above
+	CookieControl.load(...)
 </script>
