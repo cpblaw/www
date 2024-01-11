@@ -20,10 +20,10 @@
 		"url": "https://github.com/cpblaw/cpblaw.com/issues"
 	},
 	"homepage": "https://github.com/cpblaw/cpblaw.com#readme",
-	"devDependencies": {
-		"@11ty/eleventy": "^1.0.1"
-	},
 	"dependencies": {
 		"dotenv": "^8.2.0"
+	},
+	"devDependencies": {
+		"@11ty/eleventy": "^2.0.1"
 	}
 }
