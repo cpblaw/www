@@ -8,61 +8,67 @@ permalink: /contact/
 ---
 
 <div class="row">
-    <div class="col">
-        <p>Stephen Carter<br />
-            Telephone: +44 20 3697 1902<br>
-            Mobile: +44 7887 645262<br>
-            Email: <a href="mailto:stephen.carter@cpblaw.com">stephen.carter@cpblaw.com</a></p>
-            <p>Bill Perry<br>
-            Telephone: +44 20 3697 1901<br>
-            Mobile:
-            +44 7887 645261<br>
-            Email: <a href="mailto:bill.perry@cpblaw.com">bill.perry@cpblaw.com</a></p>
-            <p>Bernadette Bailey<br>
-            Telephone: +44 20 3697 1903<br>
-            Mobile:
-            +44 7887 645263<br>
-            Email: <a href="mailto:bernadette.bailey@cpblaw.com">bernadette.bailey@cpblaw.com</a></p>
-            <p>10, Lloyd's Avenue<br>
-            London<br>
-            EC3N 3AJ</p>
-            <p>Telephone: +44 20 3697 1900</p>
-            <p>Email: <a href="mailto:info@cpblaw.com">info@cpblaw.com</a><br>
-            Website: <a href="https://www.cpblaw.com/">www.cpblaw.com</a></p>
-    </div>
+	<div class="col">
+		<p>Stephen Carter<br />
+			Telephone: +44 20 3697 1902<br>
+			Mobile: +44 7887 645262<br>
+			Email: <a href="mailto:stephen.carter@cpblaw.com">stephen.carter@cpblaw.com</a>
+		</p>
 
-    <div class="col">
-        <div id="map" style="width:310px;height:450px;"></div>
-    </div>
+		<p>Bernadette Bailey<br>
+			Telephone: +44 20 3697 1903<br>
+			Mobile: +44 7887 645263<br>
+			Email: <a href="mailto:bernadette.bailey@cpblaw.com">bernadette.bailey@cpblaw.com</a>
+		</p>
+
+		<p>Bill Perry<br>
+			Telephone: +44 20 3697 1901<br>
+			Mobile: +44 7887 645261<br>
+			Email: <a href="mailto:bill.perry@cpblaw.com">bill.perry@cpblaw.com</a>
+		</p>
+
+		<p>10, Lloyd's Avenue<br>
+			London<br>
+			EC3N 3AJ
+		</p>
+
+		<p>Telephone: +44 20 3697 1900</p>
+		<p>Email: <a href="mailto:info@cpblaw.com">info@cpblaw.com</a><br>
+			Website: <a href="https://www.cpblaw.com/">www.cpblaw.com</a>
+		</p>
+	</div>
+
+	<div class="col">
+		<div id="map" style="width:310px;height:450px;"></div>
+	</div>
 </div>
 
-
 <script>
-    function initMap() {
-        var name = 'Carter Perry Bailey';
-        var address = "10, Lloyd's Avenue";
-        var town = "London";
-        var postcode = "EC3N 3AJ";
+	function initMap() {
+		var name = 'Carter Perry Bailey';
+		var address = "10, Lloyd's Avenue";
+		var town = "London";
+		var postcode = "EC3N 3AJ";
 
-        var contentString = '<div id="window" style="width:180px;padding-right:0px"><strong>'+name+'</strong><br>'+address+'<br>'+town+'<br>'+postcode+'<br><div>';
+		var contentString = '<div id="window" style="width:180px;padding-right:0px"><strong>'+name+'</strong><br>'+address+'<br>'+town+'<br>'+postcode+'<br><div>';
 
-        var cpbLaw = {lat: 51.51165, lng: -0.0775};
-        var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 15,
-            center: {lat: 51.511747, lng: -0.077473}
-        });
+		var cpbLaw = {lat: 51.51165, lng: -0.0775};
+		var map = new google.maps.Map(document.getElementById('map'), {
+			zoom: 15,
+			center: {lat: 51.511747, lng: -0.077473}
+		});
 
-        var marker = new google.maps.Marker({
-            position: cpbLaw,
-            map: map
-        });
+		var marker = new google.maps.Marker({
+			position: cpbLaw,
+			map: map
+		});
 
-        var infowindow = new google.maps.InfoWindow({
-            content: contentString
-        });
+		var infowindow = new google.maps.InfoWindow({
+			content: contentString
+		});
 
-        infowindow.open(map, marker);
-    }
+		infowindow.open(map, marker);
+	}
 </script>
 
 <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.GOOGLE_MAPS_API }}&callback=initMap"></script>
