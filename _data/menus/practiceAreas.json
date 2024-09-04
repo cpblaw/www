@@ -14,25 +14,11 @@
 		"url": "/reinsurance/"
 	},
 	{
-		"title": "Directors’ &amp; Officers’ Liability",
-		"name": "directors-officers.html",
-		"icon": "",
-		"extract": "Our lawyers have many years’ experience of advising on Directors’ &amp; Officers’ duties and the insurances taken out to indemnify against losses caused by the breach of such duties and the costs of defence. In an environment of increasing shareholder and regulator activity, we advise on all types and size of dispute, for both boards and individual directors, regardless of their company’s size or area of specialisation.",
-		"url": "/directors-officers/"
-	},
-	{
 		"title": "Professional &amp; Financial Risks",
 		"name": "professional-financial-risks.html",
 		"icon": "",
 		"extract": "Our specialists in professional indemnity and financial lines insurances bring with them a thorough understanding of the challenges presented by claims made against professional firms and financial institutions.  We provide advice to both insurers and their policyholders to protect their financial and reputational interests.",
 		"url": "/professional-financial-risks/"
-	},
-	{
-		"title": "Life, A&amp;H and Contingency",
-		"name": "life-accident-health.html",
-		"icon": "",
-		"extract": "Approaching 30 years’ experience in advising the life, protection and A&H/ specialty (re)insurance market on contentious and non-contentious matters.",
-		"url": "/life-accident-health/"
 	},
 	{
 		"title": "Run-off",
@@ -47,13 +33,6 @@
 		"icon": "",
 		"extract": "All lawyers at Carter Perry Bailey have specialist knowledge in the broking and insurance intermediary markets and advise on issues of both a contentious and non-contentious nature. We have a thorough understanding not only of the legal and regulatory framework in which they operate, and of the commercial pressures applicable to acting as an intermediary in the market, but also of the issues that arise in practice.",
 		"url": "/broking-agency/"
-	},
-	{
-		"title": "Cyber &amp; Data Protection",
-		"name": "cyber-data-protection.html",
-		"icon": "",
-		"extract": "The substantial increase in data breaches and the changing landscape in reporting regulations have led to a heightened awareness of the need for network security and data protection. The potential financial and reputational implications of a cyber incident are becoming a board level concern across all organisations.",
-		"url": "/cyber-data-protection/"
 	},
 	{
 		"title": "War &amp; Terrorism",
@@ -96,5 +75,12 @@
 		"icon": "",
 		"extract": "Our in-depth understanding of our clients’ requirements, whether a corporation or an individual, active in the (re)insurance market, the not-for-profit sector or involved in the fine art world, enable us to work diligently to achieve their commercial goals. This may involve drafting documentation, advising on regulatory and competition issues, conducting transactions, or simply advising on the duties and obligations that arise from their business relationships.",
 		"url": "/commercial-transactional-regulatory/"
+	},
+	{
+		"title": "Marine &amp; Aviation",
+		"name": "marine-aviation.html",
+		"icon": "",
+		"extract": "London remains the major hub not only for marine insurance, but for marine and aviation insurance and reinsurance globally.  Our lawyers have broad experience of acting in these classes of business.",
+		"url": "/marine-aviation/"
 	}
  ]
