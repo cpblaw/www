@@ -14,6 +14,13 @@
 		"url": "/reinsurance/"
 	},
 	{
+		"title": "Broking &amp; Agency",
+		"name": "broking-agency.html",
+		"icon": "",
+		"extract": "All lawyers at Carter Perry Bailey have specialist knowledge in the broking and insurance intermediary markets and advise on issues of both a contentious and non-contentious nature. We have a thorough understanding not only of the legal and regulatory framework in which they operate, and of the commercial pressures applicable to acting as an intermediary in the market, but also of the issues that arise in practice.",
+		"url": "/broking-agency/"
+	},
+	{
 		"title": "Professional, Financial and D&amp;O Risks",
 		"name": "professional-financial-risks.html",
 		"icon": "",
@@ -21,18 +28,11 @@
 		"url": "/professional-financial-risks/"
 	},
 	{
-		"title": "Run-off",
-		"name": "run-off.html",
+		"title": "Marine &amp; Aviation",
+		"name": "marine-aviation.html",
 		"icon": "",
-		"extract": "Insurance and reinsurance run-off, or “legacy business” as it is often called, has become a specialist class of business, traversing all other classes of insurance and reinsurance on an international basis.  Our lawyers have advised insurers and reinsurers on legacy issues over many years and have experience of working in-house at run-off organisations.",
-		"url": "/run-off/"
-	},
-	{
-		"title": "Broking &amp; Agency",
-		"name": "broking-agency.html",
-		"icon": "",
-		"extract": "All lawyers at Carter Perry Bailey have specialist knowledge in the broking and insurance intermediary markets and advise on issues of both a contentious and non-contentious nature. We have a thorough understanding not only of the legal and regulatory framework in which they operate, and of the commercial pressures applicable to acting as an intermediary in the market, but also of the issues that arise in practice.",
-		"url": "/broking-agency/"
+		"extract": "London remains the major hub not only for marine insurance, but for marine and aviation insurance and reinsurance globally.  Our lawyers have broad experience of acting in these classes of business.",
+		"url": "/marine-aviation/"
 	},
 	{
 		"title": "War &amp; Terrorism",
@@ -42,13 +42,6 @@
 		"url": "/war-and-terrorism/"
 	},
 	{
-		"title": "Employment",
-		"name": "employment.html",
-		"icon": "",
-		"extract": "All businesses and organisations employ people, from the insurance market and the financial sector to not-for-profit organisations and public authorities. They are all subject to the requirements of employment law.  Whether you are a company, firm or other organisation, or a director, partner or employee, we can advise you on how to best protect your interests.",
-		"url": "/employment/"
-	},
-	{
 		"title": "Fine Art",
 		"name": "fine-art.html",
 		"icon": "",
@@ -56,18 +49,11 @@
 		"url": "/fine-art/"
 	},
 	{
-		"title": "Trust &amp; Fiduciary Disputes",
-		"name": "trust-fiduciary-disputes.html",
+		"title": "Run-off",
+		"name": "run-off.html",
 		"icon": "",
-		"extract": "Wealth management, global investment and fund management and taxation optimisation are some of the increasingly complex structures that depend on both trust and trusts. They also demand great depths of knowledge and decisive action. Our lawyers have been working successfully in this field for 40 years. Bill Perry has regularly been a ‘Prominent Figure’ in Citywealth’s ranking and was named as one of the ‘Top 100 Lawyers in London’ for his work in this area.",
-		"url": "/trust-fiduciary-disputes/"
-	},
-	{
-		"title": "Commercial Litigation &amp; ADR",
-		"name": "commercial-litigation.html",
-		"icon": "",
-		"extract": "Most of the time commercial relationships, and the contracts that govern them, work as intended. If not, the parties’ mutual aims and interests are usually enough to overcome any problems which might occur. Sometimes, though, for any number of reasons, a dispute will arise which places a business and its reputation at risk. At that point, clients come to us for help.",
-		"url": "/commercial-litigation/"
+		"extract": "Insurance and reinsurance run-off, or “legacy business” as it is often called, has become a specialist class of business, traversing all other classes of insurance and reinsurance on an international basis.  Our lawyers have advised insurers and reinsurers on legacy issues over many years and have experience of working in-house at run-off organisations.",
+		"url": "/run-off/"
 	},
 	{
 		"title": "Commercial, Transactional &amp; Regulatory",
@@ -77,10 +63,24 @@
 		"url": "/commercial-transactional-regulatory/"
 	},
 	{
-		"title": "Marine &amp; Aviation",
-		"name": "marine-aviation.html",
+		"title": "Commercial Litigation &amp; ADR",
+		"name": "commercial-litigation.html",
 		"icon": "",
-		"extract": "London remains the major hub not only for marine insurance, but for marine and aviation insurance and reinsurance globally.  Our lawyers have broad experience of acting in these classes of business.",
-		"url": "/marine-aviation/"
+		"extract": "Most of the time commercial relationships, and the contracts that govern them, work as intended. If not, the parties’ mutual aims and interests are usually enough to overcome any problems which might occur. Sometimes, though, for any number of reasons, a dispute will arise which places a business and its reputation at risk. At that point, clients come to us for help.",
+		"url": "/commercial-litigation/"
+	},
+	{
+		"title": "Trust &amp; Fiduciary Disputes",
+		"name": "trust-fiduciary-disputes.html",
+		"icon": "",
+		"extract": "Wealth management, global investment and fund management and taxation optimisation are some of the increasingly complex structures that depend on both trust and trusts. They also demand great depths of knowledge and decisive action. Our lawyers have been working successfully in this field for 40 years. Bill Perry has regularly been a ‘Prominent Figure’ in Citywealth’s ranking and was named as one of the ‘Top 100 Lawyers in London’ for his work in this area.",
+		"url": "/trust-fiduciary-disputes/"
+	},
+	{
+		"title": "Employment",
+		"name": "employment.html",
+		"icon": "",
+		"extract": "All businesses and organisations employ people, from the insurance market and the financial sector to not-for-profit organisations and public authorities. They are all subject to the requirements of employment law.  Whether you are a company, firm or other organisation, or a director, partner or employee, we can advise you on how to best protect your interests.",
+		"url": "/employment/"
 	}
  ]
