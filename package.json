@@ -4,10 +4,10 @@
 	"description": "",
 	"main": ".eleventy.js",
 	"scripts": {
+		"start": "rm -rf ./_site && npm run dev:eleventy",
+		"dev:eleventy": "npx @11ty/eleventy --input ./ --serve",
 		"build": "rm -rf ./_site && npm run build:eleventy",
-		"build:eleventy": "npx @11ty/eleventy",
-		"dev": "rm -rf ./_site && npm run dev:eleventy",
-		"dev:eleventy": "npx @11ty/eleventy --serve --incremental"
+		"build:eleventy": "npx @11ty/eleventy --input ./"
 	},
 	"repository": {
 		"type": "git",
@@ -24,6 +24,6 @@
 		"dotenv": "^8.2.0"
 	},
 	"devDependencies": {
-		"@11ty/eleventy": "^2.0.1"
+		"@11ty/eleventy": "^3.1.2"
 	}
 }
