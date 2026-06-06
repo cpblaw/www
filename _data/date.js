@@ -1,7 +1,9 @@
-require( 'dotenv' ).config();
+require('dotenv').config();
 
-if( process.env.ELEVENTY_ENV === 'production' ) {
-	module.exports = 'git Last Modified';
-} else {
-	module.exports = this.date;
-}
+module.exports = function() {
+	if ( process.env.ELEVENTY_ENV === 'production' ) {
+		return 'git Last Modified';
+	} else {
+		return new Date().toISOString();
+	}
+};
