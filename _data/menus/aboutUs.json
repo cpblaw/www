@@ -20,6 +20,11 @@
 	   "url": "/listings/"
 	},
 	{
+	   "title": "Awards",
+	   "name": "awards.html",
+	   "url": "/awards/"
+	},
+	{
 	   "title": "Publications",
 	   "name": "publications.html",
 	   "url": "/publications/"
